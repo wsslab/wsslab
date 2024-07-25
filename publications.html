@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>Wireless and Sensor Systems Lab (WSSL)</title>
+		<link rel="icon" href="assets/images/logo.png" type="image/png" sizes="16x16">
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+		<!-- WEB FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/superslides.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution.v4/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout-responsive.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/orange.css" rel="stylesheet" type="text/css" /><!-- orange: default style -->
+		<!--<link id="css_dark_skin" href="assets/css/layout-dark.css" rel="stylesheet" type="text/css" />--><!-- DARK SKIN -->
+
+		<!-- styleswitcher - demo only -->
+		<link href="assets/css/color_scheme/orange.css" rel="alternate stylesheet" type="text/css" title="orange" />
+		<link href="assets/css/color_scheme/red.css" rel="alternate stylesheet" type="text/css" title="red" />
+		<link href="assets/css/color_scheme/pink.css" rel="alternate stylesheet" type="text/css" title="pink" />
+		<link href="assets/css/color_scheme/yellow.css" rel="alternate stylesheet" type="text/css" title="yellow" />
+		<link href="assets/css/color_scheme/darkgreen.css" rel="alternate stylesheet" type="text/css" title="darkgreen" />
+		<link href="assets/css/color_scheme/green.css" rel="alternate stylesheet" type="text/css" title="green" />
+		<link href="assets/css/color_scheme/darkblue.css" rel="alternate stylesheet" type="text/css" title="darkblue" />
+		<link href="assets/css/color_scheme/blue.css" rel="alternate stylesheet" type="text/css" title="blue" />
+		<link href="assets/css/color_scheme/brown.css" rel="alternate stylesheet" type="text/css" title="brown" />
+		<link href="assets/css/color_scheme/lightgrey.css" rel="alternate stylesheet" type="text/css" title="lightgrey" />
+		<!-- /styleswitcher - demo only -->
+
+
+
+		<!-- STYLESWITCHER - REMOVE ON PRODUCTION/DEVELOPMENT -->
+		<link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css" />
+
+		<!-- Morenizr -->
+		<script type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
+
+		<style>
+			.card {
+			/* Add shadows to create the "card" effect */
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			transition: 0.3s;
+			}
+
+			/* On mouse-over, add a deeper shadow */
+			.card:hover {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+			}
+
+			button {
+			  border: none;
+			  outline: 0;
+			  display: inline-block;
+			  padding: 8px;
+			  color: white;
+			  background-color: #000;
+			  text-align: center;
+			  cursor: pointer;
+			  width: 100%;
+			  font-size: 18px;
+			}
+		</style>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169003278-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-169003278-1');
+		</script>
+
+	</head>
+	<body class="boxed pattern2"><!-- Available classes for body: boxed , pattern1...pattern10 . Background Image - example add: data-background="assets/images/boxed_background/1.jpg"  -->
+
+		<!-- TOP NAV -->
+		<header id="topNav">
+			<div class="container">
+
+				<!-- Mobile Menu Button -->
+				<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+
+				<!-- Logo text or image -->
+				<!-- <a class="logo" href="index.html">
+					<img src="assets/images/logo.png" alt="Atropos" />
+				</a> -->
+
+				<!-- Top Nav -->
+				<div class="navbar-collapse nav-main-collapse collapse pull-left">
+					<h2><b>Wireless and Sensor Systems</b> Lab (WSSL)</h2>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse pull-right">
+					<nav class="nav-main mega-menu">
+						<ul class="nav nav-pills nav-main scroll-menu" id="topMain">
+							<li class="dropdown active">
+								<a class="dropdown-toggle" href="index.html">
+								<b>	Home</b>
+									<!-- <i class="fa fa-angle-down"></i> -->
+								</a>
+								<!-- <ul class="dropdown-menu">
+									<li class="dropdown-submenu"><a href="#">Revolution Slider V4</a>
+										<ul class="dropdown-menu">
+											<li><a href="revolution-half-slider.html">Half Slider</a></li>
+											<li><a href="revolution-full-slider.html">Full Slider</a></li>
+											<li><a href="revolution-video.html">Full Video</a></li>
+											<li><a href="revolution-ken-burns.html">Ken Burns</a></li>
+											<li><a href="revolution-official-1.html">More Examples</a></li>
+										</ul>
+									</li>
+									<li><a href="start.html#rs5" data-toggle="tooltip" data-placement="top" title="" data-original-title="52 More RS5 Templates">Revolution Slider V5 &nbsp; <span class="label label-danger">new</span></a></li>
+									<li class="dropdown-submenu"><a href="#">Superslides Slider</a>
+										<ul class="dropdown-menu">
+											<li><a href="superslides-slider-half.html">Half Slider</a></li>
+											<li><a href="superslides-slider-full.html">Full Slider</a></li>
+											<li><a href="superslides-video.html">Half Video</a></li>
+											<li><a href="superslides-video-full.html">Full Video</a></li>
+										</ul>
+									</li>
+									<li class="divider"></li>
+									<li><a href="index-extended.html">Extended</a></li>
+									<li><a href="portfolio-home.html">Portfolio</a></li>
+									<li><a href="shop-home.html">Shop</a></li>
+									<li><a href="realestate-home.html">Real Estate</a></li>
+									<li><a href="church-home.html">Church</a></li>
+									<li><a href="medical-home.html">Medical</a></li>
+									<li><a href="college-home.html">College</a></li>
+									<li><a href="onepage-superslides.html" target="_blank">Onepage - Superslides</a></li>
+									<li><a href="onepage-revolution.html" target="_blank">Onepage - Revolution</a></li>
+									<li><a href="index-more.html">More...</a></li>
+								</ul> -->
+							</li>
+							<li class="dropdown mega-menu-item mega-menu-two-columns">
+								<a class="dropdown-toggle" href="index.html#about">
+									<b>News</b>
+								</a>
+
+							</li>
+
+							  <li class="dropdown mega-menu-item mega-menu-two-columns">
+			                        <a class="dropdown-toggle" href="index.html#projects">
+			                           <b>Projects</b>
+			                        </a>
+
+			                     </li>
+							
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="publications.html">
+									<b>Publications</b>
+									<!-- <i class="fa fa-angle-down"></i> -->
+								</a>
+								<!-- <ul class="dropdown-menu">
+									<li><a href="magazine-home.html">Magazine - Home</a></li>
+									<li><a href="magazine-category.html">Magazine - Category</a></li>
+									<li><a href="magazine-single.html">Magazine - Single</a></li>
+									<li class="divider"></li>
+									<li><a href="realestate-home.html">Real Estate - Home</a></li>
+									<li><a href="realestate-list.html">Real Estate - List</a></li>
+									<li><a href="#">Real Estate - Single</a></li>
+								</ul> -->
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="members.html#members">
+									<b>Team</b>
+									
+								</a>
+							</li>
+
+							<li class="dropdown">
+								<a class="dropdown-toggle" href="members.html#joinus">
+									<b>Join Us!</b>
+								</a>
+							</li>
+						
+
+						</ul>
+					</nav>
+				</div>
+				<!-- /Top Nav -->
+
+			</div>
+
+		</header>
+
+		<span id="header_shadow"></span>
+		<!-- /TOP NAV -->
+
+		<!-- WRAPPER -->
+		<div id="wrapper">
+
+		<!-- Title -->
+		<section>	
+			<br/>
+			<div class="row" >
+            <div class="col-md-12">
+            	<br/>
+                <h1 style="text-align: center;"> <b>Publications</b></h1>
+                <ul style="list-style-type:disc">
+
+                	<h2 class="panel-primary"><font color = "#000000 "><b><i>Preprints:</i></b></font></h2>
+
+			<!-- --------------------------------- Start Paper--------------------------------- -->
+
+				    	<li>
+									<a href="https://arxiv.org/pdf/2401.05425.pdf">
+										<b>
+											An Unobtrusive and Lightweight Ear-worn System for Continuous Epileptic Seizure Detection
+											
+										</b>
+									</a>
+					                
+					                <br/>
+
+				                    <a href = "https://arxiv.org/pdf/2401.05425.pdf">
+				                    	<b>
+				                    		Preprint arXiv 2024
+				                    	</b>
+				                    </a> 
+				                   <br>
+						                Abdul Aziz, Nhat Pham, Neel Vora, Cody Reynolds, Jaime Lehnen, Pooja Venkatesh, Zhuoran Yao, Jay Harvey, Tam Vu, Kan Ding, and Phuc VP Nguyen
+						            <br />
+					            </p>
+				        </li>
+
+			<!-- ================================ End Paper================================== -->
+
+			<!-- --------------------------------- Start Paper--------------------------------- -->
+
+				    	<li>
+			    				<p>
+									<a href="https://arxiv.org/pdf/2312.12587.pdf">
+										<b>
+											Real-Time Diagnostic Integrity Meets Efficiency: A Novel Platform-Agnostic Architecture for Physiological Signal Compression
+											 
+										</b>
+									</a>
+					                
+					                <br/>
+
+				                    <a href = "https://arxiv.org/pdf/2312.12587.pdf">
+				                    	<b>
+				                    		Preprint arXiv 2023
+				                    	</b>
+				                    </a> 
+				                   <br>
+						                Neel R Vora, Amir Hajighasemi, Cody T. Reynolds, Amirmohammad Radmehr, Mohamed Mohamed, Jillur Rahman Saurav, Abdul Aziz, Jai Prakash Veerla, Mohammad S Nasr, Hayden Lotspeich, Partha Sai Guttikonda, Thuong Pham, Aarti Darji, Parisa Boodaghi Malidarreh, Helen H Shang, Jay Harvey, Kan Ding, Phuc Nguyen, Jacob M Luber
+						            <br />
+					            </p>
+					    </li>        
+
+			<!-- ================================ End Paper================================== -->
+
+			    <h2 class="panel-primary"><font color = "#000000 "><b><i>Selected Publications:</i></b></font></h2>
+		    		<li>
+						<p>
+							
+							<a href="./papers/IoTeeth_IMWUT24.pdf">
+								<b>
+									IOTeeth: Intra-Oral Teeth Sensing System for Dental Occlusal Diseases Recognition
+									 
+								</b>
+							</a>
+			                
+			                <br/>
+
+		                    <a href = "https://www.ubicomp.org/ubicomp-iswc-2024/">
+		                    	<b>
+		                    		IMWUT/UbiComp 2024
+		                    	</b>
+		                    </a> 
+		                  <br>
+				                Zhizhang Hu*, Amirmohammad Redmehr*, Yue Zhang, Shijia Pan, Phuc VP Nguyen
+				            	<br />
+				                <i>*equal contribution</i>
+			            </p>
+			        </li>
+
+                    <li>
+                        <p><a href="./papers/Earables as Medical Devices.pdf"><b>Earables as Medical Devices: Opportunities and Challenges</b></a>  
+                            <br/>
+                            </b>
+                                <a href = "http://www.esense.io/earcomp2023/"><b> ACM EarComp 2023 in association with UbiComp/IMWUT 2023</b></a>  
+                            <br>
+                            Abdul Aziz, Ravi Karkar, Kan Ding, Jay Harvey and Phuc Nguyen
+                            <br />
+                            
+                        </p>   
+                    </li>
+                    <li>
+                        <p><b><a href="./papers/P5-10makers_V4_take1.pdf">Towards the Internet of Living Trees for Precision Agriculture</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.sigmobile.org/pubs/getmobile/"><b> GetMobile</b></a>  
+                            <br>
+                            Jackson Liller, Trung Tran and Phuc Nguyen
+                            <br />
+                            
+                        </p>   
+                    </li>
+                    <li>
+                        <p><b><a href="./papers/Exploring Batteryless UAVs 2022.pdf">Exploring Batteryless UAVs by Mimicking Bird Flight</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://dronet2023.github.io/"><b> ACM DroNet IX '23</b></a>  
+                            <br>
+                            Rishabh Goel, Tien Pham, Phuc Nguyen and Josiah Hester.
+                            <br /> 
+
+                        </p>   
+                    </li>
+
+                    <li>
+                        <p><b><a href="./papers/Towards Robust Lidar2023.pdf">Towards Robust Lidar-based 3D Detection and Tracking of UAVs</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://dronet2023.github.io/"><b> ACM DroNet IX '23</b></a>  
+                            <br>
+                            Tasnim Azad Abir, Endrowednes Kuantama, Richard Han, Judith Dawes, Rich Mildren and Phuc Nguyen.
+                            <br />
+                            
+
+                        </p>   
+                    </li>
+
+                    <li>
+                        <p><b><a href="./papers/DroneChase2023.pdf">DroneChase: A Mobile and Automated Cross-Modality System for Continuous Drone Tracking </a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://dronet2023.github.io/"><b> ACM DroNet IX '23</b></a>  
+                            <br>
+                            Neel Vora, Yi Wu, Jian Liu and Phuc Nguyen.
+                            <br />
+                            
+
+                        </p>   
+                    </li>
+
+
+
+                    <li>
+                        <p><b><a href="#">Provider and Patient Opinions on Real-Time Seizure Detection via Over-the-Ear Device, Epilepsy/Clinical Neurophysiology (EEG): EEG & Seizure Detection Technology. </a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.aan.com/events/annual-meeting/"><b> American Academy of Neurology, Boston, 2023</b></a>  
+                            <br>
+                            Pooja Venkatesh, Zhuoran Yao, Christopher Andrew, Jami Landers, Jessica Simon, Phuc VP Nguyen, Kan Ding, Jay Harvey.
+                            <br />
+                            <!-- <a href="./papers/2021_Chase_TeethVib.pdf">[PAPER]</a> -->
+                            <!-- <br />  -->
+
+                        </p>   
+                    </li>
+                    <li>
+                        <p><b><a href="#">Personalized feedback messaging perspectives in a qualitative study among Black and Hispanic women: Implications for future mHealth behavioral interventions.</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://annualmeeting.isbnpa.org/"><b> International Society of Behavioral Nutrition and Physical Activity Annual Meeting, Uppsala, Sweden.</b></a>  
+                            <br>
+                            Brannon, G. E., Affleck, H., Mitchell, S., Wiland, R., Munoz, V., Brown, K. K., Aghajani, H., Phuc VP Nguyen, & Liao, Y.
+                            <br />
+                            <!-- <a href="./papers/2021_Chase_TeethVib.pdf">[PAPER]</a> -->
+                            <!-- <br />  -->
+
+                        </p>   
+                    </li>
+                    <li>
+                        <p><b><a href="#">Social Media ads as a method of research recruitment: A comparison of minority women who enrolled vs. who completed a focus group. </a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.sbm.org/meetings/2023/"><b>2023 Society of Behavioral Medicine Annual Meeting, Phoenix, AZ</b></a>  
+                            <br>
+                            Affleck, H.A., Brannon, G. E., Aghajani, H., Phuc VP Nguyen, Brown, K. K., Liao, Y.
+                            <br />
+                            <!-- <a href="./papers/2021_Chase_TeethVib.pdf">[PAPER]</a> -->
+                            <!-- <br />  -->
+
+                        </p>   
+                    </li>
+                    <li>
+                        <p><b><a href="#">Real-time Seizure Detection Using Behind-the-ear Wearable System</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.aesnet.org/AES-annual-meeting/meeting-program/"><b>American Epilepsy Society Annual Conference 2022, Nashville, Tennessee, USA</b></a>  
+                            <br>
+                            Jamie Lehnen, Tien Pham, Pooja Venkatesh, Zhuoran Yao, Christopher Andrew, Jami Landers, Jessica Simon, Phuc VP Nguyen, Kan Ding, Jay Harvey
+                            <br />
+                            <!-- <a href="./papers/2021_Chase_TeethVib.pdf">[PAPER]</a> -->
+                            <!-- <br />  -->
+
+                        </p>   
+                    </li>
+
+
+                	<li>
+                        <p><b><a href="./papers/MuteIt 2022.pdf">MuteIt: Jaw Motion based Unvoiced Command Recognition using Earable</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://ubicomp.org/ubicomp2022/"><b>ACM IMWUT/UbiComp 2022</b></a>  
+                            <br>
+                            Tanmay Srivastava, Prerna Khanna, Shijia Pan, Phuc Nguyen, Shubham Jain
+                            <br />
+                            
+
+                        </p>   
+                    </li>
+
+                    <li>
+                        <p><b><a href="./papers/iotree2022.pdf">IoTree: A Battery-free Wearable System with Biocompatible Sensors for Continuous Tree Health Monitoring</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://sigmobile.org/mobicom/2022/"><b>ACM MobiCom 2022</b></a>  
+                            <br>
+                            Tuan Dang, Trung Tran, Khang Nguyen, Tien Pham, Nhat Pham, Tam Vu, Phuc Nguyen
+                            <br />
+                            
+
+                        </p>   
+                    </li>
+
+                    <li>
+                        <p><b><a href="./papers/pros 2022.pdf">PROS: an Efficient Pattern-Driven Operating System for Low-Power Healthcare Wearables</a></b>
+                            <br/>
+                            </b>
+                                <a href = "https://sigmobile.org/mobicom/2022/"><b>ACM MobiCom 2022</b></a>  
+                            <br>
+                            Nhat Pham, Hong Jia, Minh Tran, Tuan Dinh, Nam Bui, Young Kwon, Dong Ma, Phuc Nguyen, Cecilia Mascolo, Tam Vu
+                            <br />
+                        </p>   
+                    </li>
+
+					<li>
+                        <p><b><a href="./papers/finepose2022.pdf">FinePose: Fine-Grained Postural Muscle Profiling via Haptic Vibration Signals</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.sigmobile.org/mobisys/2022/"><b> ACM MobiSys-WearSys 2022</b></a>  
+                            <br>
+                            Shubham Rohal, Shreya Shriram, Phuc Nguyen, Shijia Pan
+                            <br />
+                            
+
+                        </p>   
+                    </li> 
+
+
+					<li>
+                        <p><b><a href="#">Demo: Leveraging Earables for Unvoiced Command Recognition</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.sigmobile.org/mobisys/2022/accepted-demos.html"><b> ACM MobiSys Demo 2022</b></a>  
+                            <br>
+                            Tanmay Srivastava, Prerna Khanna, Shijia Pan, Phuc Nguyen, Shubham Jian
+                            <br />
+                            <!-- <a href="./papers/2021_Chase_TeethVib.pdf">[PAPER]</a> -->
+                            <!-- <br />  -->
+
+                        </p>   
+                    </li> 
+					
+					
+					<li>
+                        <p><b><a href="#">Sedentary Posture Muscle Monitoring via Active Vibratory Sensing</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://ipsn.acm.org/2022/awards.html"><b>IPSN Poster 2022</b></a>  
+                            <br>
+                            Shreya Shriram, Shubham Rohal, Zhizhang Hu, Yue Zhang, Phuc Nguyen, Shijia Pan
+                            <br />
+							<b><font color = "red">Best Poster Award.</font></b><br />
+
+                        </p>   
+                    </li> 
+
+
+
+					<li>
+                        <p><b><a href="./papers/2021_Chase_TeethVib.pdf">TeethVib: Monitoring Teeth Functional Occlusion Through Retainer Vibration Sensing</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://conferences.computer.org/chase2021/"><b>IEEE/ACM CHASE 2021</b></a>  
+                            <br>
+                            Shijia Pan, Dong Yoon Lee, Jun Ho Lee, Phuc Nguyen
+                            <br />
+                            
+                        </p>   
+                    </li> 
+					
+					<li>
+                        <p><b><a href="./papers/2021_Ubicomp_FaceSense.pdf">FaceSense: Sensing Face Touch with an Ear-worn System</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.ubicomp.org/ubicomp2021/"><b>UbiComp 2021</b></a>  
+                            <br>
+                            Vimal Kakaraparthi, Qijia Shao, Charles J. Carver, Tien Pham, Nam Bui, Phuc Nguyen, Xia Zhou, Tam Vu
+                            <br />
+                            
+                        </p>   
+                    </li>  
+					<li>
+                        <p><b><a href="./papers/2021_MobiCom_BioFace.pdf">BioFace-3D: Continuous 3D Facial Rconstruction Through Lightweight Single-ear Biosensors</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.sigmobile.org/mobicom/2021/"><b>ACM MobiCom 2021</b></a>  
+                            <br>
+                            Yi Wu, Vimal Kakaraparthi, Zhuohang Li, Tien Pham, Jian Liu, Phuc Nguyen
+                            <br />
+							<b><font color = "red">ACM SIGMOBILE Research Highlights Award.</font></b>
+							<br />
+							
+                        </p>   
+                    </li>  
+            	    <li>
+                        <p><b><a href="./papers/2021_HotMobile_JawSense.pdf">JawSense: Recognizing Unvoiced Sound using a Low-cost Ear-worn System</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "http://www.hotmobile.org/2021/"><b>ACM Hotmobile 2021</b></a>  
+                            <br>
+                            Prerna Khanna, Tanmay Srivastava, Shijia Pan, Shubham Jain, Phuc Nguyen
+                            <br />
+                            
+
+                        </p>   
+                    </li>  
+                	<li>
+                        <p><b><a href="./papers/2020_SenSys_DroneScale.pdf">DroneScale: Drone Load Estimation Via Remote PassiveRF Sensing</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "http://sensys.acm.org/2020/"><b>ACM SenSys 2020</b></a>  
+                            <br>
+                                <font color = "black">(44 out of 213 submissions, acceptance ratio: 20.6%).</font>
+                            <br>
+                            Phuc Nguyen, Vimal Kakaraparthi, Nam Bui, Nikshep Umamahesh, Nhat Pham, Hoang Truong, Yeswanth Guddeti, Dinesh Bharadia, Eric Frew, Richard Han, Dan Massey, Tam Vu
+                            <br />
+                            
+                        </p>   
+                    </li>  
+
+          
+
+                	<li>
+                        <p><b><a href="./papers/2020_SenSysDFHS.pdf">Opportunities in the Cross-Scale Collaborative Human Sensingof ‘Developing’ Device-Free and Wearable Systems</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://dfhs-buildsys.github.io/dfhs2020/index.html"><b>ACM BuildSys - DFHS 2020</b></a>  
+                            <br>
+                            Shijia Pan and Phuc Nguyen
+                            <br />
+                            
+                        </p>   
+                    </li>  
+
+                    <li>
+                        <p><b><a href="./papers/2020_Seizure_Survey.pdf">Epileptic Seizure Detection and Experimental Treatment: A Review</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.frontiersin.org/articles/10.3389/fneur.2020.00701/full"><b>Frontiers in Neurology 2020</b></a>  
+                            <br>
+                            Taeho Kim, Phuc Nguyen, Nhat Pham, Nam Bui, Hoang Truong, Sangtae Ha, and Tam Vu
+                            <br />
+                            
+
+                        </p>   
+                    </li>
+
+                     <li>
+                        <p><b><a href="./papers/Painometry_2020.pdf">Painometry: Wearable and Objective Quantification System for Acute Postoperative Pain</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.sigmobile.org/mobisys/2020/"><b>ACM MobiSys 2020</b></a> 
+                            <br>
+                                <font color = "black">(34 out of 175 submissions, acceptance ratio: 19.4%).</font>
+                            <br>
+                            H. Truong, N. Bui, Z. Raghebi, M. Ceko, N. Pham, Phuc Nguyen, A. Nguyen, T. Kim, K. Siegfried, E. Stene, T. Tvrdy, L. Weinman, T. Payne, D. Burke, T. Dinh, S. D’Mello, F. Banaei-Kashani, T. Wager, P. Goldstein, and T. Vu
+                            <br />
+                            
+                        </p>   
+                    </li>    
+
+                     <li>
+                        <p><b><a href="./papers/WAKE_2020.pdf">WAKE: A Behind-the-ear Wearable System for Microsleep Detection</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://www.sigmobile.org/mobisys/2020/"><b>ACM MobiSys 2020</b></a> 
+                            <br>
+                                <font color = "black">(34 out of 175 submissions, acceptance ratio: 19.4%).</font>
+                            <br>
+                            N. Pham, T. Dinh, Z. Raghebi, T. Kim, N. Bui, Phuc Nguyen, H. Truong, F. Banaei-Kashani, A. Halbower, T. Dinh, and T. Vu
+                            <br />
+                            
+                        </p>   
+                    </li>  
+                    <li>
+                        <p><b><a href="./papers/2019_MobiCom_eBP.pdf">eBP: A Wearable System For Frequent and Comfortable Blood Pressure Monitoring From User’s Ear</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://dl.acm.org/citation.cfm?id=J981"><b>ACM MobiCom 2019</b></a> 
+                            <br>
+                                <font color = "black">(30 out of 186 submissions, acceptance rate: 16.1%).</font>
+                            <br>
+                            Nam Bui, Nhat Pham, J. J. Barnitz, Phuc Nguyen, Hoang Truong, Taeho Kim, Anh Nguyen, Zhanan Zou, Nicholas Farrow, Jianliang Xiao, Robin Deterding, Thang Dinh, Tam Vu
+                            <br />
+                            <b><font color = "red">Best Paper Award 2019; ACM SIGMOBILE RESEARCH HIGHLIGHTS 2020; CACM RESEARCH HIGHLIGHTS 2020.</font></b><br />
+                            
+                        </p>   
+                    </li>    
+
+                    <li>
+                        <p><b> <a href="./papers/PHO2_TOSN_2019.pdf">Smartphone-Based SpO2 Measurement by Exploiting Wavelengths Separation And Chromophore Compensation</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://dl.acm.org/citation.cfm?id=J981"><b>ACM TOSN 2019</b></a> 
+                            <br>
+                            Nam Bui, Anh Nguyen, Phuc Nguyen, Hoang Truong, Ashwin Ashok, Thang Dinh, Robin Deterding and Tam Vu
+                            <br />
+                           
+                        </p>   
+                    </li>    
+
+                    <li>
+                        <p><b><a href="./papers/2019_DRONET_RF-based_Localization.pdf">Towards RF-based Localization of a Drone and Its Controller</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "https://dronet2019.loria.fr/"><b>ACM DroNet 2019</b></a> 
+                            <br>
+                            Phuc Nguyen, Taeho Kim, Jinpeng Miao, Daniel Hesselius, Erin Kenneally, Daniel Massey, Eric Frew, Richard Han and Tam Vu
+                            <br />
+                            
+                        </p>   
+                    </li>    
+
+
+                    <li>
+                    	<p> <b><a href="./papers/Capband_SenSys_2018.pdf">CapBand: Battery-free Successive Capacitance Sensing Wristband for Hand Gesture Recognition</a></b> <br /> 
+                                <a href = "http://sensys.acm.org/2018/"><b>ACM SenSys 2018</b></a> 
+                                <!-- - <i>  The ACM International Conference on Mobile Systems, Applications and Services, Niagara Falls, NewYork, June 2017.  -->
+                                <br>
+                                <font color = "black">(23 out of 147 submissions, acceptance ratio: 15.6%).</font>
+                                <br>
+                                Hoang Truong, Shuo Zhang, Ufuk Muncuk, Phuc Nguyen, Nam Bui, Anh Nguyen, Qin Lv, Kaushik Chowdhury, Thang Dinh, and Tam Vu
+                                <br />
+                            	<b><font color = "red">Best Paper Award Runner up 2018.</font></b><br />
+                                
+                            </p>
+                            
+                    </li>
+
+                    <li>
+                    	<p> <b><a href="./papers/Body_Comm_MobiCom_2018.pdf">Body-Guided Communications: A Low-power, Highly-Confined Primitive to Track and Secure Every Touch</a></b> <br /> 
+                                <a href = "https://www.sigmobile.org/mobicom/2018/"><b>ACM MobiCom 2018</b></a> <!-- <font color = "red"><b>[New!]</b></font> -->
+                                <!-- - <i>  The ACM International Conference on Mobile Systems, Applications and Services, Niagara Falls, NewYork, June 2017.  -->
+                                <br>
+                                <font color = "black">(47 out of 187 submissions, acceptance ratio: 22.5%).</font>
+                                <br>
+                                Viet Nguyen, Mohamed Ibrahim, Hoang Truong, Phuc Nguyen, Richard Howard, Marco Gruteser and Tam Vu<br />
+                               </p>
+                             
+                    </li>
+                    <li>
+                        <p> <b><a href="./papers/TYTH_MobiSys18.pdf">TYTH-Typing On Your Teeth: Tongue-Teeth Localization for Human-Computer Interface</a> </b> <br />
+                            <a href = "https://www.sigmobile.org/mobisys/2018/"><b>ACM MobiSys 2018</b></a> <!-- <font color = "red"><b>[New!]</b></font> -->
+                            <!-- - <i>  The ACM International Conference on Mobile Systems, Applications and Services, Niagara Falls, NewYork, June 2017.  -->
+                            <br>
+                            <font color = "black">(37 out of 138 submissions, acceptance ratio: 26.8%).</font>
+                            <br>
+                            Phuc Nguyen, Nam Bui, Anh Nguyen, Hoang Truong, Abhijit Suresh, Matthew Whitlock, Duy Pham, Thang Dinh, and Tam Vu<br />
+                            
+                        </p>
+                    </li>
+
+                    <li>
+                        <p> <b><a href="./papers/SmartHealth_Thermal_Depth_2018.pdf">Volumetric Reconstruction of Thermal-depth Fused 3D Models for Occluded Body Posture Estimation</a></b> <br />
+                            <a href = "https://www.sciencedirect.com/science/article/pii/S2352648317301034"><b>Smart Health Journal 2018</b></a> 
+                            <br>
+                            Shane Transue, Phuc Nguyen, Tam Vu, Min-Hyung Choi<br />
+                       	</p>
+                    </li>
+
+                    <li>
+                        <p><b> <a href="./papers/IEEE_Access_ParkSense_2017.pdf">ParkSense: Automatic Parking Positioning by Leveraging In-Vehicle Magnetic Field Variation</a></b>  
+                            <br/>
+                                <a href = "http://ieeexplore.ieee.org/document/8093747/"><b>IEEE Access 2017</b></a> 
+                            <br />
+                            Phuc Nguyen, Hieu Nguyen, Dong Nguyen, Thang N. Dinh, Hung M. La, and Tam Vu
+                            <br />
+                           
+                        </p>   
+                    </li>  
+
+        			<li>
+                        <p> <b><a href="./papers/Drone_MobiSys_2017.pdf">Matthan: Drone Presence Detection by Identifying Physical Signatures in the Drone’s RF Communication </a></b> <br />
+                            <a href = "https://www.sigmobile.org/mobisys/2017/org.php"><b>ACM MobiSys 2017</b></a> 
+                            <!-- - <i>  The ACM International Conference on Mobile Systems, Applications and Services, Niagara Falls, NewYork, June 2017.  -->
+                            <br>
+                            <font color = "black">(34 out of 188 submissions, acceptance ratio: 18%).</font>
+                            <br>
+                            Phuc Nguyen, Hoang Truong, Mahesh Ravindranathan, Anh Nguyen, Richard Han, and Tam Vu<br />
+                            <b><a href = "https://beta.sigmobile.org/articles/research-highlights"><font color = "red">ACM SIGMOBILE  Research Highlights, 2017</a></font><br/></b>
+                            <a href="https://youtu.be/id2LxOsr_G8">[DEMO]</a>
+
+                            
+                        </p>
+                    </li>
+
+                    <li>
+                        <p><b><a href="./papers/Sensys_Ph02_2017.pdf">PhO2: Optical 3D printed elements and NIR/R light extraction techniques for phone-base blood oxygen level measurement</a></b>  
+                            <br/>
+                            </b>
+                                <a href = "http://sensys.acm.org/2017/"><b>ACM SenSys 2017</b></a> 
+                            <br />
+                            (26 out of 151 submissions, acceptance ratio: 17.2%)
+                            <br>
+                            Nam Bui, Anh Nguyen, Phuc Nguyen, Hoang Truong, Ashwin Ashok, Thang Dinh, Robin Deterding and Tam Vu
+                            <br />
+                            <b><font color = "red">Best Paper Award Nominee 2017; 2nd Prize ACM MobiCom 2017 App Contest.</font></b><br />
+                            <a href="https://www.youtube.com/watch?v=RQ88nsrI-xU">[DEMO]</a>
+                            <br /> 
+
+                        </p>   
+                    </li>    
+
+                    <li>
+                        <p><strong><a href="./papers/S3_PhO2_2017.pdf">Photometry based Blood Oxygen Estimation through Smartphone Cameras</a></strong><br />
+                        <a href = "http://mnslab.org/s3/"><strong>ACM MobiCom 2017 - S3 Workshop</strong></a><br />
+                        Nam Bui, Anh Nguyen, Phuc Nguyen, Hoang Truong, Ashwin Ashok, Thang Dinh, Robin Deterding and Tam Vu<br />
+                        <font color="red"><b> Best Paper Award, 2017</b></font><br />
+                        
+                        </p>
+                    </li>
+
+                    
+                    <li>
+                        <p><b><a href="./papers/Wristband_WearSys17.pdf">Capacitive sensing 3D-printed Wristband for Enriched Hand Gesture Recognition</a>
+                            </b> <br />
+                            <a href = "https://www.sigmobile.org/mobisys/2017/org.php"><b>ACM MobiSys-WearSys 2017</b></a> 
+                            <!-- - <i>  The ACM International Conference on Mobile Systems, Applications and Services - Workshop on Wearable Systems, Niagara Falls, NewYork, June 2017. 
+                          	</i> -->
+                            <br>
+                            Hoang Truong, Phuc Nguyen, Anh Nguyen, Nam Bui and Tam Vu<br />
+                            <font color = "red"><b>Best Senior Design Project in College of Engineering in 2016.</b>
+                            <br />
+                            </font> <font color = "blue">Thank Sean Kuhlman, Cory Coellen, Michael Hunsinger, and Raphael O'Flynn!</font>
+                            <br/>
+                            <a href="https://youtu.be/t5KABrYErgc">[DEMO]</a>
+                        </p>
+                    </li>
+                    <!-- <br /> -->
+
+                    <li>
+                        <p><b><a href="./papers/breathing_chase_2017.pdf">Thermal-Depth Fusion for Occluded Body Skeletal Posture Estimation</a></b> <br />
+                            <a href = "http://conferences.computer.org/chase2017/"><b>IEEE/ACM CHASE 2017</b></a> 
+                            <br>
+                            Shane Transue, Phuc Nguyen, Tam Vu and Min-Hyung Choi<br />
+                            
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p><b><a href="./papers/Battery-Free-Token_SenSys_2017.pdf">Battery-Free Identification Token for Touch Sensing Devices</a></b> <br />
+                            <a href = "http://sensys.acm.org/2016/index.html"><b>ACM SenSys 2016</b></a> 
+                            <!-- - <i>  The ACM Conference on Embedded Networked Sensor Systems, Stanford, CA, USA, November 2016.  -->
+                            <br>
+                            <font color = "black">(21 out of 119 submissions, acceptance ratio: 17.6%).</font> <br />
+                            Phuc Nguyen, Ufuk Muncuk</u>, Ashwin Ashok, Kaushik R Chowdhury, Marco Gruteser and Tam Vu<br />
+                            <font color = "red"><b>Best CS Senior Design Project in 2017.</b>
+                            <br />
+                            </font> <font color = "blue">Thank Ed Salisbury, Lily Dam, Bradley Dufresne, and <font color = "red"><a href="http://fiot.vn/">Fiot.vn</a></font> team!</font>
+                            <br/>
+                            <a href="https://youtu.be/ay0By3zXEZM">[DEMO]</a>
+                        </p>
+                    </li>
+                    <!-- <br /> -->
+
+                    <li>
+                        <p><b><a href="http://dl.acm.org/citation.cfm?id=2987356">WikiSpiro: Non-contact Respiration Volume Monitoring during Sleep</a></b> <br />
+                            <a href = "http://winlab.rutgers.edu/s3/"><b>ACM MobiCom-S3 2016</b></a> - <i> The ACM International Conference on Mobile Computing and Networking. <br>
+                            Wireless of the Students, by the Students, and for the Students Workshop, NewYork, USA, October 2016. 
+                            </i> 
+                            <br />
+                            Phuc Nguyen, Shane Transue, Ann Halbower, Min-Hyung Choi, and Tam Vu<br /> <b><font color = "red">Best Paper Award, 2016</font></b>
+                            <br/>
+                            
+                        </p>
+                    </li>
+                    <!-- <br /> -->
+
+                    <li>
+                        <p><b><a href="./papers/WiSpiro_INFOCOM_2016.pdf">Continuous and Fine-grained Breathing Volume Monitoring from Afar Using Wireless Signals</a></b><br /> 
+                            <a href="http://infocom2016.ieee-infocom.org/"><b>IEEE INFOCOM 2016</b></a> <!-- - <i>  The IEEE International Conference on Computer Communications, San Francisco, CA, USA, April 2016. --> 
+                            <br><font color = "black">(300 out of 1644 submissions, acceptance ratio: 18.25%).</font><br />
+                            Phuc Nguyen, Xinyu Zhang, Ann Halbower, and Tam Vu<br /> 
+                            <b><font color = "red">ACM MobiCom - S3 Best Paper Award, 2016</font></b>
+                            <a href="https://youtu.be/APqgPOxlfIs">[DEMO]</a>
+                        </p>
+                    </li>
+                    <!-- <br /> -->
+
+                    
+                    <li>
+                        <p><b><a href="./papers/Drone_MobiSys_Dronet_2016.pdf">Investigating Cost-effective RF-based Detection of Drones</a></b>
+                            <br/>
+                            <a href ="https://sigmobile.org/mobisys/2016/index.php"><b>ACM MobiSys</b></a> - <a href = "http://www.sigmobile.org/mobisys/2016/workshops/DroNet/"><b>DroNet 2016</b></a>
+                             <br />
+                            Phuc Nguyen, Mahesh Ravindranathan</u>, Anh Nguyen, Richard Han and Tam Vu<br />
+                        </p>
+                    </li>
+                    <!-- <br /> -->
+                    
+                    <li>
+                        <p><b><a href="./papers/Breathing_CHASE_2016.pdf">Real-time Tidal Volume Estimation using Iso-surface Reconstruction</a></b>
+                        <br/>
+                        <b><a href="http://conferences.computer.org/chase/">IEEE/ACM CHASE 2016</a></b> 
+                            <br />
+                            Shane Transue, Phuc Nguyen, Tam Vu and Min-Hyung Choi<br />
+                            <a href="https://www.youtube.com/watch?v=3tqssPExvzw">[DEMO]</a><br />
+                            
+                        </p>
+                    </li>  
+
+                    <!-- <li >
+                        <p><b>Minimum Latency and Energy-Efficient Data Collection with Dynamic Traffic in Wireless Sensor Networks</b><br />
+                            <b>KCC</b> - <i> The Korea Computer Congress, June 2013. </i> <br />
+                            Phuc Nguyen, Le Duc Thang, and Hyunseung Choo<br /> <b><font color = "red">Best Paper Presentation Award, 2013</font></b>
+                        </p>
+                    </li>    -->
+                    
+                    <!-- <li>
+                        <p><b>A Latency-aware Data Aggregation Scheduling in Duty-cycled Wireless Sensor Networks</b><br />
+                            <b id = "projects">KSII</b> - <i> The Korean Socisety for Internet Information, June 2012.</i><br />
+                            Khanh Ha Nguyen Phan, Phuc Nguyen, Minhan Shon, and Hyunseung Choo<br /> <b><font color = "red">Best Paper Award, 2012</font></b>
+                        </p>
+                    </li>  -->
+                    <!-- (<a href="publications.html"><b>Full publication list</b></a>)   -->
+                </ul>
+	            </div>
+			</div>
+		</section>
+
+		<!-- /WRAPPER -->
+
+		<!-- FOOTER -->
+		<footer>
+
+			<!-- footer content -->
+			<!-- <div class="footer-content"> -->
+				<!-- <div class="container"> -->
+					<!-- <div class="row"> -->
+						<!-- FOOTER LOGO -->
+						<!-- <div class="column logo col-md-4 text-center">
+							<div class="logo-content">
+								<img class="animate_fade_in" src="assets/images/LOGO LAB-01.png" width="350" alt="" />
+							</div>
+						</div> -->
+						<!-- /FOOTER LOGO -->
+
+						<!-- FOOTER CONTACT INFO -->
+						<!-- <div class="column col-md-8">
+							<h3>CONTACT</h3>
+
+							<p class="contact-desc">
+							</p>
+							<address class="font-opensans">
+								<ul>
+									<li class="footer-sprite address">
+										<font color="white">
+											Wireless and Sensor Systems Lab,<br />
+											The University of Texas at Arlington<br />
+											Engineering Research Building, 
+											500 UTA Blvd<br />
+											Arlington, TX 76010<br />
+										</font>
+									</li>
+									<li class="footer-sprite phone">
+										<font color="white">
+											Phone: 817-272-2571
+										</font>
+									</li>
+									<li class="footer-sprite email">
+										<a href="mailto:vp.nguyen@colorado.edu">vp.nguyen@uta.edu</a>
+									</li>
+								</ul>
+							</address>
+
+						</div> -->
+						<!-- /FOOTER CONTACT INFO -->
+
+
+					<!-- </div> -->
+
+				<!-- </div> -->
+			<!-- </div> -->
+			<!-- footer content -->
+			<!-- copyright , scrollTo Top -->
+			<div class="footer-bar">
+				<div class="container">
+					<span class="copyright">Copyright &copy; Wireless and Sensor Systems Lab. All Rights Reserved.</span>
+					<a class="toTop" href="#topNav">BACK TO TOP <i class="fa fa-arrow-circle-up"></i></a>
+				</div>
+			</div>
+			<!-- copyright , scrollTo Top -->
+		</footer>
+		<!-- /FOOTER -->
+
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript" src="assets/plugins/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery.cookie.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery.appear.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery.isotope.js"></script>
+		<script type="text/javascript" src="assets/plugins/masonry.js"></script>
+
+		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/stellar/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/knob/js/jquery.knob.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/superslides/dist/jquery.superslides.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script><!-- STYLESWITCHER - REMOVE ON PRODUCTION/DEVELOPMENT -->
+		<script type="text/javascript" src="assets/plugins/mediaelement/build/mediaelement-and-player.min.js"></script>
+
+		<!-- REVOLUTION SLIDER -->
+		<script type="text/javascript" src="assets/plugins/slider.revolution.v4/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/slider.revolution.v4/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="assets/js/slider_revolution.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+		<!--<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-XXXXX-X', 'domainname.com');
+			ga('send', 'pageview');
+		</script>
+		-->
+
+	</body>
+</html>
