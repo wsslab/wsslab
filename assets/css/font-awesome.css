@@ -2335,3 +2335,7 @@
   overflow: visible;
   clip: auto;
 }
+.highlight {
+  color: #F07057;  /* Set text color to #F07057 */
+  font-weight: bold;  /* Make the text bold */
+}
