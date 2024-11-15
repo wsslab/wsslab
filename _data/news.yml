@@ -1,20 +1,21 @@
 - date: 09/2024
   title: "Unvoiced paper accepted to ACM Sensys 2024"
   highlights:
+    - content: Unvoiced paper
+      url: https://dl.acm.org/doi/10.1145/3666025.3699374
     - content: ACM Sensys 2024
       url: https://sensys.acm.org/2024/
-    - content: Unvoiced Paper
-      url: https://dl.acm.org/doi/10.1145/3666025.3699374
   content: "Unvoiced paper is accepted to ACM Sensys 2024 (Acceptance Ratio ~18.5%). Congratulations, team!"
 
 - date: 09/2024
   title: "Open-source platform for real-time qubit data storage and visualization accepted to Nature Scientific Reports"
   highlights:
-    - content: Open-source platform for real-time qubit data storage and visualization accepted to Nature Scientific Reports
-      url:
+    - content: an open-source platform for real-time qubit data storage and visualization
+      url: 
     - content: Nature Scientific Reports
       url: https://www.nature.com/articles/s41598-024-72584-9.epdf?sharing_token=tnedWEyClF7jp8yoWcr8itRgN0jAjWel9jnR3ZoTv0O7cdSmeZlX_S9MZfBOrfYYa6i_99JuOMXKqu8qDDNUclCtVsSnujOueDL5OlSHsCGphUslu3Y3yS2QioRcDnaeHTWAz1eGFtg0w2AYPDE_gQWzmrG3rykBdfeLyzetzqc%3D
-  content: "Our work on building an open-source platform for real-time qubit data storage and visualization is accepted to Nature Scientific Reports. Congratulations, team! Read the paper [here](https://www.nature.com/articles/s41598-024-72584-9.epdf?sharing_token=tnedWEyClF7jp8yoWcr8itRgN0jAjWel9jnR3ZoTv0O7cdSmeZlX_S9MZfBOrfYYa6i_99JuOMXKqu8qDDNUclCtVsSnujOueDL5OlSHsCGphUslu3Y3yS2QioRcDnaeHTWAz1eGFtg0w2AYPDE_gQWzmrG3rykBdfeLyzetzqc%3D)."
+  content: Our work on building an open-source platform for real-time qubit data storage and visualization is accepted to Nature Scientific Reports. Congratulations, team!
+  
 
 - date: 09/2024
   title: "Paper on 3D facial animation for authentication accepted to IEEE Transactions on Mobile Computing"
