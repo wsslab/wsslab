@@ -1859,76 +1859,74 @@
       }
     ]
   },
-  [
-    {
-      "id": "./papers/Drone_MobiSys_Dronet_2016.pdf",
-      "type": "article-journal",
-      "title": "Investigating Cost-effective RF-based Detection of Drones",
-      "container-title": "ACM MobiSys - DroNet 2016",
-      "author": [
-        {
-          "family": "Nguyen",
-          "given": "Phuc"
-        },
-        {
-          "family": "Ravindranathan",
-          "given": "Mahesh"
-        },
-        {
-          "family": "Nguyen",
-          "given": "Anh"
-        },
-        {
-          "family": "Han",
-          "given": "Richard"
-        },
-        {
-          "family": "Vu",
-          "given": "Tam"
-        }
-      ],
-      "issued": {
-        "date-parts": [["2016"]]
+  {
+    "id": "./papers/Drone_MobiSys_Dronet_2016.pdf",
+    "type": "article-journal",
+    "title": "Investigating Cost-effective RF-based Detection of Drones",
+    "container-title": "ACM MobiSys - DroNet 2016",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
       },
-      "url": "https://sigmobile.org/mobisys/2016/index.php",
-      "workshop": {
-        "title": "DroNet 2016",
-        "url": "http://www.sigmobile.org/mobisys/2016/workshops/DroNet/"
+      {
+        "family": "Ravindranathan",
+        "given": "Mahesh"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Han",
+        "given": "Richard"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
       }
+    ],
+    "issued": {
+      "date-parts": [["2016"]]
     },
-    {
-      "id": "./papers/Breathing_CHASE_2016.pdf",
-      "type": "article-journal",
-      "title": "Real-time Tidal Volume Estimation using Iso-surface Reconstruction",
-      "container-title": "IEEE/ACM CHASE 2016",
-      "author": [
-        {
-          "family": "Transue",
-          "given": "Shane"
-        },
-        {
-          "family": "Nguyen",
-          "given": "Phuc"
-        },
-        {
-          "family": "Vu",
-          "given": "Tam"
-        },
-        {
-          "family": "Choi",
-          "given": "Min-Hyung"
-        }
-      ],
-      "issued": {
-        "date-parts": [["2016"]]
-      },
-      "url": "http://conferences.computer.org/chase/",
-      "highlights": [
-        {
-          "title": "DEMO",
-          "url": "https://www.youtube.com/watch?v=3tqssPExvzw"
-        }
-      ]
+    "url": "https://sigmobile.org/mobisys/2016/index.php",
+    "workshop": {
+      "title": "DroNet 2016",
+      "url": "http://www.sigmobile.org/mobisys/2016/workshops/DroNet/"
     }
-  ]
+  },
+  {
+    "id": "./papers/Breathing_CHASE_2016.pdf",
+    "type": "article-journal",
+    "title": "Real-time Tidal Volume Estimation using Iso-surface Reconstruction",
+    "container-title": "IEEE/ACM CHASE 2016",
+    "author": [
+      {
+        "family": "Transue",
+        "given": "Shane"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      },
+      {
+        "family": "Choi",
+        "given": "Min-Hyung"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2016"]]
+    },
+    "url": "http://conferences.computer.org/chase/",
+    "highlights": [
+      {
+        "title": "DEMO",
+        "url": "https://www.youtube.com/watch?v=3tqssPExvzw"
+      }
+    ]
+  }
 ]

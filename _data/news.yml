@@ -1,5 +1,4 @@
 - date: 09/2024
-  title: "Unvoiced paper accepted to ACM Sensys 2024"
   highlights:
     - content: Unvoiced paper
       url: https://dl.acm.org/doi/10.1145/3666025.3699374
@@ -8,431 +7,350 @@
   content: "Unvoiced paper is accepted to ACM Sensys 2024 (Acceptance Ratio ~18.5%). Congratulations, team!"
 
 - date: 09/2024
-  title: "Open-source platform for real-time qubit data storage and visualization accepted to Nature Scientific Reports"
   highlights:
     - content: an open-source platform for real-time qubit data storage and visualization
-      url: 
+      url:
     - content: Nature Scientific Reports
       url: https://www.nature.com/articles/s41598-024-72584-9.epdf?sharing_token=tnedWEyClF7jp8yoWcr8itRgN0jAjWel9jnR3ZoTv0O7cdSmeZlX_S9MZfBOrfYYa6i_99JuOMXKqu8qDDNUclCtVsSnujOueDL5OlSHsCGphUslu3Y3yS2QioRcDnaeHTWAz1eGFtg0w2AYPDE_gQWzmrG3rykBdfeLyzetzqc%3D
   content: Our work on building an open-source platform for real-time qubit data storage and visualization is accepted to Nature Scientific Reports. Congratulations, team!
-  
 
 - date: 09/2024
-  title: "Paper on 3D facial animation for authentication accepted to IEEE Transactions on Mobile Computing"
-  highlights::
+  highlights:
     - content: IEEE Transactions on Mobile Computing
       url: https://ieeexplore.ieee.org/abstract/document/10701549
   content: "Paper on 3D facial animation for authentication is accepted to IEEE Transactions on Mobile Computing. Congratulations, team!"
 
 - date: 07/2024
-  title: "NSF CSR Award for implantable and wearable sensors for plant health monitoring"
-  highlights::
+  highlights:
     - content: an NSF CSR Award
       url: https://www.umass.edu/news/article/cics-vp-nguyen-lead-research-team-develop-sustainable-platform-monitoring-tree-health
   content: "We lead an NSF CSR award focused on developing implantable and wearable sensors for plant health monitoring."
 
 - date: 06/2024
-  title: "Pre-print released on open-source ML-powered FPGA platform for in situ qubit control"
-  tags:
-    - Open-source ML-powered FPGA
-    - Qubit Control
-    - Pre-print
-    - Quantum Week (QCE) 2024
+  highlights:
+    - content: open-source ML-powered FPGA hardware/software platform
+      url: https://arxiv.org/pdf/2406.18807
+    - content: Quantum Week (QCE) 2024
+      url: https://qce.quantum.ieee.org/2024/
   content: "We have released a pre-print summarizing our two years of work on building an open-source ML-powered FPGA hardware/software platform for in situ qubit control. We will discuss it at Quantum Week (QCE) 2024. More to come soon!"
 
 - date: 06/2024
-  title: "Welcome to the Summer Research Program at WSSL"
-  tags:
-    - Summer Research Program
-    - WSSL
-    - Welcome
+  highlights:
+    - content: Joseph Vo, Tanvi Kandepuneni
+    - content: Michael Knox, Joseph Collins, Patrick Do, Gaurav Chandra, Aryan Nair
+    - content: Yuqi Liu
   content: "Welcome Joseph Vo, Tanvi Kandepuneni, Michael Knox, Joseph Collins, Patrick Do, Gaurav Chandra, Aryan Nair, and Yuqi Liu to the Summer Research Program at WSSL!"
 
 - date: 05/2024
-  title: "Graduations: Neel Vora and Devanshu Brahmbhatt"
-  tags:
-    - Graduation
-    - Neel Vora
-    - Devanshu Brahmbhatt
-    - Berkeley Lab
-    - Start-up Dream
-  content: "Our dear members, Neel Vora and Devanshu Brahmbhatt, graduated. Neel joined Berkeley Lab as a research staff. Devanshu continues his start-up dream. Congratulations!"
+  highlights:
+    - content: Neel Vora
+    - content: Devanshu Brahmbhatt
+    - content: Berkeley Lab
+      url: https://www.lbl.gov/
+  content: "Our dear members Neel Vora and Devanshu Brahmbhatt, graduated. Neel joined Berkeley Lab as a research staff. Devanshu continues his start-up dream. Congratulations!"
 
 - date: 03/2024
-  title: "Collaborative a2 pilot study funded by National Institute on Aging"
-  tags:
-    - a2 Pilot Study
-    - Neursantys
-    - National Institute on Aging
-    - MassAITC
-  content: "Our collaborative a2 pilot study with Neursantys is funded by the National Institute on Aging via MassAITC."
+  highlights:
+    - content: A2 Pilot Study
+      url: https://www.a2collective.ai/
+    - content: Neursantys
+      url: https://neursantys.com/
+    - content: National Institute on Aging
+      url: https://www.nia.nih.gov/
+    - content: MassAITC
+      url: https://massaitc.org/
+  content: "Our collaborative A2 pilot study with Neursantys is funded by the National Institute on Aging via MassAITC."
 
 - date: 02/2024
-  title: "Prof. Nguyen invited talk at University of Toronto"
-  tags:
-    - Invited Talk
-    - University of Toronto
-    - Dalla Lana School of Public Health
+  highlights:
+    - content: University of Toronto - Dalla Lana School of Public Health
+      url: https://www.dlsph.utoronto.ca/event/sustainable-head-worn-computers-design-development-and-deployment/
   content: "Prof. Nguyen gives an invited talk at University of Toronto - Dalla Lana School of Public Health."
 
 - date: 01/2024
-  title: "IOTeeth accepted to ACM IMWUT/UbiComp 2024"
-  tags:
-    - IOTeeth
-    - ACM IMWUT
-    - UbiComp 2024
-    - Congratulations Amir
+  highlights:
+    - content: ACM IMWUT/UbiComp 2024
+      url: https://www.ubicomp.org/ubicomp-iswc-2024/
   content: "IOTeeth is accepted to ACM IMWUT/UbiComp 2024. Congratulations, Amir!"
 
 - date: 01/2024
-  title: "Paper accepted to Journal of Clinical Neurophysiology"
-  tags:
-    - Paper
-    - Journal of Clinical Neurophysiology
-    - Congratulations Aziz
+  highlights:
+    - content: Journal of Clinical Neurophysiology
+      url: http://wsslab.org
   content: "Our paper is accepted to Journal of Clinical Neurophysiology. Congratulations, Aziz!"
 
 - date: 01/2024
-  title: "Prof. Nguyen invited talk at ICOIN 2024"
-  tags:
-    - Invited Talk
-    - ICOIN 2024
+  highlights:
+    - content: ICOIN 2024
+      url: https://www.icoin.org/
   content: "Prof. Nguyen gives an invited talk at ICOIN 2024."
 
 - date: 12/2023
   title: "Prof. Nguyen invited talk at Lawrence Berkeley National Laboratory"
-  tags:
-    - Invited Talk
-    - Lawrence Berkeley National Laboratory
-    - ML + FPGA-based Research
-    - UCB Visit
-  content: "Prof. Nguyen gives an invited talk at Lawrence Berkeley National Laboratory on ML + FPGA-based research and visits UCB."
+  highlights:
+    - content: Lawrence Berkeley National Laboratory
+      url: https://www.lbl.gov/
+    - content: University of California Berkeley
+      url: https://www.berkeley.edu/
+  content: "Prof. Nguyen gives an invited talk at Lawrence Berkeley National Laboratory on ML + FPGA-based research and visits University of California Berkeley."
 
 - date: 11/2023
-  title: "Prof. Nguyen invited talk at UMass Chan Medical"
-  tags:
-    - Invited Talk
-    - UMass Chan Medical
-    - Earable Health
+  highlights:
+    - content: UMass Chan Medical
+      url: https://www.umassmed.edu/
   content: "Prof. Nguyen gives an invited talk at UMass Chan Medical on earable health."
 
 - date: 10/2023
-  title: "Two papers accepted to ACM SenSys 2023"
-  tags:
-    - Paper Acceptance
-    - ACM SenSys 2023
-    - Congratulations Teams
+  highlights:
+    - content: ACM SenSys 2023
+      url: https://sensys.acm.org/2023/
   content: "Two papers are accepted to ACM SenSys 2023 (Acceptance Ratio ~18.9%). Congratulations, teams!"
 
 - date: 10/2023
   title: "Prof. Nguyen invited talk at The Morton Arboretum"
-  tags:
-    - Invited Talk
-    - The Morton Arboretum
-    - Internet of Trees
+  highlights:
+    - content: The Morton Arboretum
+      url: https://mortonarb.org
   content: "Prof. Nguyen gives an invited talk at The Morton Arboretum on the future of Internet of Trees."
 
 - date: 09/2023
-  title: "Two papers accepted to ACM SenSys 2023"
-  tags:
-    - Paper Acceptance
-    - ACM SenSys 2023
-    - Congratulations Teams
-  content: "Two papers are accepted to ACM SenSys 2023 (Acceptance Ratio ~18.9%). Congratulations, teams!"
-
-- date: 09/2023
-  title: "Neel Vora Internship offer from Lawrence Berkeley National Lab"
-  tags:
-    - Internship
-    - Neel Vora
-    - Lawrence Berkeley National Lab
-    - Fall 2023
+  highlights:
+    - content: Lawrence Berkeley National Lab
+      url: https://www.lbl.gov/
+    - content: Neel Vora
   content: "Congratulations Neel Vora for getting an Internship offer from Lawrence Berkeley National Lab. He will be in CA for Fall 2023. Cheers!"
 
 - date: 08/2023
   title: "Abdul Aziz paper acceptance at ACM EarComp 2023"
-  tags:
-    - Paper Acceptance
-    - Abdul Aziz
-    - ACM EarComp 2023
-    - UbiComp/IMWUT 2023
-  content: "Congratulations Abdul Aziz for acceptance of Paper at ACM EarComp 2023 in association with UbiComp/IMWUT 2023."
+  highlights:
+    - content: paper
+      url: http://wsslab.org/papers/Earables%20as%20Medical%20Devices.pdf
+  content: "Congratulations Abdul Aziz for acceptance of paper at ACM EarComp 2023 in association with UbiComp/IMWUT 2023."
 
 - date: 08/2023
-  title: "Jackson Liller article acceptance at GetMobile journal"
-  tags:
-    - Article Acceptance
-    - Jackson Liller
-    - GetMobile Journal
+  highlights:
+    - content: GetMobile Journal
+      url: https://dl.acm.org/doi/10.1145/3614214.3614216
   content: "Congratulations Jackson Liller for acceptance of Article at GetMobile journal."
 
 - date: 07/2023
-  title: "Paper accepted at Cancers journal"
-  tags:
-    - Paper Acceptance
-    - Cancers Journal
-  content: "Congratulations team for acceptance of paper at Cancers journal. [Link to paper](https://www.mdpi.com/2072-6694/15/14/3645)"
+  highlights:
+    - content: Cancers Journal
+      url: https://www.mdpi.com/2072-6694/15/14/3645
+  content: Congratulations team for acceptance of a paper at Cancers journal.
 
 - date: 06/2023
-  title: "Paper 'Exploring Batteryless UAVs by Mimicking Bird Flight' accepted at ACM DroNet'23"
-  tags:
-    - Paper Acceptance
-    - ACM DroNet'23
-    - Batteryless UAVs
-  content: "Congratulations team for acceptance of paper 'Exploring Batteryless UAVs by Mimicking Bird Flight' at ACM DroNet'23. [Link to paper](https://dl.acm.org/doi/abs/10.1145/3597060.3597243)"
+  highlights:
+    - content: Exploring Batteryless UAVs by Mimicking Bird Flight
+      url: https://dl.acm.org/doi/abs/10.1145/3597060.3597243
+  content: Congratulations team for acceptance of paper Exploring Batteryless UAVs by Mimicking Bird Flight at ACM DroNet'23.
 
 - date: 06/2023
-  title: "Neel R Vora's paper 'DroneChase' accepted at ACM DroNet'23"
-  tags:
-    - Paper Acceptance
-    - ACM DroNet'23
-    - Neel R Vora
-    - DroneChase
-  content: "Congratulations Neel R Vora for acceptance of paper 'DroneChase' at ACM DroNet'23. [Link to paper](https://dl.acm.org/doi/10.1145/3597060.3597237)"
+  highlights:
+    - content: DroneChase
+      url: https://dl.acm.org/doi/10.1145/3597060.3597237
+  content: Congratulations Neel R Vora for acceptance of paper DroneChase at ACM DroNet'23.
 
 - date: 06/2023
   title: "Tasnim Azad Abir's paper 'Towards Robust Lidar-based 3D Detection and Tracking of UAVs' accepted at ACM DroNet'23"
-  tags:
-    - Paper Acceptance
-    - ACM DroNet'23
-    - Tasnim Azad Abir
-    - Lidar-based 3D Detection
-  content: "Congratulations Tasnim Azad Abir for acceptance of paper 'Towards Robust Lidar-based 3D Detection and Tracking of UAVs' at ACM DroNet'23. [Link to paper](https://doi.org/10.1145/3597060.3597236)"
+  highlights:
+    - content: Tasnim Azad Abir
+    - content: Towards Robust Lidar-based 3D Detection and Tracking of UAVs
+      url: https://doi.org/10.1145/3597060.3597236
+  content: Congratulations Tasnim Azad Abir for acceptance of paper Towards Robust Lidar-based 3D Detection and Tracking of UAVs at ACM DroNet'23.
 
 - date: 03/2023
-  title: "Devanshu Brahmbhatt Internship offer from Lawrence Berkeley National Lab"
-  tags:
-    - Internship
-    - Devanshu Brahmbhatt
-    - Lawrence Berkeley National Lab
-    - Summer 2023
-  content: "Congratulations Devanshu Brahmbhatt for getting an Internship offer from Lawrence Berkeley National Lab. He will be in CA for Summer 2023. Cheers!"
+  highlights:
+    - content: Devanshu Brahmbhatt
+    - content: Lawrence Berkeley National Lab
+      url: https://www.lbl.gov/
+  content: Congratulations Devanshu Brahmbhatt for getting an Internship offer from Lawrence Berkeley National Lab. He will be in CA for Summer 2023. Cheers!
 
 - date: 01/2023
-  title: "Jackson Spray joins Lockheed Martin as Research Scientist"
-  tags:
-    - Employment
-    - Jackson Spray
-    - Lockheed Martin
-    - Research Scientist
-  content: "Jackson Spray joins Lockheed Martin as a Research Scientist. Congratulations, JD!"
+  highlights:
+    - content: Jackson Spray
+    - content: Lockheed Martin
+      url: https://lockheedmartin.com/en-us/index.html
+  content: Jackson Spray joins Lockheed Martin as a Research Scientist. Congratulations, JD!
 
 - date: 09/2022
-  title: "Research funded by NSF ECCS"
-  tags:
-    - Funding
-    - NSF ECCS
-  content: "Our research is funded by NSF ECCS. Thanks NSF for the support! [Link to award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2152357&HistoricalAwards=false)"
+  highlights:
+    - content: NSF ECCS
+      url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2152357&HistoricalAwards=false
+  content: Our research is funded by NSF ECCS. Thanks NSF for the support!
 
 - date: 08/2022
-  title: "Tutorial on Earable Computing at ACM MobiCom 2022"
-  tags:
-    - Tutorial
-    - Earable Computing
-    - ACM MobiCom 2022
-  content: "We are running Tutorial on Earable Computing at ACM MobiCom 2022. Please join us in Sydney! [Link to tutorial](earable_tutorial_22/)"
+  highlights:
+    - content: Tutorial on Earable Computing
+      url: http://wsslab.org/earable_tutorial_22/
+    - content: ACM MobiCom 2022
+      url: https://www.sigmobile.org/mobicom/2022/index.html
+  content: We are running Tutorial on Earable Computing at ACM MobiCom 2022. Please join us in Sydney!
 
 - date: 07/2022
-  title: "MuteIt accepted to ACM UbiComp/IMUWT 2022"
-  tags:
-    - Paper Acceptance
-    - ACM UbiComp/IMUWT 2022
-    - MuteIt
-  content: "MuteIt is accepted to ACM UbiComp/IMUWT 2022. Congratulations, team! [Link to conference](https://ubicomp.org/ubicomp2022/)"
-- date: 06/2022
-  title: "Two papers (IoTree and PROS) accepted at ACM MobiCom 2022"
-  tags:
-    - Paper Acceptance
-    - ACM MobiCom 2022
-    - IoTree
-    - PROS
-  content: "Two papers (IoTree and PROS) are accepted to ACM MobiCom 2022. Congratulations, teams! [Link to conference](https://www.sigmobile.org/mobicom/2022/)"
+  highlights:
+    - content: ACM UbiComp/IMUWT 2022
+      url: https://ubicomp.org/ubicomp2022/
+  content: MuteIt is accepted to ACM UbiComp/IMUWT 2022. Congratulations, team!
 
 - date: 06/2022
-  title: "Workshop paper and demo accepted at MobiSys 2022"
-  tags:
-    - Paper Acceptance
-    - MobiSys 2022
-  content: "Our workshop paper and demo are accepted to MobiSys 2022. [Link to conference](https://ipsn.acm.org/2022/index.html)"
+  highlights:
+    - content: ACM MobiCom 2022
+      url: https://www.sigmobile.org/mobicom/2022/
+  content: Two papers (IoTree and PROS) are accepted to ACM MobiCom 2022. Congratulations, teams!
+
+- date: 06/2022
+  highlights:
+    - content: MobiSys 2022
+      url: https://ipsn.acm.org/2022/index.html
+  content: Our workshop paper and demo are accepted to MobiSys 2022.
 
 - date: 05/2022
-  title: "Best Poster Award at IPSN 2022"
-  tags:
-    - Award
-    - Poster
-    - IPSN 2022
-  content: "Our poster at IPSN 2022 wins Best Poster Award. Congratulations, team!!! [Link to conference](https://ipsn.acm.org/2022/index.html)"
+  highlights:
+    - content: IPSN 2022
+      url: https://ipsn.acm.org/2022/index.html
+  content: Our poster at IPSN 2022 wins Best Poster Award. Congratulations, team!
 
 - date: 04/2022
-  title: "MobiCom paper awarded ACM SIGMOBILE Research Highlights 2022"
-  tags:
-    - Award
-    - ACM SIGMOBILE
-    - Research Highlights 2022
-    - MobiCom
-  content: "Our MobiCom paper is awarded ACM SIGMOBILE Research Highlights 2022. Congratulations, team!!! [Link to award](https://www.sigmobile.org/grav/publications/research-highlights)"
+  highlights:
+    - content: ACM SIGMOBILE Research Highlights 2022
+      url: https://www.sigmobile.org/grav/publications/research-highlights
+    - content: MobiCom
+  content: Our MobiCom paper is awarded ACM SIGMOBILE Research Highlights 2022. Congratulations, team!
 
 - date: 04/2022
-  title: "Collaborative research on Dental Health covered by UCM"
-  tags:
-    - Media Coverage
-    - Dental Health
-    - UCM
-    - IPSN 2022
-    - CPS-IoT Week 2022
-  content: "UCM covers our collaborative research on Dental Health. Visit our demo at IPSN 2022, CPS-IoT Week 2022. [Link to UCM article](https://ucm.edu/YczPIS) [Link to IPSN 2022](https://ipsn.acm.org/2022/index.html) [Link to CPS-IoT Week 2022](https://cpsiotweek.neslab.it/)"
+  highlights:
+    - content: Dental Health
+      url: https://ucm.edu/YczPIS
+    - content: IPSN 2022
+      url: https://ipsn.acm.org/2022/index.html
+    - content: CPS-IoT Week 2022
+      url: https://cpsiotweek.neslab.it/
+  content: UCM covers our collaborative research on Dental Health. Visit our demo at IPSN 2022, CPS-IoT Week 2022.
 
 - date: 03/2022
-  title: "Poster and demo accepted at IPSN 2022"
-  tags:
-    - Paper Acceptance
-    - Poster
-    - Demo
-    - IPSN 2022
-  content: "One poster and one demo are accepted to IPSN 2022. [Link to conference](https://ipsn.acm.org/2022/)"
+  highlights:
+    - content: IPSN 2022
+      url: https://ipsn.acm.org/2022/
+  content: One poster and one demo are accepted to IPSN 2022.
+
 - date: 01/2022
-  title: "UTA covers our Epileptic Seizure Research with UT Southwestern and Oxford"
-  tags:
-    - Media Coverage
-    - Epileptic Seizure Research
-    - UT Southwestern
-    - Oxford
-  content: "UTA covers our Epileptic Seizure Research with UT Southwestern and Oxford. [Link to article](https://www.uta.edu/news/news-releases/2022/01/13/nguyen-epilepsy-device)"
+  highlights:
+    - content: Epileptic Seizure Research
+      url: https://www.uta.edu/news/news-releases/2022/01/13/nguyen-epilepsy-device
+  content: UTA covers our Epileptic Seizure Research with UT Southwestern and Oxford.
 
 - date: 10/2021
-  title: "UTA covers our NSF Award: Building a Better VR Headset"
-  tags:
-    - Media Coverage
-    - NSF Award
-    - VR Headset
-  content: "UTA covers our recent NSF Award: Building a Better VR Headset. [Link to article](https://www.uta.edu/news/news-releases/2021/10/21/nguyen-vr-headset)"
+  highlights:
+    - content: NSF Award
+      url: https://www.uta.edu/news/news-releases/2021/10/21/nguyen-vr-headset
+  content: "UTA covers our recent NSF Award: Building a Better VR Headset."
 
 - date: 09/2021
-  title: "Paper accepted to IEEE/ACM CHASE 2021"
-  tags:
-    - Paper Acceptance
-    - IEEE/ACM CHASE 2021
-  content: "Our paper is accepted to IEEE/ACM CHASE 2021. [Link to conference](https://conferences.computer.org/chase2021/index.html)"
+  highlights:
+    - content: IEEE/ACM CHASE 2021
+      url: https://conferences.computer.org/chase2021/index.html
+  content: Our paper is accepted to IEEE/ACM CHASE 2021.
 
 - date: 08/2021
-  title: "Project funded by NSF ECCS"
-  tags:
-    - Funding
-    - NSF ECCS
-  content: "Our project is funded by NSF ECCS. Thanks, NSF, for the support! [Link to NSF award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2132112&HistoricalAwards=false)"
+  highlights:
+    - content: NSF ECCS
+      url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2132112&HistoricalAwards=false
+  content: Our project is funded by NSF ECCS. Thanks, NSF, for the support!
 
 - date: 07/2021
-  title: "Received Jetson Nano Developer Kits from NVIDIA Grant Program"
-  tags:
-    - Grant
-    - NVIDIA
-    - Jetson Nano
-  content: "We are extremely grateful to receive a set of Jetson Nano Developer Kits from NVIDIA Grant Program. [Link to NVIDIA blog](https://developer.nvidia.com/blog/new-jetson-nano-2gb-developer-kit-grant-program-launches/)"
+  highlights:
+    - content: NVIDIA Grant Program
+      url: https://developer.nvidia.com/blog/new-jetson-nano-2gb-developer-kit-grant-program-launches/
+  content: We are extremely grateful to receive a set of Jetson Nano Developer Kits from NVIDIA Grant Program.
 
 - date: 07/2021
-  title: "COVID-19 related paper accepted to UbiComp (IMWUT) 2021"
-  tags:
-    - Paper Acceptance
-    - UbiComp
-    - IMWUT 2021
-  content: "Our COVID-19 related paper is accepted to UbiComp (IMWUT) 2021. [Link to conference](https://www.ubicomp.org/ubicomp2021/)"
+  highlights:
+    - content: UbiComp
+      url: https://www.ubicomp.org/ubicomp2021/
+  content: Our COVID-19 related paper is accepted to UbiComp (IMWUT) 2021.
 
 - date: 06/2021
-  title: "Prof. Nguyen received SONY Faculty Innovation Award"
-  tags:
-    - Award
-    - SONY Faculty Innovation Award
-  content: "Prof. Nguyen received SONY Faculty Innovation Award. Thanks, SONY, for the support! [Link to SONY award](https://www.sony.com/electronics/research-award-program#FacultyInnovationAward)"
+  highlights:
+    - content: SONY Faculty Innovation Award
+      url: https://www.sony.com/electronics/research-award-program#FacultyInnovationAward
+  content: Prof. Nguyen received SONY Faculty Innovation Award. Thanks, SONY, for the support!
 
 - date: 06/2021
-  title: "Paper conditionally accepted to ACM MobiCom 2021"
-  tags:
-    - Paper Acceptance
-    - ACM MobiCom 2021
-  content: "Our paper is conditionally accepted to ACM MobiCom 2021. [Link to conference](https://sigmobile.org/mobicom/2021/)"
+  highlights:
+    - content: ACM MobiCom 2021
+      url: https://sigmobile.org/mobicom/2021/
+  content: Our paper is conditionally accepted to ACM MobiCom 2021.
 
 - date: 05/2021
-  title: "Microsleep detection work accepted to IEEE Transactions on Mobile Computing"
-  tags:
-    - Paper Acceptance
-    - IEEE Transactions on Mobile Computing
-  content: "Our microsleep (sleepiness) detection work is accepted to IEEE Transactions on Mobile Computing. [Link to paper](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755)"
+  highlights:
+    - content: IEEE Transactions on Mobile Computing
+      url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755
+  content: Our microsleep (sleepiness) detection work is accepted to IEEE Transactions on Mobile Computing.
 
 - date: 03/2021
-  title: "Hosting ACM DroNet 2021 at MobiSys 2021"
-  tags:
-    - Event Hosting
-    - ACM DroNet 2021
-    - MobiSys 2021
-  content: "Hosting ACM DroNet 2021 at MobiSys 2021. Please consider submitting your papers! [Link to tutorial](assets/tutorials/dronet21/)"
+  highlights:
+    - content: ACM DroNet 2021 at MobiSys 2021
+      url: http://wsslab.org/assets/tutorials/dronet21/
+  content: Hosting ACM DroNet 2021 at MobiSys 2021. Please consider submitting your papers!
 
 - date: 02/2021
-  title: "Prof. Nguyen receives University of Texas System Rising Stars Award"
-  tags:
-    - Award
-    - University of Texas System
-  content: "Prof. Nguyen receives University of Texas System Rising Stars Award."
+  highlights:
+    - content: Rising Stars Award
+  content: Prof. Nguyen receives University of Texas System Rising Stars Award.
 
 - date: 12/2020
-  title: "JawSense paper accepted to ACM HotMobile 2021"
-  tags:
-    - Paper Acceptance
-    - ACM HotMobile 2021
-    - JawSense
-  content: "JawSense paper is accepted to ACM HotMobile 2021. Congratulations, Tanmay and Prerna! [Link to conference](http://www.hotmobile.org/2021/)"
+  highlights:
+    - content: ACM HotMobile 2021
+      url: http://www.hotmobile.org/2021/
+  content: JawSense paper is accepted to ACM HotMobile 2021. Congratulations, Tanmay and Prerna!
 
 - date: 12/2020
-  title: "Prof. Nguyen invited to serve in TPC of ACM MobiSys 2021"
-  tags:
-    - Invitation
-    - TPC
-    - ACM MobiSys 2021
-  content: "Prof. Nguyen is invited to serve in TPC of ACM MobiSys 2021. [Link to conference](https://www.sigmobile.org/mobisys/2021/)"
+  highlights:
+    - content: ACM MobiSys 2021
+      url: https://www.sigmobile.org/mobisys/2021/
+  content: Prof. Nguyen is invited to serve in TPC of ACM MobiSys 2021.
 
 - date: 11/2020
-  title: "Prof. Nguyen serves as Panelist at ACM SenSys/BuildSys PhD Forum 2020"
-  tags:
-    - Panelist
-    - ACM SenSys/BuildSys PhD Forum 2020
-  content: "Prof. Nguyen serves in Panelists of ACM SenSys/BuildSys PhD Forum 2020. [Link to forum](http://sensys.acm.org/2020/dc/)"
+  highlights:
+    - content: ACM SenSys/BuildSys PhD Forum 2020
+      url: http://sensys.acm.org/2020/dc/
+  content: Prof. Nguyen serves in Panelists of ACM SenSys/BuildSys PhD Forum 2020.
 
 - date: 11/2020
-  title: "Undergraduate Research Scholar Positions Available"
-  tags:
-    - Announcement
-    - Research Scholar Positions
-  content: "UNDERGRADUATE RESEARCH SCHOLAR POSITIONS ARE AVAILABLE. [Link to announcement](./announcements/Undergraduate Research Scholar at WSSL.pdf)"
+  highlights:
+    - content: UNDERGRADUATE RESEARCH SCHOLAR POSITIONS ARE AVAILABLE
+      url: http://wsslab.org/announcements/Undergraduate%20Research%20Scholar%20at%20WSSL.pdf
+  content: UNDERGRADUATE RESEARCH SCHOLAR POSITIONS ARE AVAILABLE.
 
 - date: 10/2020
-  title: "eBP selected for publication in CACM Research Highlights 2020"
-  tags:
-    - Publication
-    - CACM Research Highlights 2020
-  content: "eBP is selected for publication in CACM Research Highlights 2020. [Link to CACM Research Highlights](https://cacm.acm.org/about-communications/author-center/author-guidelines/about-research-highlights/)"
+  highlights:
+    - content: CACM Research Highlights 2020
+      url: https://cacm.acm.org/about-communications/author-center/author-guidelines/about-research-highlights/
+  content: eBP is selected for publication in CACM Research Highlights 2020.
+
 - date: 10/2020
-  title: "Positioning paper on wearable-infrastructure collaborative sensing published"
-  tags:
-    - Publication
-    - ACM BuildSys-DFHS 2020
-  content: "Profs. VP Nguyen and Shijia Pan published a positioning paper on wearable-infrastructure collaborative sensing at ACM BuildSys-DFHS 2020. [Link to conference](https://dfhs-buildsys.github.io/dfhs2020/index.html)"
+  highlights:
+    - content: VP Nguyen
+    - content: Shijia Pan
+    - content: ACM BuildSys-DFHS 2020
+      url: https://dfhs-buildsys.github.io/dfhs2020/index.html
+  content: Profs. VP Nguyen and Shijia Pan published a positioning paper on wearable-infrastructure collaborative sensing at ACM BuildSys-DFHS 2020.
 
 - date: 09/2020
-  title: "DroneScale paper accepted to ACM SenSys 2020"
-  tags:
-    - Paper Acceptance
-    - ACM SenSys 2020
-  content: "DroneScale paper is accepted to ACM SenSys 2020. Congratulations, Vimal! [Link to conference](http://sensys.acm.org/2020/)"
+  highlights:
+    - content: ACM SenSys 2020
+      url: http://sensys.acm.org/2020/
+  content: DroneScale paper is accepted to ACM SenSys 2020. Congratulations, Vimal!
 
-- date: "N/A"
-  title: "Looking for self-motivated students for research projects"
-  tags:
-    - Recruitment
-    - Research Projects
-  content: "I am looking for self-motivated students to work on research projects in mobile and wearable computing. Check my [Notes to Prospective Students](members.html#joinus) if you are interested in joining my lab."
+- date: 06/2020
+  highlights:
+    - content: Notes to Prospective Students
+      url: http://wsslab.org/members.html#joinus
+  content: I am looking for self-motivated students to work on research projects in mobile and wearable computing. Check my Notes to Prospective Students if you are interested in joining my lab.
 
 - date: 05/2020
-  title: "Lab website is online"
-  tags:
+  highlights:
     - Announcement
     - Lab Website
-  content: "Lab website is online."
+  content: Lab website is online.
