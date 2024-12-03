@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior" />
+    <meta name="keywords" content="Nerfies, D-NeRF, NeRF" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+
+      gtag("config", "G-PYVRSFMDRL");
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css" />
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css" />
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+    <link rel="stylesheet" href="./static/css/index.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <!-- </div> -->
+    </nav>
+
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior
+              </h1>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"> <a href="https://junshutang.github.io/">Junshu Tang</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://tengfei-wang.github.io/">Tengfei Wang</a><sup>2</sup>,</span
+                >
+                <span class="author-block"> <a href="https://bo-zhang.me/">Bo Zhang</a><sup>3</sup>, </span>
+                <span class="author-block">
+                  <a href="https://www.microsoft.com/en-us/research/people/tinzhan/">Ting Zhang</a><sup>3</sup>,
+                </span>
+                <span class="author-block"> <a href="https://yiranran.github.io/">Ran Yi</a><sup>1</sup>, </span>
+                <span class="author-block">
+                  <a href="https://dmcv.sjtu.edu.cn/people/">Lizhuang Ma</a><sup>1</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://www.microsoft.com/en-us/research/people/doch/">Dong Chen</a><sup>3</sup>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University,</span>
+                <span class="author-block"><sup>2</sup>HKUST,</span>
+                <span class="author-block"><sup>3</sup>Microsoft Research</span>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <!-- PDF Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://arxiv.org/abs/2303.14184"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+                  <!-- Video Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://www.youtube.com/watch?v=2M8JJFeDBFk"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                      </span>
+                      <span>Video</span>
+                    </a>
+                  </span>
+                  <!-- Code Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://github.com/junshutang/Make-It-3D"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+                  <!-- Jittor Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://github.com/DMCV-SJTU/Make-it-3D-Jittor"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code(Jittor)</span>
+                    </a>
+                  </span>
+                  <!-- Dataset Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://github.com/junshutang/Make-It-3D"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="far fa-images"></i>
+                      </span>
+                      <span>Data</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <video id="teaser" autoplay muted loop playsinline height="100%">
+            <source src="./static/videos/teaser.mp4" type="video/mp4" />
+          </video>
+          <h2 class="subtitle has-text-centered">
+            <span class="dnerf">Make-It-3D</span> can create high-fidelity 3D content from only a single image.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-light is-small">
+      <div class="hero-body">
+        <div class="container">
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item item-chair-tp">
+              <div class="content has-text-centered">
+                <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo1.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-shiba">
+              <div class="content has-text-centered">
+                <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo2.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-fullbody">
+              <div class="content has-text-centered">
+                <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo3.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-blueshirt">
+              <div class="content has-text-centered">
+                <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo4.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo5">
+              <div class="content has-text-centered">
+                <video poster="" id="demo5" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo5.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo6">
+              <div class="content has-text-centered">
+                <video poster="" id="demo6" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo6.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo7">
+              <div class="content has-text-centered">
+                <video poster="" id="demo7" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo7.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo8">
+              <div class="content has-text-centered">
+                <video poster="" id="demo8" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo8.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo9">
+              <div class="content has-text-centered">
+                <video poster="" id="demo9" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo9.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo10">
+              <div class="content has-text-centered">
+                <video poster="" id="demo10" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo10.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo11">
+              <div class="content has-text-centered">
+                <video poster="" id="demo11" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo11.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo12">
+              <div class="content has-text-centered">
+                <video poster="" id="demo12" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo12.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo13">
+              <div class="content has-text-centered">
+                <video poster="" id="demo13" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo13.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo14">
+              <div class="content has-text-centered">
+                <video poster="" id="demo14" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo14.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="item item-demo15">
+              <div class="content has-text-centered">
+                <video poster="" id="demo15" autoplay controls muted loop playsinline height="100%">
+                  <source src="./static/videos/demo15.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                In this work, we investigate the problem of creating high-fidelity 3D content from only a single image.
+                This is inherently challenging: it essentially involves estimating the underlying 3D geometry while
+                simultaneously hallucinating unseen textures. To address this challenge, we leverage prior knowledge
+                from a well-trained 2D diffusion model to act as 3D-aware supervision for 3D creation. Our approach,
+                <span class="dnerf">Make-It-3D</span>, employs a two-stage optimization pipeline: the first stage
+                optimizes a neural radiance field by incorporating constraints from the reference image at the frontal
+                view and diffusion prior at novel views; the second stage transforms the coarse model into textured
+                point clouds and further elevates the realism with diffusion prior while leveraging the high-quality
+                textures from the reference image. Extensive experiments demonstrate that our method outperforms prior
+                works by a large margin, resulting in faithful reconstructions and impressive visual quality. Our method
+                presents the first attempt to achieve high-quality 3D creation from a single image for general objects
+                and enables various applications such as text-to-3D creation and texture editing.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ Abstract. -->
+      </div>
+    </section>
+    <section class="section">
+      <div class="container is-max-desktop">
+        <!-- Paper video. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Pipeline</h2>
+            <div class="content has-text-justified">
+              <p>
+                Generating novel views for general scenes or objects from only a single image is inherently challenging
+                due to the difficulty of inferring both geometry and missing texture. We therefore tackle this challenge
+                by cultivating the dark knowledge of pretrained 2D diffusion models.
+              </p>
+              <div>
+                <img src="./static/images/pipeline.jpg" alt="method" class="center" />
+              </div>
+              <p>
+                Given an input image, we first hallucinate its underlying 3D representation, neural radiance field
+                (NeRF), whose rendering appears as a plausible sample to a pretrained denoising diffusion model, and we
+                constrain this optimization process with the texture and depth supervision at the reference view. To
+                further improve the rendering realism, we keep the learned geometry and enhance the textures with the
+                reference image. As such, in the second stage, we lift the input image to textured point clouds and
+                focus on refining the color of the points occluded in the reference view. We leverage prior knowledge of
+                the text-to-image generative model and the text-image contrastive model for both stages. In this way, we
+                achieve a faithful 3D representation of the input image with restored high-fidelity texture and
+                geometry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ Paper video. -->
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Diverse Text-to-3D</h2>
+            <div class="content has-text-justified">
+              <p>
+                <span class="dnerf">Make-It-3D</span> can generate diverse and visually stunning 3D models given a text
+                description.
+              </p>
+            </div>
+            <video poster="" id="" autoplay controls muted loop height="100%">
+              <source src="./static/videos/diverse.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Texture Modification</h2>
+            <div class="content has-text-justified">
+              <p>
+                <span class="dnerf">Make-It-3D</span> achieves 3D-aware texture modification such as tattoo drawing and
+                stylization.
+              </p>
+            </div>
+            <video poster="" id="" autoplay controls muted loop height="100%">
+              <source src="./static/videos/edit.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@misc{tang2023makeit3d,
+        title={Make-It-3D: High-Fidelity 3D Creation from A Single Image with Diffusion Prior}, 
+        author={Junshu Tang and Tengfei Wang and Bo Zhang and Ting Zhang and Ran Yi and Lizhuang Ma and Dong Chen},
+        year={2023},
+        eprint={2303.14184},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+  }
+  </code></pre>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                The website code is borrowed from the
+                <a href="https://github.com/nerfies/nerfies.github.io">source code</a> of Nerfies. We thank the authors
+                for sharing the templates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
