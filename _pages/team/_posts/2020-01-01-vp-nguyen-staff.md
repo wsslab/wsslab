@@ -16,7 +16,7 @@ affiliations:
   - name: Adjunct Professor of CSE at UTA
     url: https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse
 
-permalink: "team/researcher-name"
+permalink: "team/VP"
 social:
   twitter: https://twitter.com/
   linkedin: https://www.linkedin.com/
