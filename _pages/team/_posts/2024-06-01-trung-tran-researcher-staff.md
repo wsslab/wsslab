@@ -4,7 +4,7 @@ category: staff
 title: Trung Tran
 image: trungtran.png
 roles: Senior Research Fellow
-permalink: "team/researcher-name"
+permalink: "team/Trung"
 affiliations:
   - name: Manning College of Information & Computer Sciences
     url: https://www.cics.umass.edu

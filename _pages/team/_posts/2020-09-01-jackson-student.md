@@ -1,13 +1,13 @@
 ---
 layout: member
 category: student
-title: Itir Sayar
-image: Itir.jpg
+title: Jackson Liller
+image: jackson.jpeg
 roles: PhD Student
-permalink: 'team/itir'
+permalink: 'team/Jackson'
 social:
     twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
+    linkedin: https://www.linkedin.com/in/lillermedia/
     google-scholar: https://scholar.google.fr/
     github: https://github.com/
     website:

@@ -1,10 +1,10 @@
 ---
 layout: member
 category: student
-title: Itir Sayar
-image: Itir.jpg
+title: Eduardo Calle Ortiz
+image: Eduardo.png
 roles: PhD Student
-permalink: 'team/itir'
+permalink: 'team/Eduardo'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/

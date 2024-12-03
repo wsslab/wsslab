@@ -1,13 +1,13 @@
 ---
 layout: member
 category: student
-title: Itir Sayar
-image: Itir.jpg
-roles: PhD Student
-permalink: 'team/itir'
+title: Neel Vora
+image: Neel.jpg
+roles: LBNL Research Staff
+permalink: 'team/Neel'
 social:
     twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
+    linkedin: https://www.linkedin.com/in/lillermedia/
     google-scholar: https://scholar.google.fr/
     github: https://github.com/
     website:
