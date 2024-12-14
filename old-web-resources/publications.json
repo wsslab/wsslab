@@ -1,0 +1,94 @@
+[
+  {
+    "title": "An Open-Source Data Storage and Visualization Platform for Collaborative Qubit Control",
+    "id": "https://www.nature.com/articles/s41598-024-72584-9.epdf?sharing_token=tnedWEyClF7jp8yoWcr8itRgN0jAjWel9jnR3ZoTv0O7cdSmeZlX_S9MZfBOrfYYa6i_99JuOMXKqu8qDDNUclCtVsSnujOueDL5OlSHsCGphUslu3Y3yS2QioRcDnaeHTWAz1eGFtg0w2AYPDE_gQWzmrG3rykBdfeLyzetzqc%3D",
+    "container-title": "Nature Scientific Reports 2024",
+    "source": "https://arxiv.org/pdf/2406.18807",
+    "author": [
+      {
+        "family": "Brahmbhatt",
+        "given": "An Open-Source Data Storage and Visualization Platform for Collaborative Qubit ControlNature Scientific Reports 2024Devanshu"
+      },
+      {
+        "family": "Xu",
+        "given": "Yilun"
+      },
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Chen",
+        "given": "Larry"
+      },
+      {
+        "family": "Fruitwala",
+        "given": "Neelay"
+      },
+      {
+        "family": "Huang",
+        "given": "Gang"
+      },
+      {
+        "family": "Ji",
+        "given": "Qing"
+      },
+      {
+        "family": "",
+        "given": ""
+      }
+    ],
+    "type": "article-journal",
+    "issued": {
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "title": "ML-Powered FPGA-based Real-Time Quantum State Discrimination Enabling Mid-circuit Measurements",
+    "id": "https://arxiv.org/pdf/2401.05425.pdf",
+    "container-title": "Preprint arXiv 2024",
+    "source": "https://arxiv.org/pdf/2406.18807",
+    "author": [
+      {
+        "family": "Balewski",
+        "given": ""
+      },
+      {
+        "family": "Rajagopala",
+        "given": "Abhi"
+      },
+      {
+        "family": "Nowrouzi",
+        "given": "Kasra"
+      },
+      {
+        "family": "Ji",
+        "given": "Qing"
+      },
+      {
+        "family": "Whaley",
+        "given": "K. Birgitta"
+      },
+      {
+        "family": "Siddiqi",
+        "given": "Irfan"
+      },
+      {
+        "family": "VP",
+        "given": "Phuc"
+      }
+    ],
+    "type": "article-journal",
+    "issued": {
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  }
+]

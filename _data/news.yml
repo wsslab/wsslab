@@ -1,3 +1,13 @@
+- date: 10/2024
+  highlights:
+    - content: an ear-based seizure detection system
+      url: https://arxiv.org/pdf/2401.05425
+    - content: UTSW Medical Center
+      url: https://www.utsouthwestern.edu/
+    - content: ACM Health 2024
+      url: https://dl.acm.org/journal/health
+  content: Our work on developing an ear-based seizure detection system, which was validated at UTSW Medical Center, is accepted to ACM Health 2024. Congratulations, team!
+
 - date: 09/2024
   highlights:
     - content: Unvoiced paper
