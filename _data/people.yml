@@ -101,7 +101,7 @@ student:
         url: 
     permalink: "team/researcher-name"
     social:
-      linkedin: https://www.linkedin.com/in/amradmehr/
+      linkedin: https://www.linkedin.com/in/tasnim-azad-abir-b04aa89a/
     education:
       - MS: University of Massachusetts Dartmouth
       - BS: Khulna University of Engineering & Technology
@@ -110,7 +110,7 @@ student:
   - name: Eduardo Calle Ortiz
     image: Eduardo.png
     roles:
-      - PhD Student
+      - PhD Student, co-advised with <a href="https://guanh01.github.io">Hui Guan</a>
     affiliations:
       - name: University of Massachusetts Amherst
         url: 
@@ -125,7 +125,7 @@ student:
   - name: Itir Sayar
     image: Itir.jpg
     roles:
-      - PhD Student
+      - PhD Student, co-advised with <a href="https://people.cs.umass.edu/~rkarkar/">Ravi Karkar</a>
     affiliations:
       - name: Manning College of Information & Computer Sciences
         url: https://www.cics.umass.edu
@@ -204,7 +204,7 @@ student:
   - name: Tanvi Kandepuneni
     image: tanvi.JPG
     roles:
-      - Bachelor student
+      - Undergrad student
     affiliations:
       - name: Manning College of Information and Computer Sciences, UMass Amherst
         url: 

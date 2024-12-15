@@ -35,7 +35,6 @@ permalink: /
       <!-- <h4 class="mt-0 mb-1">{{ article.title }}</h4> -->
       <!-- <p><small>{{ article.date }}</small></p> -->
 	  {{ article.date }}:
-
       {% assign updated_content = article.content %} 
       {% for highlight in article.highlights %}
       {% if updated_content contains highlight.content %}
@@ -63,8 +62,12 @@ permalink: /
   expertise.
 </p>
 
-<div style="text-align: center">
-  {% for image in site.static_files %} {% if image.path contains '/images/sponsors/' %}
-  <img src="{{ image.path | relative_url }}" alt="Sponsor Logo" style="margin: 10px; display: inline-block; width: 100px; height: auto" />
-  {% endif %} {% endfor %}
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/sponsors/IALS.png" alt="IALS Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/UMASS.png" alt="UMASS Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/UofTsystem_seal.svg" alt="UofT System Seal" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/cics.jpg" alt="CICS Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/nih_nia.png" alt="NIH NIA Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/nsf.png" alt="NSF Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/sony.png" alt="Sony Logo" style="width: 100px; height: auto; margin: 10px;" />
 </div>
