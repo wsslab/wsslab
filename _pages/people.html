@@ -1,0 +1,272 @@
+---
+title: "Team"
+layout: default
+excerpt: "WSSL Lab: People"
+sitemap: false
+permalink: /people/
+---
+
+<h1>{{ page.title }}</h1>
+
+<!-- Staff Section -->
+<h2><a id="staff"></a>Staff</h2>
+{% assign staff_members = site.data.people.staff %}
+{% if staff_members %}
+  {% for member in staff_members %}
+    <div class="card team-member-card">
+      <div class="row mt-3">
+        
+        <div class="col-md-2">
+          <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}">
+            <img
+              src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.image | default: 'placeholder.png' }}"
+              class="card-img img-responsive img-thumbnail"
+              style="max-width: 100px"
+              alt="{{ member.name | default: 'No Name Provided' }}"
+            />
+          </a>
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}" target="_blank">
+                {{ member.name | default: 'No Name Provided' }}
+              </a>
+            </h4>
+
+            <p class="card-text">
+              {% for role in member.roles %}
+                {{ role }}{% if forloop.last == false %}<br />{% endif %}
+              {% endfor %}
+            </p>
+            <p class="card-text">
+              {% for affiliation in member.affiliations %}
+                <a href="{{ affiliation.url | default: '#' }}">{{ affiliation.name | default: 'Unknown' }}</a><br />
+              {% endfor %}
+            </p>
+
+            <p class="card-text">
+              {% if member.social %}
+                <div style="display: flex; gap: 15px; justify-content: flex-start;">
+                  {% if member.social.twitter %}
+                    <a href="{{ member.social.twitter }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-twitter" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.linkedin %}
+                    <a href="{{ member.social.linkedin }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-linkedin" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.github %}
+                    <a href="{{ member.social.github }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-github" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.website %}
+                    <a href="{{ member.social.website }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fas fa-globe" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+
+                  {% if member.social.google-scholar %}
+                    <a href="{{ member.social.google-scholar }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-google" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                </div>
+              {% else %}
+                <p>No social networks available</p>
+              {% endif %}
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+  <p>No staff members found.</p>
+{% endif %}
+
+<!-- Students Section -->
+<h2><a id="student"></a>Students</h2>
+{% assign student_members = site.data.people.student %}
+{% if student_members %}
+  {% for member in student_members %}
+    <div class="card team-member-card">
+      <div class="row mt-3">
+        <div class="col-md-2">
+          <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}">
+            <img
+              src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.image | default: 'placeholder.png' }}"
+              class="card-img img-responsive img-thumbnail"
+              style="max-width: 100px"
+              alt="{{ member.name | default: 'No Name Provided' }}"
+            />
+          </a>
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}" target="_blank">
+                {{ member.name | default: 'No Title Provided' }}
+              </a>
+            </h4>
+
+            <p class="card-text">
+              {% for role in member.roles %}
+                {{ role }}{% if forloop.last == false %}<br />{% endif %}
+              {% endfor %}
+            </p>
+            <p class="card-text">
+              {% for affiliation in member.affiliations %}
+                <a href="{{ affiliation.url | default: '#' }}">{{ affiliation.name | default: 'Unknown' }}</a><br />
+              {% endfor %}
+            </p>
+
+            <p class="card-text">
+              {% for degree in member.education %}
+                {% if degree.BS %}
+                  <span>BS: {{ degree.BS }}</span><br />
+                {% endif %}
+                {% if degree.MS %}
+                  <span>MS: {{ degree.MS }}</span><br />
+                {% endif %}
+              {% endfor %}
+            </p>
+            
+            <p class="card-text">
+              {% if member.social %}
+                <div style="display: flex; gap: 15px; justify-content: flex-start;">
+                  {% if member.social.twitter %}
+                    <a href="{{ member.social.twitter }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-twitter" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.linkedin %}
+                    <a href="{{ member.social.linkedin }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-linkedin" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.github %}
+                    <a href="{{ member.social.github }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-github" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.website %}
+                    <a href="{{ member.social.website }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fas fa-globe" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                </div>
+              {% else %}
+                <p>No social networks available</p>
+              {% endif %}
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+  <p>No students found.</p>
+{% endif %}
+
+<!-- Alumnia -->
+<h2><a id="alumni"></a>Alumni</h2>
+{% assign student_members = site.data.people.alumni %}
+{% if student_members %}
+  {% for member in student_members %}
+    <div class="card team-member-card">
+      <div class="row mt-3">
+        <div class="col-md-2">
+          <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}">
+            <img
+              src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.image | default: 'placeholder.png' }}"
+              class="card-img img-responsive img-thumbnail"
+              style="max-width: 100px"
+              alt="{{ member.name | default: 'No Name Provided' }}"
+            />
+          </a>
+        </div>
+
+        <div class="col-md-10">
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}" target="_blank">
+                {{ member.name | default: 'No Title Provided' }}
+              </a>
+            </h4>
+
+            <p class="card-text">
+              {% for role in member.roles %}
+                {{ role }}{% if forloop.last == false %}<br />{% endif %}
+              {% endfor %}
+            </p>
+            <p class="card-text">
+              {% for affiliation in member.affiliations %}
+                <a href="{{ affiliation.url | default: '#' }}">{{ affiliation.name | default: 'Unknown' }}</a><br />
+              {% endfor %}
+            </p>
+            
+            <p class="card-text">
+              {% for degree in member.education %}
+                {% if degree.BS %}
+                  <span>BS: {{ degree.BS }}</span><br />
+                {% endif %}
+                {% if degree.MS %}
+                  <span>MS: {{ degree.MS }}</span><br />
+                {% endif %}
+              {% endfor %}
+            </p>
+
+            <p class="card-text">
+              {% if member.social %}
+                <div style="display: flex; gap: 15px; justify-content: flex-start;">
+                  {% if member.social.twitter %}
+                    <a href="{{ member.social.twitter }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-twitter" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.linkedin %}
+                    <a href="{{ member.social.linkedin }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-linkedin" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.github %}
+                    <a href="{{ member.social.github }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-github" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                  
+                  {% if member.social.website %}
+                    <a href="{{ member.social.website }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fas fa-globe" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
+                </div>
+              {% else %}
+                <p>No social networks available</p>
+              {% endif %}
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+  <p>No students found.</p>
+{% endif %}

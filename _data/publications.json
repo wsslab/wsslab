@@ -1,0 +1,1932 @@
+[
+  {
+    "id": "https://www.nature.com/articles/s41598-024-72584-9.epdf?sharing_token=tnedWEyClF7jp8yoWcr8itRgN0jAjWel9jnR3ZoTv0O7cdSmeZlX_S9MZfBOrfYYa6i_99JuOMXKqu8qDDNUclCtVsSnujOueDL5OlSHsCGphUslu3Y3yS2QioRcDnaeHTWAz1eGFtg0w2AYPDE_gQWzmrG3rykBdfeLyzetzqc%3D",
+    "type": "article-journal",
+    "title": "An Open-Source Data Storage and Visualization Platform for Collaborative Qubit Control",
+    "container-title": "Nature Scientific Reports",
+    "source": "Nature",
+    "author": [
+      {
+        "family": "Brahmbhatt",
+        "given": "Devanshu"
+      },
+      {
+        "family": "Xu",
+        "given": "Yilun"
+      },
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Chen",
+        "given": "Larry"
+      },
+      {
+        "family": "Fruitwala",
+        "given": "Neelay"
+      },
+      {
+        "family": "Huang",
+        "given": "Gang"
+      },
+      {
+        "family": "Ji",
+        "given": "Qing"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2024", 1]]
+    },
+    "DOI": "10.1038/s41598-024-72584-9",
+    "url": "https://arxiv.org/pdf/2406.18807"
+  },
+  {
+    "id": "https://arxiv.org/pdf/2401.05425.pdf",
+    "type": "article-journal",
+    "title": "ML-Powered FPGA-based Real-Time Quantum State Discrimination Enabling Mid-circuit Measurements",
+    "container-title": "Preprint arXiv 2024",
+    "author": [
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Xu",
+        "given": "Yilun"
+      },
+      {
+        "family": "Hashim",
+        "given": "Akel"
+      },
+      {
+        "family": "Fruitwala",
+        "given": "Neelay"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Ho Nam"
+      },
+      {
+        "family": "Liao",
+        "given": "Haoran"
+      },
+      {
+        "family": "Balewski",
+        "given": "Jan"
+      },
+      {
+        "family": "Rajagopala",
+        "given": "Abhi"
+      },
+      {
+        "family": "Nowrouzi",
+        "given": "Kasra"
+      },
+      {
+        "family": "Ji",
+        "given": "Qing"
+      },
+      {
+        "family": "Whaley",
+        "given": "K. Birgitta"
+      },
+      {
+        "family": "Siddiqi",
+        "given": "Irfan"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Huang",
+        "given": "Gang"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2024"]]
+    }
+  },
+  {
+    "id": "https://arxiv.org/pdf/2401.05425.pdf",
+    "type": "article-journal",
+    "title": "An Unobtrusive and Lightweight Ear-worn System for Continuous Epileptic Seizure Detection",
+    "container-title": "Preprint arXiv 2024",
+    "author": [
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Pham",
+        "given": "Nhat"
+      },
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Reynolds",
+        "given": "Cody"
+      },
+      {
+        "family": "Lehnen",
+        "given": "Jaime"
+      },
+      {
+        "family": "Venkatesh",
+        "given": "Pooja"
+      },
+      {
+        "family": "Yao",
+        "given": "Zhuoran"
+      },
+      {
+        "family": "Harvey",
+        "given": "Jay"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      },
+      {
+        "family": "Ding",
+        "given": "Kan"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2024"]]
+    }
+  },
+  {
+    "id": "https://arxiv.org/pdf/2312.12587.pdf",
+    "type": "article-journal",
+    "title": "Real-Time Diagnostic Integrity Meets Efficiency: A Novel Platform-Agnostic Architecture for Physiological Signal Compression",
+    "container-title": "Preprint arXiv 2023",
+    "author": [
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Hajighasemi",
+        "given": "Amir"
+      },
+      {
+        "family": "Reynolds",
+        "given": "Cody T."
+      },
+      {
+        "family": "Radmehr",
+        "given": "Amirmohammad"
+      },
+      {
+        "family": "Mohamed",
+        "given": "Mohamed"
+      },
+      {
+        "family": "Rahman Saurav",
+        "given": "Jillur"
+      },
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Veerla",
+        "given": "Jai Prakash"
+      },
+      {
+        "family": "Nasr",
+        "given": "Mohammad S"
+      },
+      {
+        "family": "Lotspeich",
+        "given": "Hayden"
+      },
+      {
+        "family": "Guttikonda",
+        "given": "Partha Sai"
+      },
+      {
+        "family": "Pham",
+        "given": "Thuong"
+      },
+      {
+        "family": "Darji",
+        "given": "Aarti"
+      },
+      {
+        "family": "Boodaghi Malidarreh",
+        "given": "Parisa"
+      },
+      {
+        "family": "Shang",
+        "given": "Helen H"
+      },
+      {
+        "family": "Harvey",
+        "given": "Jay"
+      },
+      {
+        "family": "Ding",
+        "given": "Kan"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Luber",
+        "given": "Jacob M"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "./papers/IoTeeth_IMWUT24.pdf",
+    "type": "article-journal",
+    "title": "IOTeeth: Intra-Oral Teeth Sensing System for Dental Occlusal Diseases Recognition",
+    "container-title": "IMWUT/UbiComp 2024",
+    "author": [
+      {
+        "family": "Hu",
+        "given": "Zhizhang"
+      },
+      {
+        "family": "Redmehr",
+        "given": "Amirmohammad"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yue"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2024"]]
+    },
+    "note": "*equal contribution"
+  },
+  {
+    "id": "./papers/Earables as Medical Devices.pdf",
+    "type": "article-journal",
+    "title": "Earables as Medical Devices: Opportunities and Challenges",
+    "container-title": "ACM EarComp 2023 in association with UbiComp/IMWUT 2023",
+    "author": [
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Karkar",
+        "given": "Ravi"
+      },
+      {
+        "family": "Ding",
+        "given": "Kan"
+      },
+      {
+        "family": "Harvey",
+        "given": "Jay"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+
+  {
+    "id": "./papers/P5-10makers_V4_take1.pdf",
+    "type": "article-journal",
+    "title": "Towards the Internet of Living Trees for Precision Agriculture",
+    "container-title": "GetMobile",
+    "author": [
+      {
+        "family": "Liller",
+        "given": "Jackson"
+      },
+      {
+        "family": "Tran",
+        "given": "Trung"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "./papers/Exploring Batteryless UAVs 2022.pdf",
+    "type": "article-journal",
+    "title": "Exploring Batteryless UAVs by Mimicking Bird Flight",
+    "container-title": "ACM DroNet IX '23",
+    "author": [
+      {
+        "family": "Goel",
+        "given": "Rishabh"
+      },
+      {
+        "family": "Pham",
+        "given": "Tien"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Hester",
+        "given": "Josiah"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "./papers/Towards Robust Lidar2023.pdf",
+    "type": "article-journal",
+    "title": "Towards Robust Lidar-based 3D Detection and Tracking of UAVs",
+    "container-title": "ACM DroNet IX '23",
+    "author": [
+      {
+        "family": "Abir",
+        "given": "Tasnim Azad"
+      },
+      {
+        "family": "Kuantama",
+        "given": "Endrowednes"
+      },
+      {
+        "family": "Han",
+        "given": "Richard"
+      },
+      {
+        "family": "Dawes",
+        "given": "Judith"
+      },
+      {
+        "family": "Mildren",
+        "given": "Rich"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "./papers/DroneChase2023.pdf",
+    "type": "article-journal",
+    "title": "DroneChase: A Mobile and Automated Cross-Modality System for Continuous Drone Tracking",
+    "container-title": "ACM DroNet IX '23",
+    "author": [
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Wu",
+        "given": "Yi"
+      },
+      {
+        "family": "Liu",
+        "given": "Jian"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "#",
+    "type": "article-journal",
+    "title": "Provider and Patient Opinions on Real-Time Seizure Detection via Over-the-Ear Device, Epilepsy/Clinical Neurophysiology (EEG): EEG & Seizure Detection Technology",
+    "container-title": "American Academy of Neurology, Boston, 2023",
+    "author": [
+      {
+        "family": "Venkatesh",
+        "given": "Pooja"
+      },
+      {
+        "family": "Yao",
+        "given": "Zhuoran"
+      },
+      {
+        "family": "Andrew",
+        "given": "Christopher"
+      },
+      {
+        "family": "Landers",
+        "given": "Jami"
+      },
+      {
+        "family": "Simon",
+        "given": "Jessica"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Ding",
+        "given": "Kan"
+      },
+      {
+        "family": "Harvey",
+        "given": "Jay"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "#",
+    "type": "article-journal",
+    "title": "Personalized feedback messaging perspectives in a qualitative study among Black and Hispanic women: Implications for future mHealth behavioral interventions.",
+    "container-title": "International Society of Behavioral Nutrition and Physical Activity Annual Meeting, Uppsala, Sweden",
+    "author": [
+      {
+        "family": "Brannon",
+        "given": "G. E."
+      },
+      {
+        "family": "Affleck",
+        "given": "H."
+      },
+      {
+        "family": "Mitchell",
+        "given": "S."
+      },
+      {
+        "family": "Wiland",
+        "given": "R."
+      },
+      {
+        "family": "Munoz",
+        "given": "V."
+      },
+      {
+        "family": "Brown",
+        "given": "K. K."
+      },
+      {
+        "family": "Aghajani",
+        "given": "H."
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Liao",
+        "given": "Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "#",
+    "type": "article-journal",
+    "title": "Social Media ads as a method of research recruitment: A comparison of minority women who enrolled vs. who completed a focus group.",
+    "container-title": "2023 Society of Behavioral Medicine Annual Meeting, Phoenix, AZ",
+    "author": [
+      {
+        "family": "Affleck",
+        "given": "H.A."
+      },
+      {
+        "family": "Brannon",
+        "given": "G. E."
+      },
+      {
+        "family": "Aghajani",
+        "given": "H."
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Brown",
+        "given": "K. K."
+      },
+      {
+        "family": "Liao",
+        "given": "Y."
+      }
+    ],
+    "issued": {
+      "date-parts": [["2023"]]
+    }
+  },
+  {
+    "id": "#",
+    "type": "article-journal",
+    "title": "Real-time Seizure Detection Using Behind-the-ear Wearable System",
+    "container-title": "American Epilepsy Society Annual Conference 2022, Nashville, Tennessee, USA",
+    "author": [
+      {
+        "family": "Lehnen",
+        "given": "Jamie"
+      },
+      {
+        "family": "Pham",
+        "given": "Tien"
+      },
+      {
+        "family": "Venkatesh",
+        "given": "Pooja"
+      },
+      {
+        "family": "Yao",
+        "given": "Zhuoran"
+      },
+      {
+        "family": "Andrew",
+        "given": "Christopher"
+      },
+      {
+        "family": "Landers",
+        "given": "Jami"
+      },
+      {
+        "family": "Simon",
+        "given": "Jessica"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Ding",
+        "given": "Kan"
+      },
+      {
+        "family": "Harvey",
+        "given": "Jay"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2022"]]
+    }
+  },
+  {
+    "id": "./papers/MuteIt 2022.pdf",
+    "type": "article-journal",
+    "title": "MuteIt: Jaw Motion based Unvoiced Command Recognition using Earable",
+    "container-title": "ACM IMWUT/UbiComp 2022",
+    "author": [
+      {
+        "family": "Srivastava",
+        "given": "Tanmay"
+      },
+      {
+        "family": "Khanna",
+        "given": "Prerna"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Jain",
+        "given": "Shubham"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2022"]]
+    }
+  },
+  {
+    "id": "./papers/iotree2022.pdf",
+    "type": "article-journal",
+    "title": "IoTree: A Battery-free Wearable System with Biocompatible Sensors for Continuous Tree Health Monitoring",
+    "container-title": "ACM MobiCom 2022",
+    "author": [
+      {
+        "family": "Dang",
+        "given": "Tuan"
+      },
+      {
+        "family": "Tran",
+        "given": "Trung"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Khang"
+      },
+      {
+        "family": "Pham",
+        "given": "Tien"
+      },
+      {
+        "family": "Pham",
+        "given": "Nhat"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2022"]]
+    }
+  },
+  {
+    "id": "./papers/pros 2022.pdf",
+    "type": "article-journal",
+    "title": "PROS: an Efficient Pattern-Driven Operating System for Low-Power Healthcare Wearables",
+    "container-title": "ACM MobiCom 2022",
+    "author": [
+      {
+        "family": "Pham",
+        "given": "Nhat"
+      },
+      {
+        "family": "Jia",
+        "given": "Hong"
+      },
+      {
+        "family": "Tran",
+        "given": "Minh"
+      },
+      {
+        "family": "Dinh",
+        "given": "Tuan"
+      },
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Kwon",
+        "given": "Young"
+      },
+      {
+        "family": "Ma",
+        "given": "Dong"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Mascolo",
+        "given": "Cecilia"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2022"]]
+    }
+  },
+  {
+    "id": "./papers/finepose2022.pdf",
+    "type": "article-journal",
+    "title": "FinePose: Fine-Grained Postural Muscle Profiling via Haptic Vibration Signals",
+    "container-title": "ACM MobiSys-WearSys 2022",
+    "author": [
+      {
+        "family": "Rohal",
+        "given": "Shubham"
+      },
+      {
+        "family": "Shriram",
+        "given": "Shreya"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2022"]]
+    }
+  },
+  {
+    "id": "#",
+    "type": "article-journal",
+    "title": "Demo: Leveraging Earables for Unvoiced Command Recognition",
+    "container-title": "ACM MobiSys Demo 2022",
+    "author": [
+      {
+        "family": "Srivastava",
+        "given": "Tanmay"
+      },
+      {
+        "family": "Khanna",
+        "given": "Prerna"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Jain",
+        "given": "Shubham"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2022"]]
+    }
+  },
+  {
+    "id": "#",
+    "type": "article-journal",
+    "title": "Sedentary Posture Muscle Monitoring via Active Vibratory Sensing",
+    "container-title": "IPSN Poster 2022",
+    "author": [
+      {
+        "family": "Shriram",
+        "given": "Shreya"
+      },
+      {
+        "family": "Rohal",
+        "given": "Shubham"
+      },
+      {
+        "family": "Hu",
+        "given": "Zhizhang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yue"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2022"]]
+    },
+    "note": "Best Poster Award"
+  },
+  {
+    "id": "./papers/2021_Chase_TeethVib.pdf",
+    "type": "article-journal",
+    "title": "TeethVib: Monitoring Teeth Functional Occlusion Through Retainer Vibration Sensing",
+    "container-title": "IEEE/ACM CHASE 2021",
+    "author": [
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Lee",
+        "given": "Dong Yoon"
+      },
+      {
+        "family": "Lee",
+        "given": "Jun Ho"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2021"]]
+    }
+  },
+  {
+    "id": "./papers/2021_Ubicomp_FaceSense.pdf",
+    "type": "article-journal",
+    "title": "FaceSense: Sensing Face Touch with an Ear-worn System",
+    "container-title": "UbiComp 2021",
+    "author": [
+      {
+        "family": "Kakaraparthi",
+        "given": "Vimal"
+      },
+      {
+        "family": "Shao",
+        "given": "Qijia"
+      },
+      {
+        "family": "Carver",
+        "given": "Charles J."
+      },
+      {
+        "family": "Pham",
+        "given": "Tien"
+      },
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Zhou",
+        "given": "Xia"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2021"]]
+    }
+  },
+  {
+    "id": "./papers/2021_MobiCom_BioFace.pdf",
+    "type": "article-journal",
+    "title": "BioFace-3D: Continuous 3D Facial Reconstruction Through Lightweight Single-ear Biosensors",
+    "container-title": "ACM MobiCom 2021",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Yi"
+      },
+      {
+        "family": "Kakaraparthi",
+        "given": "Vimal"
+      },
+      {
+        "family": "Li",
+        "given": "Zhuohang"
+      },
+      {
+        "family": "Pham",
+        "given": "Tien"
+      },
+      {
+        "family": "Liu",
+        "given": "Jian"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2021"]]
+    },
+    "note": "ACM SIGMOBILE Research Highlights Award"
+  },
+  {
+    "id": "./papers/2021_HotMobile_JawSense.pdf",
+    "type": "article-journal",
+    "title": "JawSense: Recognizing Unvoiced Sound using a Low-cost Ear-worn System",
+    "container-title": "ACM Hotmobile 2021",
+    "author": [
+      {
+        "family": "Khanna",
+        "given": "Prerna"
+      },
+      {
+        "family": "Srivastava",
+        "given": "Tanmay"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Jain",
+        "given": "Shubham"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2021"]]
+    }
+  },
+  {
+    "id": "./papers/2020_SenSys_DroneScale.pdf",
+    "type": "article-journal",
+    "title": "DroneScale: Drone Load Estimation Via Remote PassiveRF Sensing",
+    "container-title": "ACM SenSys 2020",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Kakaraparthi",
+        "given": "Vimal"
+      },
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Umamahesh",
+        "given": "Nikshep"
+      },
+      {
+        "family": "Pham",
+        "given": "Nhat"
+      },
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Guddeti",
+        "given": "Yeswanth"
+      },
+      {
+        "family": "Bharadia",
+        "given": "Dinesh"
+      },
+      {
+        "family": "Frew",
+        "given": "Eric"
+      },
+      {
+        "family": "Han",
+        "given": "Richard"
+      },
+      {
+        "family": "Massey",
+        "given": "Dan"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2020"]]
+    },
+    "note": "(44 out of 213 submissions, acceptance ratio: 20.6%)"
+  },
+  {
+    "id": "./papers/2020_SenSysDFHS.pdf",
+    "type": "article-journal",
+    "title": "Opportunities in the Cross-Scale Collaborative Human Sensing of ‘Developing’ Device-Free and Wearable Systems",
+    "container-title": "ACM BuildSys - DFHS 2020",
+    "author": [
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2020"]]
+    }
+  },
+  {
+    "id": "./papers/2020_Seizure_Survey.pdf",
+    "type": "article-journal",
+    "title": "Epileptic Seizure Detection and Experimental Treatment: A Review",
+    "container-title": "Frontiers in Neurology 2020",
+    "author": [
+      {
+        "family": "Kim",
+        "given": "Taeho"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Pham",
+        "given": "Nhat"
+      },
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Ha",
+        "given": "Sangtae"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2020"]]
+    }
+  },
+  {
+    "id": "./papers/Painometry_2020.pdf",
+    "type": "article-journal",
+    "title": "Painometry: Wearable and Objective Quantification System for Acute Postoperative Pain",
+    "container-title": "ACM MobiSys 2020",
+    "author": [
+      {
+        "family": "Truong",
+        "given": "H."
+      },
+      {
+        "family": "Bui",
+        "given": "N."
+      },
+      {
+        "family": "Raghebi",
+        "given": "Z."
+      },
+      {
+        "family": "Ceko",
+        "given": "M."
+      },
+      {
+        "family": "Pham",
+        "given": "N."
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Nguyen",
+        "given": "A."
+      },
+      {
+        "family": "Kim",
+        "given": "T."
+      },
+      {
+        "family": "Siegfried",
+        "given": "K."
+      },
+      {
+        "family": "Stene",
+        "given": "E."
+      },
+      {
+        "family": "Tvrdy",
+        "given": "T."
+      },
+      {
+        "family": "Weinman",
+        "given": "L."
+      },
+      {
+        "family": "Payne",
+        "given": "T."
+      },
+      {
+        "family": "Burke",
+        "given": "D."
+      },
+      {
+        "family": "Dinh",
+        "given": "T."
+      },
+      {
+        "family": "D’Mello",
+        "given": "S."
+      },
+      {
+        "family": "Banaei-Kashani",
+        "given": "F."
+      },
+      {
+        "family": "Wager",
+        "given": "T."
+      },
+      {
+        "family": "Goldstein",
+        "given": "P."
+      },
+      {
+        "family": "Vu",
+        "given": "T."
+      }
+    ],
+    "issued": {
+      "date-parts": [["2020"]]
+    },
+    "note": "(34 out of 175 submissions, acceptance ratio: 19.4%)"
+  },
+  {
+    "id": "./papers/WAKE_2020.pdf",
+    "type": "article-journal",
+    "title": "WAKE: A Behind-the-ear Wearable System for Microsleep Detection",
+    "container-title": "ACM MobiSys 2020",
+    "author": [
+      {
+        "family": "Pham",
+        "given": "N."
+      },
+      {
+        "family": "Dinh",
+        "given": "T."
+      },
+      {
+        "family": "Raghebi",
+        "given": "Z."
+      },
+      {
+        "family": "Kim",
+        "given": "T."
+      },
+      {
+        "family": "Bui",
+        "given": "N."
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Truong",
+        "given": "H."
+      },
+      {
+        "family": "Banaei-Kashani",
+        "given": "F."
+      },
+      {
+        "family": "Halbower",
+        "given": "A."
+      },
+      {
+        "family": "Dinh",
+        "given": "T."
+      },
+      {
+        "family": "Vu",
+        "given": "T."
+      }
+    ],
+    "issued": {
+      "date-parts": [["2020"]]
+    },
+    "note": "(34 out of 175 submissions, acceptance ratio: 19.4%)"
+  },
+  {
+    "id": "./papers/2019_MobiCom_eBP.pdf",
+    "type": "article-journal",
+    "title": "eBP: A Wearable System For Frequent and Comfortable Blood Pressure Monitoring From User’s Ear",
+    "container-title": "ACM MobiCom 2019",
+    "author": [
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Pham",
+        "given": "Nhat"
+      },
+      {
+        "family": "Barnitz",
+        "given": "J. J."
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Kim",
+        "given": "Taeho"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Zou",
+        "given": "Zhanan"
+      },
+      {
+        "family": "Farrow",
+        "given": "Nicholas"
+      },
+      {
+        "family": "Xiao",
+        "given": "Jianliang"
+      },
+      {
+        "family": "Deterding",
+        "given": "Robin"
+      },
+      {
+        "family": "Dinh",
+        "given": "Thang"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2019"]]
+    },
+    "note": "(30 out of 186 submissions, acceptance rate: 16.1%)"
+  },
+  {
+    "id": "./papers/PHO2_TOSN_2019.pdf",
+    "type": "article-journal",
+    "title": "Smartphone-Based SpO2 Measurement by Exploiting Wavelengths Separation And Chromophore Compensation",
+    "container-title": "ACM TOSN 2019",
+    "author": [
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Ashok",
+        "given": "Ashwin"
+      },
+      {
+        "family": "Dinh",
+        "given": "Thang"
+      },
+      {
+        "family": "Deterding",
+        "given": "Robin"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2019"]]
+    }
+  },
+  {
+    "id": "./papers/2019_DRONET_RF-based_Localization.pdf",
+    "type": "article-journal",
+    "title": "Towards RF-based Localization of a Drone and Its Controller",
+    "container-title": "ACM DroNet 2019",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Kim",
+        "given": "Taeho"
+      },
+      {
+        "family": "Miao",
+        "given": "Jinpeng"
+      },
+      {
+        "family": "Hesselius",
+        "given": "Daniel"
+      },
+      {
+        "family": "Kenneally",
+        "given": "Erin"
+      },
+      {
+        "family": "Massey",
+        "given": "Daniel"
+      },
+      {
+        "family": "Frew",
+        "given": "Eric"
+      },
+      {
+        "family": "Han",
+        "given": "Richard"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2019"]]
+    }
+  },
+  {
+    "id": "./papers/Capband_SenSys_2018.pdf",
+    "type": "article-journal",
+    "title": "CapBand: Battery-free Successive Capacitance Sensing Wristband for Hand Gesture Recognition",
+    "container-title": "ACM SenSys 2018",
+    "author": [
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Zhang",
+        "given": "Shuo"
+      },
+      {
+        "family": "Muncuk",
+        "given": "Ufuk"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Lv",
+        "given": "Qin"
+      },
+      {
+        "family": "Chowdhury",
+        "given": "Kaushik"
+      },
+      {
+        "family": "Dinh",
+        "given": "Thang"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2018"]]
+    },
+    "note": "(23 out of 147 submissions, acceptance ratio: 15.6%)"
+  },
+  {
+    "id": "./papers/SmartHealth_Thermal_Depth_2018.pdf",
+    "type": "article-journal",
+    "title": "Volumetric Reconstruction of Thermal-depth Fused 3D Models for Occluded Body Posture Estimation",
+    "container-title": "Smart Health Journal 2018",
+    "author": [
+      {
+        "family": "Transue",
+        "given": "Shane"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      },
+      {
+        "family": "Choi",
+        "given": "Min-Hyung"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2018"]]
+    },
+    "url": "https://www.sciencedirect.com/science/article/pii/S2352648317301034"
+  },
+  {
+    "id": "./papers/IEEE_Access_ParkSense_2017.pdf",
+    "type": "article-journal",
+    "title": "ParkSense: Automatic Parking Positioning by Leveraging In-Vehicle Magnetic Field Variation",
+    "container-title": "IEEE Access 2017",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Hieu"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Dong"
+      },
+      {
+        "family": "Dinh",
+        "given": "Thang N."
+      },
+      {
+        "family": "La",
+        "given": "Hung M."
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2017"]]
+    },
+    "url": "http://ieeexplore.ieee.org/document/8093747/"
+  },
+  {
+    "id": "./papers/Drone_MobiSys_2017.pdf",
+    "type": "article-journal",
+    "title": "Matthan: Drone Presence Detection by Identifying Physical Signatures in the Drone’s RF Communication",
+    "container-title": "ACM MobiSys 2017",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Ravindranathan",
+        "given": "Mahesh"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Han",
+        "given": "Richard"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2017"]]
+    },
+    "note": "(34 out of 188 submissions, acceptance ratio: 18%)",
+    "url": "https://www.sigmobile.org/mobisys/2017/org.php",
+    "highlights": [
+      {
+        "title": "ACM SIGMOBILE Research Highlights",
+        "url": "https://beta.sigmobile.org/articles/research-highlights"
+      },
+      {
+        "title": "DEMO",
+        "url": "https://youtu.be/id2LxOsr_G8"
+      }
+    ]
+  },
+  {
+    "id": "./papers/Sensys_Ph02_2017.pdf",
+    "type": "article-journal",
+    "title": "PhO2: Optical 3D printed elements and NIR/R light extraction techniques for phone-base blood oxygen level measurement",
+    "container-title": "ACM SenSys 2017",
+    "author": [
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Ashok",
+        "given": "Ashwin"
+      },
+      {
+        "family": "Dinh",
+        "given": "Thang"
+      },
+      {
+        "family": "Deterding",
+        "given": "Robin"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2017"]]
+    },
+    "note": "(26 out of 151 submissions, acceptance ratio: 17.2%)",
+    "url": "http://sensys.acm.org/2017/",
+    "awards": [
+      {
+        "title": "Best Paper Award Nominee 2017; 2nd Prize ACM MobiCom 2017 App Contest",
+        "color": "red"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "DEMO",
+        "url": "https://www.youtube.com/watch?v=RQ88nsrI-xU"
+      }
+    ]
+  },
+  {
+    "id": "./papers/S3_PhO2_2017.pdf",
+    "type": "article-journal",
+    "title": "Photometry based Blood Oxygen Estimation through Smartphone Cameras",
+    "container-title": "ACM MobiCom 2017 - S3 Workshop",
+    "author": [
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Ashok",
+        "given": "Ashwin"
+      },
+      {
+        "family": "Dinh",
+        "given": "Thang"
+      },
+      {
+        "family": "Deterding",
+        "given": "Robin"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2017"]]
+    },
+    "awards": [
+      {
+        "title": "Best Paper Award, 2017",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "./papers/Wristband_WearSys17.pdf",
+    "type": "article-journal",
+    "title": "Capacitive sensing 3D-printed Wristband for Enriched Hand Gesture Recognition",
+    "container-title": "ACM MobiSys-WearSys 2017",
+    "author": [
+      {
+        "family": "Truong",
+        "given": "Hoang"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Bui",
+        "given": "Nam"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2017"]]
+    },
+    "awards": [
+      {
+        "title": "Best Senior Design Project in College of Engineering in 2016",
+        "color": "red"
+      }
+    ],
+    "acknowledgments": [
+      {
+        "text": "Thank Sean Kuhlman, Cory Coellen, Michael Hunsinger, and Raphael O'Flynn!",
+        "color": "blue"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "DEMO",
+        "url": "https://youtu.be/t5KABrYErgc"
+      }
+    ]
+  },
+  {
+    "id": "./papers/breathing_chase_2017.pdf",
+    "type": "article-journal",
+    "title": "Thermal-Depth Fusion for Occluded Body Skeletal Posture Estimation",
+    "container-title": "IEEE/ACM CHASE 2017",
+    "author": [
+      {
+        "family": "Transue",
+        "given": "Shane"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      },
+      {
+        "family": "Choi",
+        "given": "Min-Hyung"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2017"]]
+    },
+    "url": "http://conferences.computer.org/chase2017/"
+  },
+  {
+    "id": "./papers/Battery-Free-Token_SenSys_2017.pdf",
+    "type": "article-journal",
+    "title": "Battery-Free Identification Token for Touch Sensing Devices",
+    "container-title": "ACM SenSys 2016",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Muncuk",
+        "given": "Ufuk"
+      },
+      {
+        "family": "Ashok",
+        "given": "Ashwin"
+      },
+      {
+        "family": "Chowdhury",
+        "given": "Kaushik R"
+      },
+      {
+        "family": "Gruteser",
+        "given": "Marco"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2016"]]
+    },
+    "note": "(21 out of 119 submissions, acceptance ratio: 17.6%)",
+    "url": "http://sensys.acm.org/2016/index.html",
+    "awards": [
+      {
+        "title": "Best CS Senior Design Project in 2017",
+        "color": "red"
+      }
+    ],
+    "acknowledgments": [
+      {
+        "text": "Thank Ed Salisbury, Lily Dam, Bradley Dufresne, and Fiot.vn team!",
+        "color": "blue",
+        "url": "http://fiot.vn/"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "DEMO",
+        "url": "https://youtu.be/ay0By3zXEZM"
+      }
+    ]
+  },
+  {
+    "id": "http://dl.acm.org/citation.cfm?id=2987356",
+    "type": "article-journal",
+    "title": "WikiSpiro: Non-contact Respiration Volume Monitoring during Sleep",
+    "container-title": "ACM MobiCom-S3 2016",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Transue",
+        "given": "Shane"
+      },
+      {
+        "family": "Halbower",
+        "given": "Ann"
+      },
+      {
+        "family": "Choi",
+        "given": "Min-Hyung"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2016"]]
+    },
+    "url": "http://winlab.rutgers.edu/s3/",
+    "awards": [
+      {
+        "title": "Best Paper Award, 2016",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "id": "./papers/WiSpiro_INFOCOM_2016.pdf",
+    "type": "article-journal",
+    "title": "Continuous and Fine-grained Breathing Volume Monitoring from Afar Using Wireless Signals",
+    "container-title": "IEEE INFOCOM 2016",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xinyu"
+      },
+      {
+        "family": "Halbower",
+        "given": "Ann"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2016"]]
+    },
+    "note": "(300 out of 1644 submissions, acceptance ratio: 18.25%)",
+    "url": "http://infocom2016.ieee-infocom.org/",
+    "awards": [
+      {
+        "title": "ACM MobiCom - S3 Best Paper Award, 2016",
+        "color": "red"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "DEMO",
+        "url": "https://youtu.be/APqgPOxlfIs"
+      }
+    ]
+  },
+  {
+    "id": "./papers/Drone_MobiSys_Dronet_2016.pdf",
+    "type": "article-journal",
+    "title": "Investigating Cost-effective RF-based Detection of Drones",
+    "container-title": "ACM MobiSys - DroNet 2016",
+    "author": [
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Ravindranathan",
+        "given": "Mahesh"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Anh"
+      },
+      {
+        "family": "Han",
+        "given": "Richard"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2016"]]
+    },
+    "url": "https://sigmobile.org/mobisys/2016/index.php",
+    "workshop": {
+      "title": "DroNet 2016",
+      "url": "http://www.sigmobile.org/mobisys/2016/workshops/DroNet/"
+    }
+  },
+  {
+    "id": "./papers/Breathing_CHASE_2016.pdf",
+    "type": "article-journal",
+    "title": "Real-time Tidal Volume Estimation using Iso-surface Reconstruction",
+    "container-title": "IEEE/ACM CHASE 2016",
+    "author": [
+      {
+        "family": "Transue",
+        "given": "Shane"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      },
+      {
+        "family": "Choi",
+        "given": "Min-Hyung"
+      }
+    ],
+    "issued": {
+      "date-parts": [["2016"]]
+    },
+    "url": "http://conferences.computer.org/chase/",
+    "highlights": [
+      {
+        "title": "DEMO",
+        "url": "https://www.youtube.com/watch?v=3tqssPExvzw"
+      }
+    ]
+  }
+]

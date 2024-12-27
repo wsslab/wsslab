@@ -1,0 +1,36 @@
+---
+title: "News"
+layout: default
+excerpt: "RT2 Lab at Institut Curie"
+sitemap: false
+permalink: /news.html
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="list-unstyled">
+  {% for article in site.data.news %}
+  <li class="media">
+    <div class="media-body">
+      <!-- <h4 class="mt-0 mb-1">{{ article.title }}</h4> -->
+      <!-- <p><small>{{ article.date }}</small></p> -->
+	  {{ article.date }}:
+
+      {% assign updated_content = article.content %} 
+      {% for highlight in article.highlights %}
+      {% if updated_content contains highlight.content %}
+	       {% if highlight.url contains "https://" or highlight.url contains "http://" %}
+	            {% assign highlight_with_link = "<a href='" | append: highlight.url | append: "' target='_blank'><b>" | append: highlight.content | append: "</b></a>" %}
+	       {% else %}
+	            {% assign highlight_with_link = "<b>" | append: highlight.content | append: "</b>" %}
+	       {% endif %}
+	       {% assign updated_content = updated_content | replace: highlight.content, highlight_with_link %}
+      {% endif %}
+      {% endfor %}
+
+      <!-- {{ updated_content }} -->
+	  {{updated_content}}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
