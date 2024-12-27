@@ -1,3 +1,14 @@
+- date: 01/2025
+  highlights:
+  content: Our website now has a brand new look! Check it out!
+
+- date: 12/2024
+  highlights:
+    - content: Berkeley Lab
+      url: https://www.lbl.gov
+    - content: ACM Health 2024
+      url: https://dl.acm.org/journal/health
+  content: Vu officially becomes a research affiliate with the Accelerator Technology & Applied Physics division at Lawrence Berkeley National Laboratory. Congratulations, Vu!
 - date: 10/2024
   highlights:
     - content: an ear-based seizure detection system

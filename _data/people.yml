@@ -17,8 +17,7 @@ staff:
     social:
       twitter: https://twitter.com/
       linkedin: https://www.linkedin.com/
-      google-scholar: https://scholar.google.fr/
-      github: https://github.com/
+      google-scholar: https://scholar.google.fr/citations?user=pBf2M3QAAAAJ&hl=en&oi=ao
       website: https://people.cs.umass.edu/~phuc/
       orcid: https://orcid.org/
       research-gate: https://www.researchgate.net/
@@ -36,12 +35,7 @@ staff:
         url: https://www.umass.edu
     permalink: "team/researcher-name"
     social:
-      twitter: https://twitter.com/
       linkedin: https://www.linkedin.com/
-      google-scholar: https://scholar.google.fr/
-      github: https://github.com/
-      website:
-      orcid: https://orcid.org/
       research-gate: https://www.researchgate.net/
     education:
       - Education
@@ -136,9 +130,23 @@ student:
       - BS: University of Massachusetts Amherst
     description: >
       co-advised by VP Nguyen & Ravi Karkar
+  
+  - name: Sidharth Anupkrishnan
+    image: Sidharth.jpeg
+    roles:
+      - PhD Student, co-advised with <a href="https://people.cs.umass.edu/~rkarkar/">Ravi Karkar</a>
+    affiliations:
+      - name: Manning College of Information & Computer Sciences
+        url: https://www.cics.umass.edu
+    permalink: "team/researcher-name"
+    social:
+      linkedin: https://www.linkedin.com/in/itirsayar
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
 
   - name: Vu Le
-    image: vule.png
+    image: VuMIT.jpeg
     roles:
       - PhD Student
     affiliations:

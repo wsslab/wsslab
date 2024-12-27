@@ -72,6 +72,12 @@ permalink: /people/
                       <i class="fas fa-globe" style="margin-right: 8px;"></i>
                     </a>
                   {% endif %}
+
+                  {% if member.social.google-scholar %}
+                    <a href="{{ member.social.google-scholar }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
+                      <i class="fab fa-google" style="margin-right: 8px;"></i>
+                    </a>
+                  {% endif %}
                 </div>
               {% else %}
                 <p>No social networks available</p>
