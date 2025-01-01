@@ -63,6 +63,7 @@ permalink: /
 </p>
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/sponsors/dolby.png" alt="dolby Logo" style="width: 100px; height: auto; margin: 10px;" />
   <img src="{{ site.baseurl }}/images/sponsors/IALS.png" alt="IALS Logo" style="width: 100px; height: auto; margin: 10px;" />
   <img src="{{ site.baseurl }}/images/sponsors/UMASS.png" alt="UMASS Logo" style="width: 100px; height: auto; margin: 10px;" />
   <img src="{{ site.baseurl }}/images/sponsors/UofTsystem_seal.svg" alt="UofT System Seal" style="width: 100px; height: auto; margin: 10px;" />
