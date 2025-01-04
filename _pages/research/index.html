@@ -24,15 +24,19 @@ permalink: /research/
     <div class="col-md-10">
       <div class="card-body">
         <h4 class="card-title">
+          <a href="{{ project.url }}">{{ project.title }}</a>
+
+
+     <!--    <h4 class="card-title">
           <a href="{{ project.social.website | default: project.social.linkedin }}" target="_blank">
             {{ project.title }}
           </a>
-        </h4>
+        </h4> -->
         <p class="card-text">
-            <a>{{ project.authors }}</a>
+          <strong>Authors:</strong> {{ project.authors }}
         </p>
         <p class="card-text">
-            <a>{{ project.conference }}</a>
+          <strong>Conference:</strong> {{ project.conference }}
         </p>
         <p class="card-text">
             <a>{{ project.abstract }}</a>
