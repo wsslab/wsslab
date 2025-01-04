@@ -3,6 +3,7 @@ layout: default
 category: research
 title: "WAKE: A Wearable Platform for Multimodal Sensing and AI-Powered Analytics"
 date: 2020-09-01
+image: wake.png
 authors: "John Doe, Jane Smith, and Alex Brown"
 conference: "ACM MobiSys 2020"
 paper_link: "/papers/wake_mobisys2020.pdf"
