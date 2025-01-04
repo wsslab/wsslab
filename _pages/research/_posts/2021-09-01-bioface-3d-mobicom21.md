@@ -8,7 +8,12 @@ authors: "Yi Wu, Vimal Kakaraparthi, Zhuohang Li, Tien Pham, Jian Liu, Phuc Nguy
 conference: "ACM MobiCom 2021"
 paper_link: "/papers/2021_MobiCom_BioFace.pdf"
 video: https://youtu.be/54OJcwuDmOQ
-abstract: We propose the first single-earpiece lightweight biosensing system, BioFace3D, that can unobtrusively, continuously, and reliably sense the entire facial movements, track 2D facial landmarks, and further render 3D facial animations. Our single-earpiece biosensing system takes advantage of the cross-modal transfer learning model to transfer the knowledge embodied in a high-grade visual facial landmark detection model to the low-grade biosignal domain. After training, our BioFace-3D can directly perform continuous 3D facial reconstruction from the biosignals, without any visual input. Without requiring a camera positioned in front of the user, this paradigm shift from visual sensing to biosensing would introduce new opportunities in many emerging mobile and IoT applications.
+#abstract: We propose the first single-earpiece lightweight biosensing system, BioFace3D, that can unobtrusively, continuously, and reliably sense the entire facial movements, track 2D facial landmarks, and further render 3D facial animations. Our single-earpiece biosensing system takes advantage of the cross-modal transfer learning model to transfer the knowledge embodied in a high-grade visual facial landmark detection model to the low-grade biosignal domain. After training, our BioFace-3D can directly perform continuous 3D facial reconstruction from the biosignals, without any visual input. Without requiring a camera positioned in front of the user, this paradigm shift from visual sensing to biosensing would introduce new opportunities in many emerging mobile and IoT applications.
 ---
 
 # Abstract
+We propose the first single-earpiece lightweight biosensing system, BioFace3D, that can unobtrusively, continuously, and reliably sense the entire facial movements, track 2D facial landmarks, and further render 3D facial animations. Our single-earpiece biosensing system takes advantage of the cross-modal transfer learning model to transfer the knowledge embodied in a high-grade visual facial landmark detection model to the low-grade biosignal domain. After training, our BioFace-3D can directly perform continuous 3D facial reconstruction from the biosignals, without any visual input. Without requiring a camera positioned in front of the user, this paradigm shift from visual sensing to biosensing would introduce new opportunities in many emerging mobile and IoT applications.
+
+## Links
+- [Read the Paper](https://people.cs.umass.edu/~phuc/papers/BioFace_3D_Journal.pdf)
+- [Watch the Video](https://youtu.be/54OJcwuDmOQ)

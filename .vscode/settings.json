@@ -6,7 +6,7 @@
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "html.format.indentHandlebars": true,
   "python.analysis.diagnosticSeverityOverrides": {},
   "workbench.iconTheme": "material-icon-theme",
