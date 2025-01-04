@@ -1,0 +1,84 @@
+people:
+  - name: Joseph Vo
+    image: Joseph.jpg
+    roles:
+      - Summer Intern 24
+    affiliations:
+      - name: Embedded Software Engineer @ Meta Platforms, Inc.
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of California Berkeley
+    description: >
+
+  - name: Devanshu Brahmbhatt
+    image: Devanshu.jpg
+    roles:
+      - Master student
+    affiliations:
+      - name: Product Manager @ Skyflow
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      website: http://wsslab.org/people/devanshu
+    education:
+      - MS: University of Texas at Arlington
+    description: >
+
+  - name: Cody Tyler Reynolds
+    image: CodyReynolds.png
+    roles:
+      - PhD student
+    affiliations:
+      - name:  CS PhD Student @ <a href="https://luberlab.org/">Dr. Jacob Luber's lab</a>
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: https://www.linkedin.com/in/cody-reynolds-049b85163/
+    education:
+      - MS: University of Texas at Arlington
+    description: >
+
+  - name: Joanne Mathew
+    image: JoanneMathew.jpeg
+    roles:
+      - Ph.D. student
+    affiliations:
+      - name:  Research Scientist @ Lockheed Martin
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: https://www.linkedin.com/in/joanne-mathew/
+    education:
+      - MS: 
+    description: >
+
+  - name: Michael Knox
+    image: Michael.jpg
+    roles:
+      - MS student
+    affiliations:
+      - name:  Amazon AWS
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - MS: 
+    description: >
+
+  - name: Jackson Spray
+    image: JacksonSpray.png
+    roles:
+      - 
+    affiliations:
+      - name:  Research Scientist @ Lockheed Martin
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: https://www.linkedin.com/in/jacksonspray/
+    education:
+      - MS: 
+    description: >
