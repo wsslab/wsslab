@@ -30,7 +30,7 @@ permalink: /
 
 <ul class="list-unstyled" style="padding-left: 0;">
   {% for article in site.data.news %}
-  <li class="media" style="padding: 0px 0;">
+  <li class="media" style="padding: 0px 0; margin-bottom: 5px; margin-top: 5px;">
     <div class="media-body">
       {{ article.date }}:
       {% assign updated_content = article.content %}
@@ -60,12 +60,12 @@ permalink: /
 </p>
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/sponsors/dolby.png" alt="Dolby Logo" style="width: 100px; height: auto; margin: 10px;" />
-  <img src="{{ site.baseurl }}/images/sponsors/IALS.png" alt="IALS Logo" style="width: 100px; height: auto; margin: 10px;" />
-  <img src="{{ site.baseurl }}/images/sponsors/UMASS.png" alt="UMASS Logo" style="width: 100px; height: auto; margin: 10px;" />
-  <img src="{{ site.baseurl }}/images/sponsors/UofTsystem_seal.svg" alt="UofT System Seal" style="width: 100px; height: auto; margin: 10px;" />
-  <img src="{{ site.baseurl }}/images/sponsors/cics.jpg" alt="CICS Logo" style="width: 100px; height: auto; margin: 10px;" />
-  <img src="{{ site.baseurl }}/images/sponsors/nih_nia.png" alt="NIH NIA Logo" style="width: 100px; height: auto; margin: 10px;" />
   <img src="{{ site.baseurl }}/images/sponsors/nsf.png" alt="NSF Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/nih_nia.png" alt="NIH NIA Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/UMASS.png" alt="UMASS Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/cics.jpg" alt="CICS Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/IALS.png" alt="IALS Logo" style="width: 100px; height: auto; margin: 10px;" />
+  <img src="{{ site.baseurl }}/images/sponsors/UofTsystem_seal.svg" alt="UofT System Seal" style="width: 100px; height: auto; margin: 10px;" />
   <img src="{{ site.baseurl }}/images/sponsors/sony.svg" alt="Sony Logo" style="width: 100px; height: auto; margin: 10px;"/>
+  <img src="{{ site.baseurl }}/images/sponsors/dolby.png" alt="Dolby Logo" style="width: 100px; height: auto; margin: 10px;" />
 </div>
