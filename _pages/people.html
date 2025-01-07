@@ -13,18 +13,16 @@ permalink: /people/
   <div class="card team-member-card">
     <div class="row mt-3">
       
-      <div class="col-md-2">
-        <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}">
-          <img
-            src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.image | default: 'placeholder.png' }}"
-            class="card-img img-responsive img-thumbnail"
-            style="max-width: 100px"
-            alt="{{ member.name | default: 'No Name Provided' }}"
-          />
-        </a>
+      <div class="col-md-3">
+        <img
+          src="{{ site.url }}{{ site.baseurl }}/images/people/{{ member.image | default: 'placeholder.png' }}"
+          class="card-img img-responsive img-thumbnail"
+          style="max-width: 150px"
+          alt="{{ member.name | default: 'No Name Provided' }}"
+        />
       </div>
 
-      <div class="col-md-10">
+      <div class="col-md-9">
         <div class="card-body">
           <h4 class="card-title">
             <a href="{{ member.social.website | default: member.social.linkedin | default: '#' }}" target="_blank">
@@ -61,7 +59,7 @@ permalink: /people/
                 {% if member.social.github %}
                   <a href="{{ member.social.github }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
                     <i class="fab fa-github" style="margin-right: 8px;"></i>
-                  </a>
+                  </a>mx-auto
                 {% endif %}
                 
                 {% if member.social.website %}
