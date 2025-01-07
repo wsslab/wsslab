@@ -44,7 +44,7 @@ people:
   - name: Joanne Mathew
     image: JoanneMathew.jpeg
     roles:
-      - 
+      - Master student
     affiliations:
       - name:  Research Scientist @ Lockheed Martin
         url: 
@@ -52,7 +52,7 @@ people:
     social:
       linkedin: https://www.linkedin.com/in/joanne-mathew/
     education:
-      - MS: 
+      - BS: The University of Texas at Arlington
     description: >
 
   - name: Michael Knox
@@ -66,13 +66,13 @@ people:
     social:
       linkedin: 
     education:
-      - MS: 
+      - MS: CICS, University of Massachusetts Amherst
     description: >
 
   - name: Jackson Spray
     image: JacksonSpray.png
     roles:
-      - 
+      - PhD student
     affiliations:
       - name:  Research Scientist @ Lockheed Martin
         url: 
@@ -80,5 +80,5 @@ people:
     social:
       linkedin: https://www.linkedin.com/in/jacksonspray/
     education:
-      - MS: 
+      - BS: The University of Texas at Arlington
     description: >

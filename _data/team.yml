@@ -47,7 +47,9 @@ people:
       - PhD Student
     affiliations:
       - name: University of Texas Arlington
-        url: 
+        url: https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse
+      - name: Manning College of Information & Computer Sciences
+        url: https://www.cics.umass.edu
     permalink: "team/researcher-name"
     social:
       linkedin: https://www.linkedin.com/in/lillermedia/
@@ -92,6 +94,8 @@ people:
     affiliations:
       - name: University of Texas Arlington
         url: 
+      - name: Manning College of Information & Computer Sciences
+        url: https://www.cics.umass.edu
     permalink: "team/researcher-name"
     social:
       linkedin: https://www.linkedin.com/in/tasnim-azad-abir-b04aa89a/
@@ -105,8 +109,8 @@ people:
     roles:
       - PhD Student, co-advised with <a href="https://guanh01.github.io">Hui Guan</a>
     affiliations:
-      - name: University of Massachusetts Amherst
-        url: 
+      - name: Manning College of Information & Computer Sciences
+        url: https://www.cics.umass.edu
     permalink: "team/researcher-name"
     social:
       linkedin: https://www.linkedin.com/in/amradmehr/
@@ -155,7 +159,7 @@ people:
         url: https://atap.lbl.gov
     permalink: "team/researcher-name"
     social:
-      twitter: https://twitter.com/anthony-vule
+      twitter: https://x.com/AnthonyVuLe
       linkedin: https://www.linkedin.com/in/anthony-vule/
       github: https://github.com/vule20
       website: https://vule20.github.io
@@ -170,6 +174,8 @@ people:
     roles:
       - Master student
     affiliations:
+      - name: Manning College of Information & Computer Sciences
+        url: https://www.cics.umass.edu
       - name: Lawrence Berkeley National Laboratory
         url: https://atap.lbl.gov
     permalink: "team/researcher-name"
