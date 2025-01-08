@@ -1,84 +1,78 @@
 people:
   - name: Joseph Vo
     image: Joseph.jpg
-    roles:
+    role:
       - Summer Intern 24
-    affiliations:
-      - name: Embedded Software Engineer @ Meta Platforms, Inc.
+    job:
+      - position: Embedded Software Engineer @ Meta Platforms, Inc
         url: 
     permalink: "team/researcher-name"
-    social:
-      linkedin: 
+    website: https://www.linkedin.com/in/-joseph-vo
     education:
       - BS: University of California Berkeley
     description: >
 
   - name: Devanshu Brahmbhatt
     image: Devanshu.jpg
-    roles:
+    role:
       - Master student
-    affiliations:
-      - name: Product Manager @ Skyflow
+    job:
+      - position: Product Manager at Skyflow
         url: 
     permalink: "team/researcher-name"
-    social:
-      website: http://wsslab.org/people/devanshu
+    website: http://wsslab.org/people/devanshu
     education:
       - MS: University of Texas at Arlington
     description: >
 
   - name: Cody Tyler Reynolds
     image: CodyReynolds.png
-    roles:
+    role:
       - PhD student
-    affiliations:
-      - name:  CS PhD Student @ <a href="https://luberlab.org/">Dr. Jacob Luber's lab</a>
+    job:
+      - position:  CS PhD Student @ <a href="https://luberlab.org/">Dr. Jacob Luber's lab</a>
         url: 
     permalink: "team/researcher-name"
-    social:
-      linkedin: https://www.linkedin.com/in/cody-reynolds-049b85163/
+    website: https://www.linkedin.com/in/cody-reynolds-049b85163/
     education:
       - MS: University of Texas at Arlington
     description: >
 
   - name: Joanne Mathew
     image: JoanneMathew.jpeg
-    roles:
+    role:
       - Master student
-    affiliations:
-      - name:  Research Scientist @ Lockheed Martin
+    job:
+      - position:  Research Scientist @ Lockheed Martin
         url: 
     permalink: "team/researcher-name"
-    social:
-      linkedin: https://www.linkedin.com/in/joanne-mathew/
+    website: https://www.linkedin.com/in/joanne-mathew/
     education:
       - BS: The University of Texas at Arlington
     description: >
 
   - name: Michael Knox
     image: Michael.jpg
-    roles:
+    role:
       - MS student
-    affiliations:
-      - name:  Amazon AWS
+    job:
+      - position: Software Engineer @ Amazon AWS
         url: 
     permalink: "team/researcher-name"
-    social:
-      linkedin: 
+    website: 
     education:
       - MS: CICS, University of Massachusetts Amherst
     description: >
 
   - name: Jackson Spray
     image: JacksonSpray.png
-    roles:
+    role:
       - PhD student
-    affiliations:
-      - name:  Research Scientist @ Lockheed Martin
+    job:
+      - position:  Research Scientist @ Lockheed Martin
         url: 
     permalink: "team/researcher-name"
-    social:
-      linkedin: https://www.linkedin.com/in/jacksonspray/
+    website: https://www.linkedin.com/in/jacksonspray/
     education:
       - BS: The University of Texas at Arlington
     description: >

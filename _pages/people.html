@@ -59,7 +59,7 @@ permalink: /people/
                 {% if member.social.github %}
                   <a href="{{ member.social.github }}" target="_blank" style="font-size: 1.5em; color: #0077b5; text-decoration: none; display: flex; align-items: center;">
                     <i class="fab fa-github" style="margin-right: 8px;"></i>
-                  </a>mx-auto
+                  </a>
                 {% endif %}
                 
                 {% if member.social.website %}
@@ -92,13 +92,15 @@ permalink: /people/
   <p><strong>Former members of the WSSL Lab and their first position.</strong></p>
 </div>
 
-{% assign student_members = site.data.alumni.people %}
-{% if student_members %}
-  {% for member in student_members %}
+{% assign members = site.data.alumni.people %}
+{% if members %}
+  {% for member in members %}
   
     <div style="margin-bottom: 5px;">
-
-      {{ member.name | default: 'No Title Provided' }},
+      
+      <a href="{{ member.website | default: member.linkedin | default: '#' }}" target="_blank">
+        {{ member.name | default: 'No Name Provided' }},
+      </a>
 
       {% for degree in member.education %}
         {% if degree.BS %}
@@ -109,12 +111,14 @@ permalink: /people/
         {% endif %}
       {% endfor %}
 
-      {% for role in member.roles %}
-        {{ role }}{% if forloop.last == false %}{% endif %},
+      {% for role in member.role %}
+        {{ role }}.
       {% endfor %}
-
-      {% for affiliation in member.affiliations %}
-        <a href="{{ affiliation.url | default: '#' }}">{{ affiliation.name | default: 'Unknown' }}</a><br />
+      
+      First Job:
+      
+      {% for job in member.job %}
+        {{ job.position | default: 'Unknown' }}<br />
       {% endfor %}
 
     </div>
