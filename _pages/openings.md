@@ -6,7 +6,7 @@ sitemap: false
 permalink: /openings
 ---
 
-Thanks for your interest! I am looking for Ph.D. students in the areas of mobile healthcare, mobile systems, wireless technologies, mobile security and quantum computing. Students with either EE or CS background are highly encouraged to apply.
+Thanks for your interest! We are looking for Postdocs and Ph.D. students in the areas of mobile healthcare, mobile systems, wireless technologies, mobile security and quantum computing. Students with either EE or CS background are highly encouraged to apply.
 
 Candidates are expected to have:
  - a solid background in network/mobile/computer systems,
