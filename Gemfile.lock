@@ -283,9 +283,12 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  ffi
   github-pages
-  jekyll (>= 3.10.0)
-  jekyll-sass-converter (= 1.5.2)
+  jekyll
+  jekyll-sass-converter
+  public_suffix
+  rexml
 
 BUNDLED WITH
    2.5.23

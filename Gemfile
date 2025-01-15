@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
-gem "jekyll", ">= 3.10.0"
+gem "jekyll"
 gem "github-pages", group: :jekyll_plugins
-gem "jekyll-sass-converter", "=1.5.2"
+gem "jekyll-sass-converter"
+gem "rexml"
+gem "ffi"
+gem "public_suffix"
