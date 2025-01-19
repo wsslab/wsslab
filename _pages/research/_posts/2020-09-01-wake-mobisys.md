@@ -3,11 +3,13 @@ layout: default
 category: research
 title: "WAKE: A Wearable Platform for Multimodal Sensing and AI-Powered Analytics"
 date: 2020-09-01
-authors: "John Doe, Jane Smith, and Alex Brown"
+image: wake.png
+authors: "N. Pham, T. Dinh, Z. Raghebi, T. Kim, N. Bui, P. Nguyen, H. Truong, F. Banaei-Kashani, A. Halbower, T. Dinh, and T. Vu"
 conference: "ACM MobiSys 2020"
 paper_link: "/papers/wake_mobisys2020.pdf"
 video: https://youtu.be/6K-zi5BIqZ0
 tags: [wearables, AI, sensing, MobiSys]
+abstract: "A behind the ear wearable device for microsleep detection."
 ---
 
 # Abstract
