@@ -1,0 +1,78 @@
+people:
+  - name: Joseph Vo
+    image: Joseph.jpg
+    role:
+      - Summer Intern 24
+    job:
+      - position: Embedded Software Engineer @ Meta Platforms, Inc
+        url: 
+    permalink: "team/researcher-name"
+    website: https://www.linkedin.com/in/-joseph-vo
+    education:
+      - BS: University of California Berkeley
+    description: >
+
+  - name: Devanshu Brahmbhatt
+    image: Devanshu.jpg
+    role:
+      - Master student
+    job:
+      - position: Product Manager at Skyflow
+        url: 
+    permalink: "team/researcher-name"
+    website: http://wsslab.org/people/devanshu
+    education:
+      - MS: University of Texas at Arlington
+    description: >
+
+  - name: Cody Tyler Reynolds
+    image: CodyReynolds.png
+    role:
+      - PhD student
+    job:
+      - position:  CS PhD Student @ <a href="https://luberlab.org/">Dr. Jacob Luber's lab</a>
+        url: 
+    permalink: "team/researcher-name"
+    website: https://www.linkedin.com/in/cody-reynolds-049b85163/
+    education:
+      - BS: University of Texas at Arlington
+    description: >
+
+  - name: Joanne Mathew
+    image: JoanneMathew.jpeg
+    role:
+      - Master student
+    job:
+      - position:  Research Scientist @ Lockheed Martin
+        url: 
+    permalink: "team/researcher-name"
+    website: https://www.linkedin.com/in/joanne-mathew/
+    education:
+      - BS: The University of Texas at Arlington
+    description: >
+
+  - name: Michael Knox
+    image: Michael.jpg
+    role:
+      - MS student
+    job:
+      - position: Software Engineer @ Amazon AWS
+        url: 
+    permalink: "team/researcher-name"
+    website: 
+    education:
+      - MS: CICS, University of Massachusetts Amherst
+    description: >
+
+  - name: Jackson Spray
+    image: JacksonSpray.png
+    role:
+      - PhD student
+    job:
+      - position:  Research Scientist @ Lockheed Martin
+        url: 
+    permalink: "team/researcher-name"
+    website: https://www.linkedin.com/in/jacksonspray/
+    education:
+      - BS: The University of Texas at Arlington
+    description: >

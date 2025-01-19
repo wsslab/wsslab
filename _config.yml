@@ -28,6 +28,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+encoding: utf-8
 
 # Markdown Processing
 kramdown:
