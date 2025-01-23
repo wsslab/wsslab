@@ -155,14 +155,14 @@ people:
     affiliations:
       - name: Manning College of Information & Computer Sciences
         url: https://www.cics.umass.edu
-      - name: Lawrence Berkeley National Laboratory
+      - name: Berkeley Lab
         url: https://atap.lbl.gov
     permalink: "team/researcher-name"
     social:
       twitter: https://x.com/AnthonyVuLe
       linkedin: https://www.linkedin.com/in/anthony-vule/
       github: https://github.com/vule20
-      website: https://vule20.github.io
+      website: https://www.vule.us
     education:
       - BS: Vietnam National University Hanoi
     description: >
