@@ -1,3 +1,11 @@
+- date: 02/2025
+  content: Vu and Aziz recieved scholarships from UMass for system research!
+
+- date: 02/2025
+    - content: Airspace Forensics
+      url: https://www.airspaceforensics.com/
+  content: We have launched Airspace Forensics, a spin-off startup from our research on drone tracking
+
 - date: 01/2025
   highlights:
     - content: IEEE Transactions on Mobile Computing (TMC)
