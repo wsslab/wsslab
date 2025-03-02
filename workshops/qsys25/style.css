@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior:smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: white;
+}
+
+a {
+    color: #0086e6;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.subtitle {
+    font-size: 2em;
+}
+
+.section#introduction p {
+    text-align: justify;
+}
+
+.announcement-banner {
+    /*background-color: #f0f0f0;*/ /* Updated to light gray color */
+    /*color: #000;*/
+    background-color: lightgray;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.announcement-banner a {
+   /* color: #000;*/
+   color: blue;
+    text-decoration: underline;
+}
+
+.section#posters p {
+    text-align: justify;
+}
+
+.nav {
+    width: 100%;
+    box-shadow: 0 2px 2px #888;
+    font-size: 1.3em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    .subtitle {
+        font-size: 1.1em;
+    }
+    .nav {
+        font-size: 1em;
+    }
+}
+
+.nav-container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    display: block;
+    transition: all 0.3s;
+    color: gray;
+    margin: 5px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.title-container {
+    width: 100vw;
+    min-height: 20vw;
+    margin: auto;
+    padding: 40px 0;
+    color: white;
+    background-image: url("Huntington_Beach.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    padding: 40px 20px;
+}
+
+.section {
+    margin-top: -150px;
+    padding-top: 150px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+th {
+    text-align: left;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.people > * {
+    display: block;
+    width: 230px;
+    margin: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.people img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 25%;
+}
+
+.people .aff {
+    font-size: 0.8em;
+    color: #119;
+}
+.people .name {
+    color: #111;
+}
+
+.people .content_bio {
+    font-size: 0.85em;
+    color: #111;
+}
+
+.foot {
+    background: #333;
+    padding: 5px 10%;
+    text-align: right;
+    color: white;
+}
+
+.nav .nav-container a.eye-catching-link {
+    color: rgb(117, 50, 29); /* Eye-catching color (red in this example) */
+    /* text-decoration: none; /* Remove underline */ */
+    font-weight: bold; /* Make the text bold */
+    animation: moveText 1s infinite alternate; /* Add animation */
+}
+
+@keyframes moveText {
+    from {
+        transform: translateY(-2px); /* Move text up */
+    }
+    to {
+        transform: translateY(2px); /* Move text down */
+    }
+}
