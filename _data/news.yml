@@ -1,5 +1,11 @@
 - date: 03/2025
   highlights:
+    - content: MobiSys 2025
+      url: https://www.sigmobile.org/mobisys/2025/
+  content: We have two papers being accepted at MobiSys 2025. Congratulations and see you guys in California!
+
+- date: 03/2025
+  highlights:
     - content: website
       url: wsslab.org/workshops/qsys25/
   content: We will host a workshop on computing for quantum along with MobiSys 2025 in California. The website is live now!
