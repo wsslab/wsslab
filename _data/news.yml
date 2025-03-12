@@ -7,7 +7,7 @@
 - date: 03/2025
   highlights:
     - content: website
-      url: wsslab.org/workshops/qsys25/
+      url: https://wsslab.org/workshops/qsys25/
   content: We will host a workshop on computing for quantum along with MobiSys 2025 in California. The website is live now!
 
 - date: 02/2025
