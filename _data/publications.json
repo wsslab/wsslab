@@ -1,4 +1,125 @@
 [
+    {
+  "id": "",
+  "type": "article-journal",
+  "title": "MobiChem: A Low-Cost Smartphones-based Toolkit for Practical Fruit Monitoring",
+  "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
+  "source": "ACM",
+  "author": [
+    {
+      "family": "Li",
+      "given": "Zhiying"
+    },
+    {
+      "family": "Aziz",
+      "given": "Abdul"
+    },
+    {
+      "family": "Do",
+      "given": "Patrick"
+    },
+    {
+      "family": "Nguyen",
+      "given": "Phuc VP"
+    },
+    {
+      "family": "Li",
+      "given": "Tianxing"
+    }
+  ],
+  "issued": {
+    "date-parts": [["2025", 6]]
+  },
+  "DOI": "",
+  "url": ""
+}
+    ,
+    {
+  "id": "",
+  "type": "article-journal",
+  "title": "Detection and Tracking of Drones",
+  "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
+  "source": "ACM",
+  "author": [
+    {
+      "family": "Abir",
+      "given": "Tasnim"
+    },
+    {
+      "family": "Le",
+      "given": "Vu"
+    },
+    {
+      "family": "Kuantama",
+      "given": "Endrowednes"
+    },
+    {
+      "family": "Gupta",
+      "given": "Pranjol"
+    },
+    {
+      "family": "Copley",
+      "given": "Austin"
+    },
+    {
+      "family": "Dawes",
+      "given": "Judith"
+    },
+    {
+      "family": "Islam",
+      "given": "Mohammad"
+    },
+    {
+      "family": "Han",
+      "given": "Richard"
+    },
+    {
+      "family": "Nguyen",
+      "given": "Phuc VP"
+    }
+  ],
+  "issued": {
+    "date-parts": [["2025", 6]]
+  },
+  "DOI": "",
+  "url": ""
+}
+    ,
+    {
+  "id": "https://www.nature.com/articles/s41598-025-90729-2",
+  "type": "article-journal",
+  "title": "Development of a Battery-Free, Solar-Powered, and Energy-Aware Fixed Wing Unmanned Aerial Vehicle",
+  "container-title": "Scientific Reports",
+  "source": "Nature",
+  "author": [
+    {
+      "family": "Liller",
+      "given": "Jackson"
+    },
+    {
+      "family": "Goel",
+      "given": "Rishabh"
+    },
+    {
+      "family": "Aziz",
+      "given": "Abdul"
+    },
+    {
+      "family": "Hester",
+      "given": "Josiah"
+    },
+    {
+      "family": "Nguyen",
+      "given": "Phuc"
+    }
+  ],
+  "issued": {
+    "date-parts": [["2025", 5]]
+  },
+  "DOI": "10.1038/s41598-025-90729-2",
+  "url": "https://www.nature.com/articles/s41598-025-90729-2"
+  }
+    ,
   {
     "id": "https://www.nature.com/articles/s41598-024-72584-9",
     "type": "article-journal",

@@ -1,10 +1,47 @@
 people:
+  - name: Patrick Do
+    image: Patrick.jpeg
+    roles:
+      - Master student & Research Assistant
+    job:
+      - position: CS PhD student @ University of Notre Dame
+        url: 
+    affiliations:
+      - name: Manning College of Information and Computer Sciences, UMass Amherst
+        url: https://www.cics.umass.edu
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
+
+  - name: Neel Vora
+    image: Neel.jpg
+    roles:
+      - Master student
+    job: 
+      - position: Machine Learning Engineer @ Lawrence Berkeley National Laboratory
+        url:
+    affiliations:
+      - name: Manning College of Information & Computer Sciences
+        url: https://www.cics.umass.edu
+      - name: Lawrence Berkeley National Laboratory
+        url: https://atap.lbl.gov
+    permalink: "team/researcher-name"
+    social:
+      linkedin: https://www.linkedin.com/in/neelvora27
+      website: http://wsslab.org/people/neelvora
+    education:
+      - MS: University of Texas at Arlington
+    description: >
+
   - name: Joseph Vo
     image: Joseph.jpg
     role:
       - Summer Intern 24
     job:
-      - position: Embedded Software Engineer @ Meta Platforms, Inc
+      - position: Software Engineer @ Meta Platforms, Inc
         url: 
     permalink: "team/researcher-name"
     website: https://www.linkedin.com/in/-joseph-vo
