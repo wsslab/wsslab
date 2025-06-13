@@ -28,11 +28,23 @@
       </div>
 
       <div class="row mt-3">
-        <p class="text-center">Copyright, <span id="year"></span>. Maintained by <a href="https://github.com/vule20" style="color: cyan;"> Vu Le </a></p>
-        <script>
-          document.getElementById("year").textContent = new Date().getFullYear();
-        </script>
+	<p class="text-center">
+	  Last updated <span id="last-updated"></span>. Maintained by 
+	  <a href="https://github.com/vule20" style="color: cyan;">Vu Le</a>
+	</p>
+	<script>
+	  const updated = new Date();
+	  const options = { year: 'numeric', month: 'long' };
+	  document.getElementById("last-updated").textContent = updated.toLocaleDateString(undefined, options);
+	</script>
       </div>
+
+      <!-- <div class="row mt-3"> -->
+      <!--   <p class="text-center">Copyright, <span id="year"></span>. Maintained by <a href="https://github.com/vule20" style="color: cyan;"> Vu Le </a></p> -->
+      <!--   <script> -->
+      <!--     document.getElementById("year").textContent = new Date().getFullYear(); -->
+      <!--   </script> -->
+      <!-- </div> -->
     </div>
   </div>
 </div>
