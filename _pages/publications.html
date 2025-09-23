@@ -15,8 +15,12 @@ permalink: /publications/
         <span>{{ forloop.index }}. </span>
 
         <!-- authors -->
-        {% assign authors = "" | split:"/" %} {% for author in publi.author %} {% assign authors = authors | push: author.family %} {%
-        endfor %} {{ authors | array_to_sentence_string }},
+        {% assign authors = "" | split:"/" %}
+        {% for author in publi.author %}
+          {% assign fullname = author.given | append: " " | append: author.family %}
+          {% assign authors = authors | push: fullname %}
+        {% endfor %}
+        {{ authors | array_to_sentence_string }},
 
         <!-- title with link -->
         <a href="{{ publi.id }}">{{ publi.title }}</a>
@@ -32,7 +36,6 @@ permalink: /publications/
         <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
         {% endif %}
     </div>
-
     {% endfor %}
   </div>
 </div>
