@@ -211,3 +211,46 @@ people:
     education:
       - BS: University of Massachusetts Amherst
     description: >
+
+  - name: Linh Dang
+    image: LinhDang.jpg
+    roles:
+      - Undergrad student
+    affiliations:
+      - name: Manning College of Information and Computer Sciences, UMass Amherst
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
+
+  - name: Duc Nghiem
+    image: DucNghiem.jpg
+    roles:
+      - Undergrad student
+    affiliations:
+      - name: Manning College of Information and Computer Sciences, UMass Amherst
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
+
+  - name: Shreyas Donti
+    image: ShreyasDonti.jpg
+    roles:
+      - Undergrad student
+    affiliations:
+      - name: CS & EE, UMass Amherst
+        url: 
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
+            
