@@ -1,4 +1,55 @@
 people:
+  - name: Prasad Adhiyaman
+    image: Joseph_Collins.jpg
+    roles:
+      - Master student
+    job:
+      - position: Software Engineer @ Sagitec Solutions
+        url: 
+    affiliations:
+      - name: Manning College of Information and Computer Sciences, UMass Amherst
+        url: https://www.cics.umass.edu
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
+
+  - name: Austin Copley
+    image: Joseph_Collins.jpg
+    roles:
+      - Master student
+    job:
+      - position: Software Engineer @ Venvee
+        url: 
+    affiliations:
+      - name: Manning College of Information and Computer Sciences, UMass Amherst
+        url: https://www.cics.umass.edu
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
+
+  - name: Joseph Collins
+    image: Joseph_Collins.jpg
+    roles:
+      - Master student & Research Assistant
+    job:
+      - position: System Engineer @ The Boeing Company
+        url: 
+    affiliations:
+      - name: Manning College of Information and Computer Sciences, UMass Amherst
+        url: https://www.cics.umass.edu
+    permalink: "team/researcher-name"
+    social:
+      linkedin: 
+    education:
+      - BS: University of Massachusetts Amherst
+    description: >
+
   - name: Patrick Do
     image: Patrick.jpeg
     roles:
