@@ -11,13 +11,12 @@ people:
         url: https://www.umass.edu/ials/
       - name: University of Massachusetts Amherst
         url: https://www.umass.edu
-      - name: Adjunct Professor of CSE at UTA
-        url: https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse
+
     permalink: "team/researcher-name"
     social:
-      twitter: https://twitter.com/
-      linkedin: https://www.linkedin.com/
-      google-scholar: https://scholar.google.fr/citations?user=pBf2M3QAAAAJ&hl=en&oi=ao
+      twitter: https://x.com/VPNguyen9
+      linkedin: https://www.linkedin.com/in/vp-nguyen/
+      google-scholar: https://scholar.google.com/citations?user=pBf2M3QAAAAJ&hl=en&oi=ao
       website: https://people.cs.umass.edu/~phuc/
       orcid: https://orcid.org/
       research-gate: https://www.researchgate.net/
