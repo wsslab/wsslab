@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WSSL | Battery-Free Environmental Sensing</title>
+  <meta name="description" content="Turning retired smartphones into battery-free environmental sensors — energy harvesting, upcycling, and lightweight on-device processing.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="WSSL | Battery-Free Environmental Sensing">
+  <meta property="og:description" content="Turning retired smartphones into battery-free environmental sensors — energy harvesting, upcycling, and lightweight on-device processing.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WSSL">
+  <link rel="icon" href="assets/favicon.ico">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="navbar" role="banner">
+    <div class="nav-inner container">
+      <div class="logo" onclick="scrollToAbout()" role="button" aria-label="About Wireless and Sensor Systems Lab">
+        <span class="logo-mark">
+          <img src="assets/logo-wssl.png" alt="WSSL logo">
+        </span>
+        Wireless and Sensor Systems Lab (WSSL)
+      </div>
+      <nav class="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Our Approach</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#results">Results</a>
+        <a href="#team">Team</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" role="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-label">Research Prototype · 2025</p>
+          <h1>Turning Old Smartphones into<br>Battery-Free Environmental Sensors</h1>
+          <p class="hero-subtitle">
+            We explore how a retired smartphone can continuously monitor its surroundings and send useful data — using wind and solar energy rather than its internal battery.
+          </p>
+          <div class="hero-actions">
+            <a href="#workflow" class="btn primary">See how it works</a>
+          </div>
+          <div class="hero-tags">
+            <span>Energy Harvesting</span>
+            <span>IoT</span>
+            <span>Upcycling Devices</span>
+            <span>Environmental Monitoring</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="prototype-slider" aria-roledescription="carousel" aria-label="Prototype photos">
+            <div class="prototype-track">
+              <img src="assets/photo1.png" alt="Prototype photo 1" loading="eager">
+            </div>
+          <div class="hero-card-footer">
+            <p class="note">
+              This site is a visual summary of our scientific research. The prototype is real — the data and pipeline below are from our experiments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section: Problem -->
+     <section class="lab-about-section" id="problem">
+      <div class="lab-about-inner">
+        <h2 class="section-title">The Problem</h2>
+
+        <div class="split">
+          <div class="section-text">
+            <p>
+              Environmental monitoring often requires <strong>dense sensor networks</strong> that are
+              expensive, power-hungry, and difficult to maintain. In many regions, replacing
+              or charging batteries is the biggest barrier to long-term deployment.
+            </p>
+            <p>
+              Meanwhile, millions of smartphones are discarded every year. Most of them still
+              have functional sensors — microphones, cameras, accelerometers — but their batteries
+              are degraded or dead.
+            </p>
+          </div>
+
+          <div class="section-card">
+            <h3>Key Challenges</h3>
+            <ul class="bullet-list">
+              <li>How can we operate sensing hardware without a traditional battery?</li>
+              <li>How much useful data can a “dead” phone still provide?</li>
+              <li>Can we build a stable, low-maintenance system from e-waste?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section: Solution -->
+    <section class="lab-about-section" id="solution">
+      <div class="lab-about-inner">
+        <div class="container split">
+          <div class="section-card">
+            <h3>Our Idea</h3>
+            <p>
+              We treat an old smartphone as a modular sensing unit powered by
+              external energy harvesting modules instead of its original battery.
+            </p>
+            <p>
+              The device captures raw environmental signals — such as light, and motion —
+              and forwards compact summaries to a lightweight server or local hub.
+            </p>
+          </div>
+          <div class="section-text">
+            <h2>Our Approach</h2>
+            <div class="pill-grid">
+              <div class="pill">
+                <h4>1. Upcycle</h4>
+                <p>Use retired smartphones as sensor nodes instead of buying new hardware.</p>
+              </div>
+              <div class="pill">
+                <h4>2. Harvest</h4>
+                <p>Replace the phone battery with solar / RF / supercapacitor-based power input.</p>
+              </div>
+              <div class="pill">
+                <h4>3. Sense</h4>
+                <p>Run lightweight sensing tasks: basic image capture, motion patterns.</p>
+              </div>
+              <div class="pill">
+                <h4>4. Report</h4>
+                <p>Send aggregated metrics or event alerts to a monitoring dashboard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- section: Workflow -->
+    <section class="lab-about-section" id="workflow">
+      <div class="lab-about-inner">
+        <div class="section-text">
+          <h2>System Workflow</h2>
+        </div>
+        <p class="section-intro">
+          Below is the high-level pipeline that connects the physical environment to
+          human-readable insights — using only an old phone and minimal external hardware.
+        </p>
+
+        <div class="workflow">
+          <div class="workflow-step">
+            <span class="step-badge">01</span>
+            <h3>Passive Sensing</h3>
+            <p>Phone sensors capture raw data (audio snippets, low-res frames, IMU samples).</p>
+          </div>
+          <div class="workflow-arrow"></div>
+
+          <div class="workflow-step">
+            <span class="step-badge">02</span>
+            <h3>On-Device Processing</h3>
+            <p>Lightweight models or thresholds detect events (e.g., bird calls, noise spikes).</p>
+          </div>
+          <div class="workflow-arrow"></div>
+
+          <div class="workflow-step">
+            <span class="step-badge">03</span>
+            <h3>Data Uplink</h3>
+            <p>Compressed summaries or labels are transmitted when energy is available.</p>
+          </div>
+          <div class="workflow-arrow"></div>
+
+          <div class="workflow-step">
+            <span class="step-badge">04</span>
+            <h3>Dashboard & Research</h3>
+            <p>Researchers visualize time series, event frequency, and environmental trends.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section: Result & Donor -->
+    <section class="lab-about-section" id="results">
+      <div class="lab-about-inner">
+        <div class="section-text">
+          <h2>Early Results</h2>
+          <p>
+            In our initial experiments, a single recycled smartphone mounted outdoors and
+            powered by a small solar panel was able to collect data continuously over
+            multiple weeks, without any manual charging.
+          </p>
+          <p>We validate that even in low-power conditions, the device can:</p>
+          <ul class="bullet-list">
+            <li>Capture acoustic patterns (e.g., traffic noise, bird activity).</li>
+            <li>Detect motion or vibration events via IMU sensors.</li>
+            <li>Upload summarized data whenever sufficient energy is available.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="lab-about-section" id="donor-sponsor">
+      <div class="lab-about-inner">
+        <div class="section-text"></div>
+          <h2>Sponsor</h2>
+          <p class="section-intro">
+          We thank <strong>the National Science Foundation (NSF)</strong> for their generous support, which makes our research possible.
+          </p>
+          <img src="assets/nsf.jpg">
+          <h2 class="section-title">Our Donors</h2>
+          <p class="section-intro">
+          Special thanks to our donor: <strong>Mrs. Linda Bowman</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- section: Team -->
+    <section class="lab-about-section" id="team">
+      <div class="container center">
+        <div class="lab-about-inner">
+          <h2>Research Team</h2>
+          <p class="section-intro">This project is part of an ongoing effort to reduce e-waste and build sustainable sensing systems.</p>
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="avatar">P</div>
+              <div class="photo"><img src="assets/vpnguyen.jpeg" alt="VPNguyen" loading="lazy"></div>
+              <h3>VP Nguyen</h3>
+              <p>Assistant Professor</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+              <!-- <div class="linkedin" id="linkedin-phoebe"><img src="assets/linkedin.png" alt="linkedin-logo" loading="lazy"></div> -->
+          </div>
+          <div class="team-card">
+              <div class="avatar">P</div>
+              <div class="photo"><img src="assets/ganesan.jpg" alt="Ganesan" loading="lazy"></div>
+              <h3>Deepak Ganesan</h3>
+              <p>Professor</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+              <!-- <div class="linkedin" id="linkedin-phoebe"><img src="assets/linkedin.png" alt="linkedin-logo" loading="lazy"></div> -->
+          </div>
+          <div class="team-card">
+              <div class="avatar">P</div>
+              <div class="photo"><img src="assets/HuiGuan.jpg" alt="HuiGuan" loading="lazy"></div>
+              <h3>Hui Guan</h3>
+              <p>Assistant Professor</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+              <!-- <div class="linkedin" id="linkedin-phoebe"><img src="assets/linkedin.png" alt="linkedin-logo" loading="lazy"></div> -->
+          </div>
+          <div class="team-row-2">
+            <div class="team-card">
+                  <div class="avatar">L</div>
+                  <div class="photo"><img src="assets/GilmoreTroy.jpg" alt="Troy Gilmore" loading="lazy"></div>
+                  <h3>Gilmore Troy</h3>
+                  <p>
+                    Associate Professor
+                    University of Nebraska–Lincoln
+                  </p>
+              </div>
+              <div class="team-card">
+                  <div class="avatar">L</div>
+                  <div class="photo"><img src="assets/AndrewRichardson.png" alt="Andrew Richardson" loading="lazy"></div>
+                  <h3>Andrew Richardson</h3>
+                  <p>
+                    Regents' Professor, ECOSS/SICCS
+                    Northen Arizona University
+                  </p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="avatar">G</div>
+              <div class="photo"><img src="assets/gary.png" alt="Gary" loading="lazy"></div>
+              <h3>Gary Zhen</h3>
+              <p>Undergraduate student</p>
+              <p><a href="https://www.umass.edu/engineering/electrical-and-computer-engineering" target="_blank" rel="noopener noreferrer">Riccio College of Engineering</a></p>
+            </div>
+
+            <div class="team-card">
+              <div class="avatar">P</div>
+              <div class="photo"><img src="assets/phoebe.png" alt="Phoebe" loading="lazy"></div>
+              <h3>Phoebe Lo</h3>
+              <p>Undergraduate student</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+              <!-- <div class="linkedin" id="linkedin-phoebe"><img src="assets/linkedin.png" alt="linkedin-logo" loading="lazy"></div> -->
+            </div>
+            <div class="team-card">
+              <div class="avatar">P</div>
+              <div class="photo"><img src="assets/AmirRadmehr.jpeg" alt="AmirRadmehr" loading="lazy"></div>
+              <h3>Amir Radmeher</h3>
+              <p>PhD Student</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+              <!-- <div class="linkedin" id="linkedin-phoebe"><img src="assets/linkedin.png" alt="linkedin-logo" loading="lazy"></div> -->
+            </div>
+            <div class="team-card">
+              <div class="avatar">D</div>
+              <div class="photo"><img src="assets/duc.png" alt="Duc Nghiem" loading="lazy"></div>
+              <h3>Duc Nghiem</h3>
+              <p>Undergraduate student</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+            </div>
+
+            <div class="team-card">
+              <div class="avatar">L</div>
+              <div class="photo"><img src="assets/linh.png" alt="Linh Dang" loading="lazy"></div>
+              <h3>Linh Dang</h3>
+              <p>Undergraduate student</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+            </div>
+
+            <div class="team-card">
+              <div class="avatar">L</div>
+              <div class="photo"><img src="assets/lucas.png" alt="Lucas" loading="lazy"></div>
+              <h3>Lucas Nguyen</h3>
+              <p>Undergraduate student</p>
+              <p><a href="https://www.cics.umass.edu/" target="_blank" rel="noopener noreferrer">Manning College of Information & Computer Sciences</a></p>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+    </section>
+    <!-- section: About lab -->
+    <section id="about-lab" class="lab-about-section">
+      <div class="lab-about-inner">
+        <h2>About Wireless and Sensor Systems Lab</h2>
+
+        <p>
+          WSSL's broad research interests are in the areas of
+          <b>AI-powered mobile/wearable computing</b> and sustainable computing.
+          Our research agenda focuses on <b>Sustainable Autonomous Things (SATs)</b>
+          for realizing the vision of:
+        </p>
+
+        <ul>
+          <li>the Internet of Sustainable Medical Things</li>
+          <li>the Internet of Sustainable Living Things</li>
+          <li>and the Internet of Sustainable Flying Things</li>
+        </ul>
+
+        <p>
+          Our work is interdisciplinary in nature, combining innovations in sensor
+          and sensing system development, algorithms, data analytics, signal processing,
+          hardware, and firmware optimization to invent:
+        </p>
+
+        <ol>
+          <li>A new class of medical devices that can continuously and unobtrusively collect novel and important health data in non-clinical settings.</li>
+          <li>A new class of living sensors that can live with plants and animals.</li>
+          <li>A new class of unmanned aerial vehicles requiring extremely low maintenance.</li>
+          <li>We are also interested in sustainable quantum computing. Together with Berkeley Lab, we have made exciting progress.</li>
+        </ol>
+        <p><strong>Some recent publications from our lab</strong></p>
+        <ol>
+          <li><a href="https://arxiv.org/abs/2508.11689" target="_blank" rel="noopener noreferrer">Adaptive Spiking with Plasticity for Energy Aware Neuromorphic Systems Pre-print 2025.</a> Eduardo Calle-Ortiz, Hui Guan, Deepak Ganesan, Phuc VP Nguyen</li>
+          <li><a href="https://dl.acm.org/doi/10.1145/3711875.3729156" target="_blank" rel="noopener noreferrer">Detection and Tracking of Drone Swarms using LiDAR.</a> Tasnim Abir, Vu Le, Endrowednes Kuantama, Pranjol Gupta, Austin Copley, Judith Dawes, Mohammad Islam, Richard Han, Phuc VP Nguyen. <strong>ACM MobiSys 2025</strong> (acceptance ratio: 18%)</li>
+          <li><a href="https://dl.acm.org/doi/10.1145/3384419.3430778" target="_blank" rel="noopener noreferrer">DroneScale: drone load estimation via remote passive RF sensing.</a> Phuc VP Nguyen, Vimal Kakaraparthi, Nam Bui, Nikshep Umamahesh, Nhat Pham, Hoang Truong, Yeswanth Guddeti, Dinesh Bharadia, Richard Han, Eric Frew, Daniel Massey, and Tam Vu. <strong>ACM SenSys 2020</strong> (acceptance ratio: 20.6%)</li>
+          <li><a href="https://dl.acm.org/doi/10.1145/3081333.3081354" target="_blank" rel="noopener noreferrer">Matthan: Drone Presence Detection by Identifying Physical Signatures in the Drone's RF Communication.</a> Phuc VP Nguyen, Hoang Truong, Mahesh Ravindranathan, Anh Nguyen, Richard Han, and Tam Vu. <strong>ACM MobiSys 2017</strong> (acceptance ratio 18%).</li>
+        </ol>
+
+        <p><a href="https://wsslab.org/publications/" target="_blank" rel="noopener noreferrer">See all publications</a></p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>© 2025 UMass Amherst - Wireless and Sensor Systems Laboratory · Built to share our research with the world.</p>
+      <p class="footer-small">This is a research demo page and not a commercial product.</p>
+    </div>
+  </footer>
+
+  <script>
+  function scrollToAbout() {
+    const el = document.querySelector("#about-lab");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const track = document.querySelector('.prototype-track');
+    const dots = Array.from(document.querySelectorAll('.p-dot'));
+    if (!track || dots.length === 0) return;
+
+    // Respect reduced motion preference
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let index = 0;
+    function showSlide(i) {
+      index = ((i % dots.length) + dots.length) % dots.length;
+      track.style.transform = `translateX(-${index * 100}%)`;
+      dots.forEach((d, idx) => {
+        const active = idx === index;
+        d.classList.toggle('active', active);
+        d.setAttribute('aria-selected', active ? 'true' : 'false');
+        d.setAttribute('tabindex', '0');
+      });
+    }
+
+    // Add keyboard/click handlers to dots
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => showSlide(i));
+      dot.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          showSlide(i);
+        }
+        if (e.key === 'ArrowRight') showSlide(i + 1);
+        if (e.key === 'ArrowLeft') showSlide(i - 1);
+      });
+    });
+
+    // Auto-slide unless reduced motion
+    let autoTimer = null;
+    function startAuto() {
+      if (reduceMotion) return;
+      stopAuto();
+      autoTimer = setInterval(() => showSlide(index + 1), 3000);
+    }
+    function stopAuto() {
+      if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+    }
+
+    // Pause auto on focus/hover for better UX
+    const slider = document.querySelector('.prototype-slider');
+    slider.addEventListener('mouseenter', stopAuto);
+    slider.addEventListener('mouseleave', startAuto);
+    slider.addEventListener('focusin', stopAuto);
+    slider.addEventListener('focusout', startAuto);
+
+    // initialize
+    showSlide(0);
+    startAuto();
+  });
+  </script>
+</body>
+</html>
