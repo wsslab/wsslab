@@ -580,7 +580,7 @@ a:focus {
 .lab-about-section ul {
   margin-top: 10px;
   padding-left: 22px;
-  max-width: 780px;
+  /* max-width: 780px; */
 }
 
 .lab-about-section li {
@@ -588,6 +588,21 @@ a:focus {
   font-size: 16px;
   line-height: 1.55;
   color: #444;
+}
+/* badge new tag */
+.badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+
+.badge.new {
+  background: #5bb75f;   /* hoặc xanh tuỳ theme */
+  color: white;
 }
 
 /* responsive */
@@ -659,4 +674,5 @@ background-color: #f5f5f5;
 @media (prefers-reduced-motion: reduce) {
   .prototype-track { transition: none !important; }
   * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}
 }
