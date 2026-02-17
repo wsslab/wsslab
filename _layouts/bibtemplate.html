@@ -1,0 +1,33 @@
+<div class="panel-heading">
+    <span>{{ index }}. </span>
+
+    <!-- authors -->
+    {{ reference.author }},
+
+    <!-- title with link -->
+    {% if entry.url %}
+    <a href="{{ entry.url }}">{{ entry.title }}</a>
+    {% else %}
+    {{ entry.title }}
+    {% endif %}
+
+    <!-- container -->
+    {% if entry.booktitle %}
+    <b>{{ entry.booktitle }}</b>
+    {% elsif entry.journal %}
+    <b>{{ entry.journal }}</b>
+    {% endif %}
+
+    <!-- year -->
+    ({{ entry.year }})
+
+    <!-- DOI -->
+    {% if entry.doi %}
+    <a href="https://doi.org/{{ entry.doi }}">DOI:{{ entry.doi }}</a>
+    {% endif %}
+
+    <!-- note -->
+    {% if entry.note %}
+    <br><i>{{ entry.note }}</i>
+    {% endif %}
+</div>

@@ -1,131 +1,137 @@
 [
-    {
-  "id": "https://dl.acm.org/doi/10.1145/3711875.3729135",
-  "type": "article-journal",
-  "title": "MobiChem: A Low-Cost Smartphones-based Toolkit for Practical Fruit Monitoring",
-  "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
-  "source": "ACM",
-  "author": [
-    {
-      "family": "Li*",
-      "given": "Zhiying"
+  {
+    "id": "https://dl.acm.org/doi/10.1145/3711875.3729135",
+    "type": "paper-conference",
+    "title": "MobiChem: A Low-Cost Smartphones-based Toolkit for Practical Fruit Monitoring",
+    "author": [
+      {
+        "family": "Li",
+        "given": "Zhiying"
+      },
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Do",
+        "given": "Patrick"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc V. P."
+      },
+      {
+        "family": "Li",
+        "given": "Tianxing"
+      }
+    ],
+    "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
     },
-    {
-      "family": "Aziz*",
-      "given": "Abdul"
-    },
-    {
-      "family": "Do",
-      "given": "Patrick"
-    },
-    {
-      "family": "Nguyen",
-      "given": "Phuc VP"
-    },
-    {
-      "family": "Li",
-      "given": "Tianxing"
-    }
-  ],
-  "issued": {
-    "date-parts": [["2025", 6]]
+    "DOI": "10.1145/3711875.3729135",
+    "url": "https://dl.acm.org/doi/10.1145/3711875.3729135",
+    "note": "*equal contribution"
   },
-  "DOI": "10.1145/3711875.3729135",
-  "url": "https://dl.acm.org/doi/10.1145/3711875.3729135"
-}
-    ,
-    {
-  "id": "https://dl.acm.org/doi/10.1145/3711875.3729156",
-  "type": "article-journal",
-  "title": "Detection and Tracking of Drone Swarms using LiDAR",
-  "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
-  "source": "ACM",
-  "author": [
-    {
-      "family": "Abir",
-      "given": "Tasnim"
+  {
+    "id": "https://dl.acm.org/doi/10.1145/3711875.3729156",
+    "type": "paper-conference",
+    "title": "Detection and Tracking of Drone Swarms using LiDAR",
+    "author": [
+      {
+        "family": "Abir",
+        "given": "Tasnim"
+      },
+      {
+        "family": "Le",
+        "given": "Vu"
+      },
+      {
+        "family": "Kuantama",
+        "given": "Endrowednes"
+      },
+      {
+        "family": "Gupta",
+        "given": "Pranjol"
+      },
+      {
+        "family": "Copley",
+        "given": "Austin"
+      },
+      {
+        "family": "Dawes",
+        "given": "Judith"
+      },
+      {
+        "family": "Islam",
+        "given": "Mohammad"
+      },
+      {
+        "family": "Han",
+        "given": "Richard"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc V. P."
+      }
+    ],
+    "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
     },
-    {
-      "family": "Le",
-      "given": "Vu"
-    },
-    {
-      "family": "Kuantama",
-      "given": "Endrowednes"
-    },
-    {
-      "family": "Gupta",
-      "given": "Pranjol"
-    },
-    {
-      "family": "Copley",
-      "given": "Austin"
-    },
-    {
-      "family": "Dawes",
-      "given": "Judith"
-    },
-    {
-      "family": "Islam",
-      "given": "Mohammad"
-    },
-    {
-      "family": "Han",
-      "given": "Richard"
-    },
-    {
-      "family": "Nguyen",
-      "given": "Phuc VP"
-    }
-  ],
-  "issued": {
-    "date-parts": [["2025", 6]]
+    "DOI": "10.1145/3711875.3729156",
+    "url": "https://dl.acm.org/doi/10.1145/3711875.3729156"
   },
-  "DOI": "10.1145/3711875.3729156",
-  "url": "https://dl.acm.org/doi/10.1145/3711875.3729156"
-}
-    ,
-    {
-  "id": "https://www.nature.com/articles/s41598-025-90729-2",
-  "type": "article-journal",
-  "title": "Development of a Battery-Free, Solar-Powered, and Energy-Aware Fixed Wing Unmanned Aerial Vehicle",
-  "container-title": "Scientific Reports",
-  "source": "Nature",
-  "author": [
-    {
-      "family": "Liller",
-      "given": "Jackson"
+  {
+    "id": "https://www.nature.com/articles/s41598-025-90729-2",
+    "type": "article-journal",
+    "title": "Development of a Battery-Free, Solar-Powered, and Energy-Aware Fixed Wing Unmanned Aerial Vehicle",
+    "author": [
+      {
+        "family": "Liller",
+        "given": "Jackson"
+      },
+      {
+        "family": "Goel",
+        "given": "Rishabh"
+      },
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Hester",
+        "given": "Josiah"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
     },
-    {
-      "family": "Goel",
-      "given": "Rishabh"
-    },
-    {
-      "family": "Aziz",
-      "given": "Abdul"
-    },
-    {
-      "family": "Hester",
-      "given": "Josiah"
-    },
-    {
-      "family": "Nguyen",
-      "given": "Phuc"
-    }
-  ],
-  "issued": {
-    "date-parts": [["2025", 5]]
+    "volume": "15",
+    "DOI": "10.1038/s41598-025-90729-2",
+    "url": "https://www.nature.com/articles/s41598-025-90729-2"
   },
-  "DOI": "10.1038/s41598-025-90729-2",
-  "url": "https://www.nature.com/articles/s41598-025-90729-2"
-  }
-    ,
   {
     "id": "https://www.nature.com/articles/s41598-024-72584-9",
     "type": "article-journal",
     "title": "An Open-Source Data Storage and Visualization Platform for Collaborative Qubit Control",
-    "container-title": "Nature Scientific Reports",
-    "source": "Nature",
     "author": [
       {
         "family": "Brahmbhatt",
@@ -157,11 +163,16 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       }
     ],
+    "container-title": "Nature Scientific Reports",
     "issued": {
-      "date-parts": [["2024", 1]]
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
     },
     "DOI": "10.1038/s41598-024-72584-9",
     "url": "https://www.nature.com/articles/s41598-024-72584-9"
@@ -170,7 +181,6 @@
     "id": "https://arxiv.org/abs/2406.18807",
     "type": "article-journal",
     "title": "ML-Powered FPGA-based Real-Time Quantum State Discrimination Enabling Mid-circuit Measurements",
-    "container-title": "Preprint arXiv 2024",
     "author": [
       {
         "family": "Vora",
@@ -222,15 +232,20 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       },
       {
         "family": "Huang",
         "given": "Gang"
       }
     ],
+    "container-title": "arXiv preprint arXiv:2406.18807",
     "issued": {
-      "date-parts": [["2024"]]
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
     },
     "url": "https://arxiv.org/abs/2406.18807"
   },
@@ -238,7 +253,6 @@
     "id": "https://dl.acm.org/doi/10.1145/3703164",
     "type": "article-journal",
     "title": "An Unobtrusive and Lightweight Ear-worn System for Continuous Epileptic Seizure Detection",
-    "container-title": "ACM Transactions on Computing for Healthcare",
     "author": [
       {
         "family": "Aziz",
@@ -282,12 +296,19 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       }
     ],
+    "container-title": "ACM Transactions on Computing for Healthcare",
     "issued": {
-      "date-parts": [["2025"]]
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
     },
+    "volume": "6",
+    "number": "1",
     "DOI": "10.1145/3703164",
     "url": "https://dl.acm.org/doi/10.1145/3703164"
   },
@@ -295,7 +316,6 @@
     "id": "https://arxiv.org/pdf/2312.12587.pdf",
     "type": "article-journal",
     "title": "Real-Time Diagnostic Integrity Meets Efficiency: A Novel Platform-Agnostic Architecture for Physiological Signal Compression",
-    "container-title": "Preprint arXiv 2023",
     "author": [
       {
         "family": "Vora",
@@ -374,15 +394,20 @@
         "given": "Jacob M"
       }
     ],
+    "container-title": "arXiv preprint arXiv:2312.12587",
     "issued": {
-      "date-parts": [["2023"]]
-    }
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    },
+    "url": "https://arxiv.org/pdf/2312.12587.pdf"
   },
   {
-    "id": "./papers/IoTeeth_IMWUT24.pdf",
+    "id": "#hu2024ioteeth",
     "type": "article-journal",
     "title": "IOTeeth: Intra-Oral Teeth Sensing System for Dental Occlusal Diseases Recognition",
-    "container-title": "IMWUT/UbiComp 2024",
     "author": [
       {
         "family": "Hu",
@@ -402,19 +427,23 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       }
     ],
+    "container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
     "issued": {
-      "date-parts": [["2024"]]
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
     },
     "note": "*equal contribution"
   },
   {
-    "id": "./papers/Earables as Medical Devices.pdf",
-    "type": "article-journal",
+    "id": "#aziz2023earables",
+    "type": "paper-conference",
     "title": "Earables as Medical Devices: Opportunities and Challenges",
-    "container-title": "ACM EarComp 2023 in association with UbiComp/IMWUT 2023",
     "author": [
       {
         "family": "Aziz",
@@ -437,16 +466,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "ACM EarComp 2023 in association with UbiComp/IMWUT 2023",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
-
   {
-    "id": "./papers/P5-10makers_V4_take1.pdf",
+    "id": "#liller2023iot",
     "type": "article-journal",
     "title": "Towards the Internet of Living Trees for Precision Agriculture",
-    "container-title": "GetMobile",
     "author": [
       {
         "family": "Liller",
@@ -461,15 +493,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "GetMobile: Mobile Computing and Communications",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/Exploring Batteryless UAVs 2022.pdf",
-    "type": "article-journal",
+    "id": "#goel2023batteryless",
+    "type": "paper-conference",
     "title": "Exploring Batteryless UAVs by Mimicking Bird Flight",
-    "container-title": "ACM DroNet IX '23",
     "author": [
       {
         "family": "Goel",
@@ -488,15 +524,19 @@
         "given": "Josiah"
       }
     ],
+    "container-title": "ACM DroNet IX '23",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/Towards Robust Lidar2023.pdf",
-    "type": "article-journal",
+    "id": "#abir2023lidar",
+    "type": "paper-conference",
     "title": "Towards Robust Lidar-based 3D Detection and Tracking of UAVs",
-    "container-title": "ACM DroNet IX '23",
     "author": [
       {
         "family": "Abir",
@@ -523,15 +563,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "ACM DroNet IX '23",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/DroneChase2023.pdf",
-    "type": "article-journal",
+    "id": "#vora2023dronechase",
+    "type": "paper-conference",
     "title": "DroneChase: A Mobile and Automated Cross-Modality System for Continuous Drone Tracking",
-    "container-title": "ACM DroNet IX '23",
     "author": [
       {
         "family": "Vora",
@@ -550,15 +594,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "ACM DroNet IX '23",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
   {
-    "id": "#",
-    "type": "article-journal",
-    "title": "Provider and Patient Opinions on Real-Time Seizure Detection via Over-the-Ear Device, Epilepsy/Clinical Neurophysiology (EEG): EEG & Seizure Detection Technology",
-    "container-title": "American Academy of Neurology, Boston, 2023",
+    "id": "#venkatesh2023provider",
+    "type": "paper-conference",
+    "title": "Provider and Patient Opinions on Real-Time Seizure Detection via Over-the-Ear Device, Epilepsy/Clinical Neurophysiology (EEG): EEG \\& Seizure Detection Technology",
     "author": [
       {
         "family": "Venkatesh",
@@ -582,7 +630,7 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       },
       {
         "family": "Ding",
@@ -593,15 +641,19 @@
         "given": "Jay"
       }
     ],
+    "container-title": "American Academy of Neurology, Boston",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
   {
-    "id": "#",
-    "type": "article-journal",
-    "title": "Personalized feedback messaging perspectives in a qualitative study among Black and Hispanic women: Implications for future mHealth behavioral interventions.",
-    "container-title": "International Society of Behavioral Nutrition and Physical Activity Annual Meeting, Uppsala, Sweden",
+    "id": "#brannon2023personalized",
+    "type": "paper-conference",
+    "title": "Personalized feedback messaging perspectives in a qualitative study among Black and Hispanic women: Implications for future mHealth behavioral interventions",
     "author": [
       {
         "family": "Brannon",
@@ -633,26 +685,30 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       },
       {
         "family": "Liao",
         "given": "Y."
       }
     ],
+    "container-title": "International Society of Behavioral Nutrition and Physical Activity Annual Meeting, Uppsala, Sweden",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
   {
-    "id": "#",
-    "type": "article-journal",
-    "title": "Social Media ads as a method of research recruitment: A comparison of minority women who enrolled vs. who completed a focus group.",
-    "container-title": "2023 Society of Behavioral Medicine Annual Meeting, Phoenix, AZ",
+    "id": "#affleck2023social",
+    "type": "paper-conference",
+    "title": "Social Media ads as a method of research recruitment: A comparison of minority women who enrolled vs. who completed a focus group",
     "author": [
       {
         "family": "Affleck",
-        "given": "H.A."
+        "given": "H. A."
       },
       {
         "family": "Brannon",
@@ -664,7 +720,7 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       },
       {
         "family": "Brown",
@@ -675,15 +731,19 @@
         "given": "Y."
       }
     ],
+    "container-title": "2023 Society of Behavioral Medicine Annual Meeting, Phoenix, AZ",
     "issued": {
-      "date-parts": [["2023"]]
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
     }
   },
   {
-    "id": "#",
-    "type": "article-journal",
+    "id": "#lehnen2022realtime",
+    "type": "paper-conference",
     "title": "Real-time Seizure Detection Using Behind-the-ear Wearable System",
-    "container-title": "American Epilepsy Society Annual Conference 2022, Nashville, Tennessee, USA",
     "author": [
       {
         "family": "Lehnen",
@@ -715,7 +775,7 @@
       },
       {
         "family": "Nguyen",
-        "given": "Phuc VP"
+        "given": "Phuc V. P."
       },
       {
         "family": "Ding",
@@ -726,15 +786,19 @@
         "given": "Jay"
       }
     ],
+    "container-title": "American Epilepsy Society Annual Conference 2022, Nashville, Tennessee, USA",
     "issued": {
-      "date-parts": [["2022"]]
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/MuteIt 2022.pdf",
+    "id": "#srivastava2022muteit",
     "type": "article-journal",
     "title": "MuteIt: Jaw Motion based Unvoiced Command Recognition using Earable",
-    "container-title": "ACM IMWUT/UbiComp 2022",
     "author": [
       {
         "family": "Srivastava",
@@ -757,15 +821,19 @@
         "given": "Shubham"
       }
     ],
+    "container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
     "issued": {
-      "date-parts": [["2022"]]
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/iotree2022.pdf",
-    "type": "article-journal",
+    "id": "#dang2022iotree",
+    "type": "paper-conference",
     "title": "IoTree: A Battery-free Wearable System with Biocompatible Sensors for Continuous Tree Health Monitoring",
-    "container-title": "ACM MobiCom 2022",
     "author": [
       {
         "family": "Dang",
@@ -796,15 +864,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "Proceedings of the 28th Annual International Conference on Mobile Computing and Networking (MobiCom)",
     "issued": {
-      "date-parts": [["2022"]]
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/pros 2022.pdf",
-    "type": "article-journal",
+    "id": "#pham2022pros",
+    "type": "paper-conference",
     "title": "PROS: an Efficient Pattern-Driven Operating System for Low-Power Healthcare Wearables",
-    "container-title": "ACM MobiCom 2022",
     "author": [
       {
         "family": "Pham",
@@ -847,15 +919,19 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the 28th Annual International Conference on Mobile Computing and Networking (MobiCom)",
     "issued": {
-      "date-parts": [["2022"]]
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/finepose2022.pdf",
-    "type": "article-journal",
+    "id": "#rohal2022finepose",
+    "type": "paper-conference",
     "title": "FinePose: Fine-Grained Postural Muscle Profiling via Haptic Vibration Signals",
-    "container-title": "ACM MobiSys-WearSys 2022",
     "author": [
       {
         "family": "Rohal",
@@ -874,15 +950,19 @@
         "given": "Shijia"
       }
     ],
+    "container-title": "ACM MobiSys-WearSys 2022",
     "issued": {
-      "date-parts": [["2022"]]
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
     }
   },
   {
-    "id": "#",
-    "type": "article-journal",
+    "id": "#srivastava2022demo",
+    "type": "paper-conference",
     "title": "Demo: Leveraging Earables for Unvoiced Command Recognition",
-    "container-title": "ACM MobiSys Demo 2022",
     "author": [
       {
         "family": "Srivastava",
@@ -905,15 +985,19 @@
         "given": "Shubham"
       }
     ],
+    "container-title": "ACM MobiSys Demo 2022",
     "issued": {
-      "date-parts": [["2022"]]
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
     }
   },
   {
-    "id": "#",
-    "type": "article-journal",
+    "id": "#shriram2022sedentary",
+    "type": "paper-conference",
     "title": "Sedentary Posture Muscle Monitoring via Active Vibratory Sensing",
-    "container-title": "IPSN Poster 2022",
     "author": [
       {
         "family": "Shriram",
@@ -940,16 +1024,20 @@
         "given": "Shijia"
       }
     ],
+    "container-title": "IPSN Poster 2022",
     "issued": {
-      "date-parts": [["2022"]]
+      "date-parts": [
+        [
+          "2022"
+        ]
+      ]
     },
     "note": "Best Poster Award"
   },
   {
-    "id": "./papers/2021_Chase_TeethVib.pdf",
-    "type": "article-journal",
+    "id": "#pan2021teethvib",
+    "type": "paper-conference",
     "title": "TeethVib: Monitoring Teeth Functional Occlusion Through Retainer Vibration Sensing",
-    "container-title": "IEEE/ACM CHASE 2021",
     "author": [
       {
         "family": "Pan",
@@ -968,15 +1056,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "IEEE/ACM CHASE 2021",
     "issued": {
-      "date-parts": [["2021"]]
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/2021_Ubicomp_FaceSense.pdf",
+    "id": "#kakaraparthi2021facesense",
     "type": "article-journal",
     "title": "FaceSense: Sensing Face Touch with an Ear-worn System",
-    "container-title": "UbiComp 2021",
     "author": [
       {
         "family": "Kakaraparthi",
@@ -1011,15 +1103,19 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
     "issued": {
-      "date-parts": [["2021"]]
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/2021_MobiCom_BioFace.pdf",
-    "type": "article-journal",
+    "id": "#wu2021bioface",
+    "type": "paper-conference",
     "title": "BioFace-3D: Continuous 3D Facial Reconstruction Through Lightweight Single-ear Biosensors",
-    "container-title": "ACM MobiCom 2021",
     "author": [
       {
         "family": "Wu",
@@ -1046,16 +1142,20 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "Proceedings of the 27th Annual International Conference on Mobile Computing and Networking (MobiCom)",
     "issued": {
-      "date-parts": [["2021"]]
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
     },
     "note": "ACM SIGMOBILE Research Highlights Award"
   },
   {
-    "id": "./papers/2021_HotMobile_JawSense.pdf",
-    "type": "article-journal",
+    "id": "#khanna2021jawsense",
+    "type": "paper-conference",
     "title": "JawSense: Recognizing Unvoiced Sound using a Low-cost Ear-worn System",
-    "container-title": "ACM Hotmobile 2021",
     "author": [
       {
         "family": "Khanna",
@@ -1078,15 +1178,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "ACM HotMobile 2021",
     "issued": {
-      "date-parts": [["2021"]]
+      "date-parts": [
+        [
+          "2021"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/2020_SenSys_DroneScale.pdf",
-    "type": "article-journal",
-    "title": "DroneScale: Drone Load Estimation Via Remote PassiveRF Sensing",
-    "container-title": "ACM SenSys 2020",
+    "id": "#nguyen2020dronescale",
+    "type": "paper-conference",
+    "title": "DroneScale: Drone Load Estimation Via Remote Passive RF Sensing",
     "author": [
       {
         "family": "Nguyen",
@@ -1137,16 +1241,20 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the 18th Conference on Embedded Networked Sensor Systems (SenSys)",
     "issued": {
-      "date-parts": [["2020"]]
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
     },
-    "note": "(44 out of 213 submissions, acceptance ratio: 20.6%)"
+    "note": "(44 out of 213 submissions, acceptance ratio: 20.6\\"
   },
   {
-    "id": "./papers/2020_SenSysDFHS.pdf",
-    "type": "article-journal",
-    "title": "Opportunities in the Cross-Scale Collaborative Human Sensing of ‘Developing’ Device-Free and Wearable Systems",
-    "container-title": "ACM BuildSys - DFHS 2020",
+    "id": "#pan2020opportunities",
+    "type": "paper-conference",
+    "title": "Opportunities in the Cross-Scale Collaborative Human Sensing of 'Developing' Device-Free and Wearable Systems",
     "author": [
       {
         "family": "Pan",
@@ -1157,15 +1265,19 @@
         "given": "Phuc"
       }
     ],
+    "container-title": "ACM BuildSys - DFHS 2020",
     "issued": {
-      "date-parts": [["2020"]]
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/2020_Seizure_Survey.pdf",
+    "id": "#kim2020seizure",
     "type": "article-journal",
     "title": "Epileptic Seizure Detection and Experimental Treatment: A Review",
-    "container-title": "Frontiers in Neurology 2020",
     "author": [
       {
         "family": "Kim",
@@ -1196,15 +1308,19 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Frontiers in Neurology",
     "issued": {
-      "date-parts": [["2020"]]
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/Painometry_2020.pdf",
-    "type": "article-journal",
+    "id": "#truong2020painometry",
+    "type": "paper-conference",
     "title": "Painometry: Wearable and Objective Quantification System for Acute Postoperative Pain",
-    "container-title": "ACM MobiSys 2020",
     "author": [
       {
         "family": "Truong",
@@ -1267,7 +1383,7 @@
         "given": "T."
       },
       {
-        "family": "D’Mello",
+        "family": "D'Mello",
         "given": "S."
       },
       {
@@ -1287,16 +1403,20 @@
         "given": "T."
       }
     ],
+    "container-title": "Proceedings of the 18th International Conference on Mobile Systems, Applications, and Services (MobiSys)",
     "issued": {
-      "date-parts": [["2020"]]
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
     },
-    "note": "(34 out of 175 submissions, acceptance ratio: 19.4%)"
+    "note": "(34 out of 175 submissions, acceptance ratio: 19.4\\"
   },
   {
-    "id": "./papers/WAKE_2020.pdf",
-    "type": "article-journal",
+    "id": "#pham2020wake",
+    "type": "paper-conference",
     "title": "WAKE: A Behind-the-ear Wearable System for Microsleep Detection",
-    "container-title": "ACM MobiSys 2020",
     "author": [
       {
         "family": "Pham",
@@ -1343,16 +1463,20 @@
         "given": "T."
       }
     ],
+    "container-title": "Proceedings of the 18th International Conference on Mobile Systems, Applications, and Services (MobiSys)",
     "issued": {
-      "date-parts": [["2020"]]
+      "date-parts": [
+        [
+          "2020"
+        ]
+      ]
     },
-    "note": "(34 out of 175 submissions, acceptance ratio: 19.4%)"
+    "note": "(34 out of 175 submissions, acceptance ratio: 19.4\\"
   },
   {
-    "id": "./papers/2019_MobiCom_eBP.pdf",
-    "type": "article-journal",
-    "title": "eBP: A Wearable System For Frequent and Comfortable Blood Pressure Monitoring From User’s Ear",
-    "container-title": "ACM MobiCom 2019",
+    "id": "#bui2019ebp",
+    "type": "paper-conference",
+    "title": "eBP: A Wearable System For Frequent and Comfortable Blood Pressure Monitoring From User's Ear",
     "author": [
       {
         "family": "Bui",
@@ -1407,16 +1531,20 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the 25th Annual International Conference on Mobile Computing and Networking (MobiCom)",
     "issued": {
-      "date-parts": [["2019"]]
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
     },
-    "note": "(30 out of 186 submissions, acceptance rate: 16.1%)"
+    "note": "(30 out of 186 submissions, acceptance rate: 16.1\\"
   },
   {
-    "id": "./papers/PHO2_TOSN_2019.pdf",
+    "id": "#bui2019pho2",
     "type": "article-journal",
     "title": "Smartphone-Based SpO2 Measurement by Exploiting Wavelengths Separation And Chromophore Compensation",
-    "container-title": "ACM TOSN 2019",
     "author": [
       {
         "family": "Bui",
@@ -1451,15 +1579,19 @@
         "given": "Tam"
       }
     ],
+    "container-title": "ACM Transactions on Sensor Networks (TOSN)",
     "issued": {
-      "date-parts": [["2019"]]
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/2019_DRONET_RF-based_Localization.pdf",
-    "type": "article-journal",
+    "id": "#nguyen2019rfbased",
+    "type": "paper-conference",
     "title": "Towards RF-based Localization of a Drone and Its Controller",
-    "container-title": "ACM DroNet 2019",
     "author": [
       {
         "family": "Nguyen",
@@ -1498,15 +1630,19 @@
         "given": "Tam"
       }
     ],
+    "container-title": "ACM DroNet 2019",
     "issued": {
-      "date-parts": [["2019"]]
+      "date-parts": [
+        [
+          "2019"
+        ]
+      ]
     }
   },
   {
-    "id": "./papers/Capband_SenSys_2018.pdf",
-    "type": "article-journal",
+    "id": "#truong2018capband",
+    "type": "paper-conference",
     "title": "CapBand: Battery-free Successive Capacitance Sensing Wristband for Hand Gesture Recognition",
-    "container-title": "ACM SenSys 2018",
     "author": [
       {
         "family": "Truong",
@@ -1549,16 +1685,20 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the 16th ACM Conference on Embedded Networked Sensor Systems (SenSys)",
     "issued": {
-      "date-parts": [["2018"]]
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
     },
-    "note": "(23 out of 147 submissions, acceptance ratio: 15.6%)"
+    "note": "(23 out of 147 submissions, acceptance ratio: 15.6\\"
   },
   {
-    "id": "./papers/SmartHealth_Thermal_Depth_2018.pdf",
+    "id": "https://www.sciencedirect.com/science/article/pii/S2352648317301034",
     "type": "article-journal",
     "title": "Volumetric Reconstruction of Thermal-depth Fused 3D Models for Occluded Body Posture Estimation",
-    "container-title": "Smart Health Journal 2018",
     "author": [
       {
         "family": "Transue",
@@ -1577,16 +1717,20 @@
         "given": "Min-Hyung"
       }
     ],
+    "container-title": "Smart Health",
     "issued": {
-      "date-parts": [["2018"]]
+      "date-parts": [
+        [
+          "2018"
+        ]
+      ]
     },
     "url": "https://www.sciencedirect.com/science/article/pii/S2352648317301034"
   },
   {
-    "id": "./papers/IEEE_Access_ParkSense_2017.pdf",
+    "id": "http://ieeexplore.ieee.org/document/8093747/",
     "type": "article-journal",
     "title": "ParkSense: Automatic Parking Positioning by Leveraging In-Vehicle Magnetic Field Variation",
-    "container-title": "IEEE Access 2017",
     "author": [
       {
         "family": "Nguyen",
@@ -1613,16 +1757,20 @@
         "given": "Tam"
       }
     ],
+    "container-title": "IEEE Access",
     "issued": {
-      "date-parts": [["2017"]]
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
     },
     "url": "http://ieeexplore.ieee.org/document/8093747/"
   },
   {
-    "id": "./papers/Drone_MobiSys_2017.pdf",
-    "type": "article-journal",
-    "title": "Matthan: Drone Presence Detection by Identifying Physical Signatures in the Drone’s RF Communication",
-    "container-title": "ACM MobiSys 2017",
+    "id": "https://www.sigmobile.org/mobisys/2017/org.php",
+    "type": "paper-conference",
+    "title": "Matthan: Drone Presence Detection by Identifying Physical Signatures in the Drone's RF Communication",
     "author": [
       {
         "family": "Nguyen",
@@ -1649,27 +1797,21 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services (MobiSys)",
     "issued": {
-      "date-parts": [["2017"]]
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
     },
-    "note": "(34 out of 188 submissions, acceptance ratio: 18%)",
-    "url": "https://www.sigmobile.org/mobisys/2017/org.php",
-    "highlights": [
-      {
-        "title": "ACM SIGMOBILE Research Highlights",
-        "url": "https://beta.sigmobile.org/articles/research-highlights"
-      },
-      {
-        "title": "DEMO",
-        "url": "https://youtu.be/id2LxOsr_G8"
-      }
-    ]
+    "note": "(34 out of 188 submissions, acceptance ratio: 18\\\n  url       = {https://www.sigmobile.org/mobisys/2017/org.php}",
+    "url": "https://www.sigmobile.org/mobisys/2017/org.php"
   },
   {
-    "id": "./papers/Sensys_Ph02_2017.pdf",
-    "type": "article-journal",
+    "id": "http://sensys.acm.org/2017/",
+    "type": "paper-conference",
     "title": "PhO2: Optical 3D printed elements and NIR/R light extraction techniques for phone-base blood oxygen level measurement",
-    "container-title": "ACM SenSys 2017",
     "author": [
       {
         "family": "Bui",
@@ -1704,29 +1846,21 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the 15th ACM Conference on Embedded Network Sensor Systems (SenSys)",
     "issued": {
-      "date-parts": [["2017"]]
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
     },
-    "note": "(26 out of 151 submissions, acceptance ratio: 17.2%)",
-    "url": "http://sensys.acm.org/2017/",
-    "awards": [
-      {
-        "title": "Best Paper Award Nominee 2017; 2nd Prize ACM MobiCom 2017 App Contest",
-        "color": "red"
-      }
-    ],
-    "highlights": [
-      {
-        "title": "DEMO",
-        "url": "https://www.youtube.com/watch?v=RQ88nsrI-xU"
-      }
-    ]
+    "note": "(26 out of 151 submissions, acceptance ratio: 17.2\\\n  url       = {http://sensys.acm.org/2017/}",
+    "url": "http://sensys.acm.org/2017/"
   },
   {
-    "id": "./papers/S3_PhO2_2017.pdf",
-    "type": "article-journal",
+    "id": "#bui2017photometry",
+    "type": "paper-conference",
     "title": "Photometry based Blood Oxygen Estimation through Smartphone Cameras",
-    "container-title": "ACM MobiCom 2017 - S3 Workshop",
     "author": [
       {
         "family": "Bui",
@@ -1761,21 +1895,20 @@
         "given": "Tam"
       }
     ],
+    "container-title": "ACM MobiCom 2017 - S3 Workshop",
     "issued": {
-      "date-parts": [["2017"]]
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
     },
-    "awards": [
-      {
-        "title": "Best Paper Award, 2017",
-        "color": "red"
-      }
-    ]
+    "note": "Best Paper Award, 2017"
   },
   {
-    "id": "./papers/Wristband_WearSys17.pdf",
-    "type": "article-journal",
+    "id": "#truong2017wristband",
+    "type": "paper-conference",
     "title": "Capacitive sensing 3D-printed Wristband for Enriched Hand Gesture Recognition",
-    "container-title": "ACM MobiSys-WearSys 2017",
     "author": [
       {
         "family": "Truong",
@@ -1798,33 +1931,20 @@
         "given": "Tam"
       }
     ],
+    "container-title": "ACM MobiSys-WearSys 2017",
     "issued": {
-      "date-parts": [["2017"]]
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
     },
-    "awards": [
-      {
-        "title": "Best Senior Design Project in College of Engineering in 2016",
-        "color": "red"
-      }
-    ],
-    "acknowledgments": [
-      {
-        "text": "Thank Sean Kuhlman, Cory Coellen, Michael Hunsinger, and Raphael O'Flynn!",
-        "color": "blue"
-      }
-    ],
-    "highlights": [
-      {
-        "title": "DEMO",
-        "url": "https://youtu.be/t5KABrYErgc"
-      }
-    ]
+    "note": "Best Senior Design Project in College of Engineering in 2016"
   },
   {
-    "id": "./papers/breathing_chase_2017.pdf",
-    "type": "article-journal",
+    "id": "http://conferences.computer.org/chase2017/",
+    "type": "paper-conference",
     "title": "Thermal-Depth Fusion for Occluded Body Skeletal Posture Estimation",
-    "container-title": "IEEE/ACM CHASE 2017",
     "author": [
       {
         "family": "Transue",
@@ -1843,16 +1963,20 @@
         "given": "Min-Hyung"
       }
     ],
+    "container-title": "IEEE/ACM CHASE 2017",
     "issued": {
-      "date-parts": [["2017"]]
+      "date-parts": [
+        [
+          "2017"
+        ]
+      ]
     },
     "url": "http://conferences.computer.org/chase2017/"
   },
   {
-    "id": "./papers/Battery-Free-Token_SenSys_2017.pdf",
-    "type": "article-journal",
+    "id": "http://sensys.acm.org/2016/index.html",
+    "type": "paper-conference",
     "title": "Battery-Free Identification Token for Touch Sensing Devices",
-    "container-title": "ACM SenSys 2016",
     "author": [
       {
         "family": "Nguyen",
@@ -1879,36 +2003,21 @@
         "given": "Tam"
       }
     ],
+    "container-title": "Proceedings of the 14th ACM Conference on Embedded Network Sensor Systems (SenSys)",
     "issued": {
-      "date-parts": [["2016"]]
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
     },
-    "note": "(21 out of 119 submissions, acceptance ratio: 17.6%)",
-    "url": "http://sensys.acm.org/2016/index.html",
-    "awards": [
-      {
-        "title": "Best CS Senior Design Project in 2017",
-        "color": "red"
-      }
-    ],
-    "acknowledgments": [
-      {
-        "text": "Thank Ed Salisbury, Lily Dam, Bradley Dufresne, and Fiot.vn team!",
-        "color": "blue",
-        "url": "http://fiot.vn/"
-      }
-    ],
-    "highlights": [
-      {
-        "title": "DEMO",
-        "url": "https://youtu.be/ay0By3zXEZM"
-      }
-    ]
+    "note": "(21 out of 119 submissions, acceptance ratio: 17.6\\\n  url       = {http://sensys.acm.org/2016/index.html}",
+    "url": "http://sensys.acm.org/2016/index.html"
   },
   {
     "id": "http://dl.acm.org/citation.cfm?id=2987356",
-    "type": "article-journal",
+    "type": "paper-conference",
     "title": "WikiSpiro: Non-contact Respiration Volume Monitoring during Sleep",
-    "container-title": "ACM MobiCom-S3 2016",
     "author": [
       {
         "family": "Nguyen",
@@ -1931,22 +2040,21 @@
         "given": "Tam"
       }
     ],
+    "container-title": "ACM MobiCom-S3 2016",
     "issued": {
-      "date-parts": [["2016"]]
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
     },
-    "url": "http://winlab.rutgers.edu/s3/",
-    "awards": [
-      {
-        "title": "Best Paper Award, 2016",
-        "color": "red"
-      }
-    ]
+    "note": "Best Paper Award, 2016",
+    "url": "http://dl.acm.org/citation.cfm?id=2987356"
   },
   {
-    "id": "./papers/WiSpiro_INFOCOM_2016.pdf",
-    "type": "article-journal",
+    "id": "http://infocom2016.ieee-infocom.org/",
+    "type": "paper-conference",
     "title": "Continuous and Fine-grained Breathing Volume Monitoring from Afar Using Wireless Signals",
-    "container-title": "IEEE INFOCOM 2016",
     "author": [
       {
         "family": "Nguyen",
@@ -1965,29 +2073,21 @@
         "given": "Tam"
       }
     ],
+    "container-title": "IEEE INFOCOM 2016",
     "issued": {
-      "date-parts": [["2016"]]
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
     },
-    "note": "(300 out of 1644 submissions, acceptance ratio: 18.25%)",
-    "url": "http://infocom2016.ieee-infocom.org/",
-    "awards": [
-      {
-        "title": "ACM MobiCom - S3 Best Paper Award, 2016",
-        "color": "red"
-      }
-    ],
-    "highlights": [
-      {
-        "title": "DEMO",
-        "url": "https://youtu.be/APqgPOxlfIs"
-      }
-    ]
+    "note": "(300 out of 1644 submissions, acceptance ratio: 18.25\\\n  url       = {http://infocom2016.ieee-infocom.org/}",
+    "url": "http://infocom2016.ieee-infocom.org/"
   },
   {
-    "id": "./papers/Drone_MobiSys_Dronet_2016.pdf",
-    "type": "article-journal",
+    "id": "https://sigmobile.org/mobisys/2016/index.php",
+    "type": "paper-conference",
     "title": "Investigating Cost-effective RF-based Detection of Drones",
-    "container-title": "ACM MobiSys - DroNet 2016",
     "author": [
       {
         "family": "Nguyen",
@@ -2010,20 +2110,20 @@
         "given": "Tam"
       }
     ],
+    "container-title": "ACM MobiSys - DroNet 2016",
     "issued": {
-      "date-parts": [["2016"]]
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
     },
-    "url": "https://sigmobile.org/mobisys/2016/index.php",
-    "workshop": {
-      "title": "DroNet 2016",
-      "url": "http://www.sigmobile.org/mobisys/2016/workshops/DroNet/"
-    }
+    "url": "https://sigmobile.org/mobisys/2016/index.php"
   },
   {
-    "id": "./papers/Breathing_CHASE_2016.pdf",
-    "type": "article-journal",
+    "id": "http://conferences.computer.org/chase/",
+    "type": "paper-conference",
     "title": "Real-time Tidal Volume Estimation using Iso-surface Reconstruction",
-    "container-title": "IEEE/ACM CHASE 2016",
     "author": [
       {
         "family": "Transue",
@@ -2042,15 +2142,14 @@
         "given": "Min-Hyung"
       }
     ],
+    "container-title": "IEEE/ACM CHASE 2016",
     "issued": {
-      "date-parts": [["2016"]]
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ]
     },
-    "url": "http://conferences.computer.org/chase/",
-    "highlights": [
-      {
-        "title": "DEMO",
-        "url": "https://www.youtube.com/watch?v=3tqssPExvzw"
-      }
-    ]
+    "url": "http://conferences.computer.org/chase/"
   }
 ]
