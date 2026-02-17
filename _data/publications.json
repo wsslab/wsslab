@@ -1,6 +1,6 @@
 [
     {
-  "id": "",
+  "id": "https://dl.acm.org/doi/10.1145/3711875.3729135",
   "type": "article-journal",
   "title": "MobiChem: A Low-Cost Smartphones-based Toolkit for Practical Fruit Monitoring",
   "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
@@ -30,14 +30,14 @@
   "issued": {
     "date-parts": [["2025", 6]]
   },
-  "DOI": "",
-  "url": ""
+  "DOI": "10.1145/3711875.3729135",
+  "url": "https://dl.acm.org/doi/10.1145/3711875.3729135"
 }
     ,
     {
-  "id": "",
+  "id": "https://dl.acm.org/doi/10.1145/3711875.3729156",
   "type": "article-journal",
-  "title": "Detection and Tracking of Drones",
+  "title": "Detection and Tracking of Drone Swarms using LiDAR",
   "container-title": "Proceedings of the 2025 ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)",
   "source": "ACM",
   "author": [
@@ -81,8 +81,8 @@
   "issued": {
     "date-parts": [["2025", 6]]
   },
-  "DOI": "",
-  "url": ""
+  "DOI": "10.1145/3711875.3729156",
+  "url": "https://dl.acm.org/doi/10.1145/3711875.3729156"
 }
     ,
     {
@@ -164,10 +164,10 @@
       "date-parts": [["2024", 1]]
     },
     "DOI": "10.1038/s41598-024-72584-9",
-    "url": "https://arxiv.org/pdf/2406.18807"
+    "url": "https://www.nature.com/articles/s41598-024-72584-9"
   },
   {
-    "id": "https://arxiv.org/pdf/2401.05425.pdf",
+    "id": "https://arxiv.org/abs/2406.18807",
     "type": "article-journal",
     "title": "ML-Powered FPGA-based Real-Time Quantum State Discrimination Enabling Mid-circuit Measurements",
     "container-title": "Preprint arXiv 2024",
@@ -231,13 +231,14 @@
     ],
     "issued": {
       "date-parts": [["2024"]]
-    }
+    },
+    "url": "https://arxiv.org/abs/2406.18807"
   },
   {
-    "id": "https://arxiv.org/pdf/2401.05425.pdf",
+    "id": "https://dl.acm.org/doi/10.1145/3703164",
     "type": "article-journal",
     "title": "An Unobtrusive and Lightweight Ear-worn System for Continuous Epileptic Seizure Detection",
-    "container-title": "Preprint arXiv 2024",
+    "container-title": "ACM Transactions on Computing for Healthcare",
     "author": [
       {
         "family": "Aziz",
@@ -285,8 +286,10 @@
       }
     ],
     "issued": {
-      "date-parts": [["2024"]]
-    }
+      "date-parts": [["2025"]]
+    },
+    "DOI": "10.1145/3703164",
+    "url": "https://dl.acm.org/doi/10.1145/3703164"
   },
   {
     "id": "https://arxiv.org/pdf/2312.12587.pdf",
