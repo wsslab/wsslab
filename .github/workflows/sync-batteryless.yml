@@ -2,8 +2,8 @@ name: Sync batteryless-old-smartphone subtree
 
 on:
   schedule:
-    # Runs every day at 6 AM UTC
-    - cron: '0 6 * * *'
+    # Runs every day at 8:45 PM UTC
+    - cron: '45 20 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
