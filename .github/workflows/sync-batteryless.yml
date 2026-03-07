@@ -1,0 +1,45 @@
+name: Sync batteryless-old-smartphone subtree
+
+on:
+  schedule:
+    # Runs every day at 8:45 PM UTC
+    - cron: '45 20 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout with full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add battery-upstream remote
+        run: |
+          git remote add battery-upstream https://github.com/Klinhiuminhem/wssl.git
+
+      - name: Fetch battery-upstream
+        run: |
+          git fetch battery-upstream
+
+      - name: Pull subtree updates
+        id: subtree_pull
+        run: |
+          git subtree pull \
+            --prefix=batteryless-old-smartphone \
+            battery-upstream main \
+            --squash \
+            -m "chore: sync batteryless-old-smartphone from upstream"
+        continue-on-error: true
+
+      - name: Push if updated
+        if: steps.subtree_pull.outcome == 'success'
+        run: |
+          git push origin main
