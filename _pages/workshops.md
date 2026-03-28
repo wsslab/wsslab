@@ -10,7 +10,7 @@ The **Wireless & Sensor Systems Lab (WSSLab)** organizes and hosts workshops and
 
 ---
 
-## Hosted Workshops & Tutorials
+
 
 ### **QSys 2025**
 **Workshop on Quantum Systems and Networking**  
