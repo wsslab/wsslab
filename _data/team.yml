@@ -128,6 +128,7 @@ people:
     permalink: "team/researcher-name"
     social:
       linkedin: https://www.linkedin.com/in/itirsayar
+      website: https://itirsa.github.io/itirsayar/
     education:
       - BS: University of Massachusetts Amherst
     description: >
@@ -142,8 +143,8 @@ people:
         url: https://www.cics.umass.edu
     permalink: "team/researcher-name"
     social:
-      twitter: https://x.com/AnthonyVuLe
-      linkedin: https://www.linkedin.com/in/anthony-vule/
+      twitter: https://x.com/vudle20
+      linkedin: https://www.linkedin.com/in/vule20/
       github: https://github.com/vule20
       website: https://www.vule.us
     education:
@@ -161,7 +162,7 @@ people:
         url: https://www.cics.umass.edu
     permalink: "team/researcher-name"
     social:
-      linkedin: https://www.linkedin.com/in/itirsayar
+      linkedin: https://www.linkedin.com/in/sidharthanup/
     education:
       - BS: University of Massachusetts Amherst
     description: >
