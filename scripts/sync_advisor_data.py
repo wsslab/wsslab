@@ -68,36 +68,60 @@ def call_openrouter(prompt, json_mode=False):
         raise e
 
 def parse_news(html_content):
-    """Parse news items from the advisor's website text using OpenRouter"""
+    """Parse the 5 most recent news items from the advisor's website using OpenRouter"""
     soup = BeautifulSoup(html_content, 'html.parser')
     
-    # We want to extract text inside the lists or body to reduce input token count
-    # Let's extract all list items or text lines containing news-like dates
-    text_lines = []
-    for element in soup.stripped_strings:
-        if re.search(r'\d{1,2}\s*[-/]\s*\d{4}', element): # Match date patterns like 03-2026 or 11/2025
-            text_lines.append(element)
+    heading = soup.find(string=lambda t: t and 'Selected News!' in t)
+    if not heading:
+        print("Could not find 'Selected News!' heading on advisor page.")
+        return []
+        
+    h2 = heading.find_parent('h2')
+    if not h2:
+        print("Could not find parent h2 of news heading.")
+        return []
+        
+    div = h2.find_next_sibling('div', class_='col-md-10')
+    if not div:
+        print("Could not find news list container.")
+        return []
+        
+    ul = div.find('ul')
+    if not ul:
+        print("Could not find news list ul element.")
+        return []
+        
+    raw_items = str(ul).split('<li>')
+    cleaned_items = []
+    
+    # Skip the first element which is the opening <ul> tag
+    for item in raw_items[1:]:
+        item_clean = item.replace('</li>', '').replace('</ul>', '').strip()
+        if item_clean:
+            cleaned_items.append("<li>" + item_clean)
             
-    cleaned_text = "\n".join(text_lines[:100]) # Limit to recent 100 lines to save prompt space
+    # Take only the 5 most recent items
+    cleaned_items = cleaned_items[:5]
+    news_html_block = "\n".join(cleaned_items)
     
     prompt = f"""
     You are an assistant parsing unstructured website updates.
-    Below is a list of news items from a professor's personal website.
+    Below is a list of the 5 most recent news items (as HTML list items) from a professor's personal website.
     Extract the news updates and return them in a JSON object with a single key "news" containing a list of items.
     Each item must have:
-    - "date": formatted as "MM/YYYY" (e.g. 03/2026)
-    - "content": the description text
+    - "date": formatted as "MM/YYYY" (e.g. 03/2026 or 12/2025)
+    - "content": the description text (without HTML tags, but include clean text)
     - "highlights": (optional) list of objects containing:
-        - "content": text to highlight
-        - "url": (optional) URL associated with that highlight if mentioned
+        - "content": exact phrase to highlight (must match a substring of 'content')
+        - "url": (optional) URL associated with that highlight from the href attribute
         
-    Text lines:
-    {cleaned_text}
+    HTML:
+    {news_html_block}
     
     Return ONLY valid JSON.
     """
     
-    print("Sending news section to OpenRouter...")
+    print("Sending top 5 news items to OpenRouter...")
     response_text = call_openrouter(prompt, json_mode=True)
     try:
         parsed_data = json.loads(response_text)
