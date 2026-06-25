@@ -1,0 +1,57 @@
+name: Add Publication via Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-pub:
+    if: contains(github.event.issue.labels.*.name, 'add-publication') || startsWith(github.event.issue.title, 'add-pub:')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Process Issue Content
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python scripts/add_pub_from_issue.py
+
+      - name: Regenerate Publications JSON
+        run: |
+          python scripts/bib2json.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/publications.bib _data/publications.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Add publication from issue #${{ github.event.issue.number }}" && git push)
+
+      - name: Close Issue with Success Message
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: "🎉 **Success!** This publication has been parsed, formatted into BibTeX, and merged into the website bibliography. The site has been rebuilt."
+            });
+            github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: "closed"
+            });

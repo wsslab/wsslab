@@ -123,6 +123,40 @@ An entry looks like the following:
     duis ultricies. Commodo viverra maecenas accumsan lacus vel.
 ```
 
+### Auto-Sync News & Publications (Weekly)
+
+The website automatically checks the advisor's personal website every Sunday at 00:00 UTC using a GitHub Actions workflow. The sync pipeline:
+1. Scrapes `https://people.cs.umass.edu/~phuc/`.
+2. Uses OpenRouter (`nvidia/nemotron-3-nano-30b-a3b:free`) to convert news announcements into YAML blocks and new citations into BibTeX.
+3. Merges the new items into `_data/news.yml` and `_data/publications.bib` after performing a title-similarity deduplication check.
+4. Automatically runs `scripts/bib2json.py` to compile `publications.json`.
+5. Commits and pushes the updates to the repository.
+
+* **Files**: `scripts/sync_advisor_data.py` & `.github/workflows/sync-advisor.yml`
+* **Secrets Required**: `OPENROUTER_API_KEY` (must be set in repository secrets).
+
+### Auto-Submit Publications (via GitHub Issue)
+
+To add a publication that is not on your advisor's website:
+1. Go to the repository's **Issues** tab and click **New Issue**.
+2. Choose the **Add Publication** template.
+3. Paste the raw citation details (authors, title, venue, year, etc.) and submit.
+4. The GitHub Action will use the LLM to format it into BibTeX, merge it into the bibliography, compile the JSON, and close the issue automatically.
+
+* **Files**: `scripts/add_pub_from_issue.py` & `.github/workflows/add-publication-issue.yml`
+* **Secrets Required**: `OPENROUTER_API_KEY`
+
+### Auto-Submit News (via GitHub Issue)
+
+To prepend a manual news item directly:
+1. Go to the repository's **Issues** tab and click **New Issue**.
+2. Choose the **Add News** template.
+3. Paste the news text details and submit.
+4. The GitHub Action will use the LLM to format it into a YAML block, prepend it to `_data/news.yml`, and close the issue automatically.
+
+* **Files**: `scripts/add_news_from_issue.py` & `.github/workflows/add-news-issue.yml`
+* **Secrets Required**: `OPENROUTER_API_KEY`
+
 ### Edit template
 
 We use [Bootstrap](https://getbootstrap.com/) for designing the website.
