@@ -30,7 +30,7 @@ permalink: /
 
 <ul class="list-unstyled" style="padding-left: 0;">
   {% for article in site.data.news %}
-  <li class="media" style="padding: 0px 0; margin-bottom: 5px; margin-top: 5px;">
+  <li class="media {% if forloop.index > 15 %}hidden-news-item{% endif %}" style="padding: 0px 0; margin-bottom: 5px; margin-top: 5px; {% if forloop.index > 15 %}display: none;{% endif %}">
     <div class="media-body">
       {{ article.date }}:
       {% assign updated_content = article.content %}
@@ -51,6 +51,28 @@ permalink: /
   </li>
   {% endfor %}
 </ul>
+
+{% if site.data.news.size > 15 %}
+<div style="margin-top: 10px; margin-bottom: 20px;">
+  <button id="news-toggle-btn" class="btn btn-link" onclick="toggleNews()" style="padding-left: 0; font-weight: bold; text-decoration: none; color: #800000; outline: none; box-shadow: none;">
+    Show more news...
+  </button>
+</div>
+
+<script>
+  function toggleNews() {
+    var items = document.querySelectorAll('.hidden-news-item');
+    var btn = document.getElementById('news-toggle-btn');
+    var isHidden = items[0].style.display === 'none';
+    
+    for (var i = 0; i < items.length; i++) {
+      items[i].style.display = isHidden ? 'block' : 'none';
+    }
+    
+    btn.textContent = isHidden ? 'Show less' : 'Show more news...';
+  }
+</script>
+{% endif %}
 
 <h2>Research Sponsors</h2>
 
