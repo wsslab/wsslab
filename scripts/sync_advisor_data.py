@@ -113,7 +113,9 @@ def parse_news(html_content):
     - "content": the description text (without HTML tags, but include clean text).
       CRITICAL instructions:
       1. Remove any leading date prefixes (like "03 - 2026:" or "02 - 2026:") from this text so it starts directly with the news description.
-      2. Since this news is for the official lab website (not the advisor's personal website), convert any first-person pronouns referencing the advisor (like "I", "my", "me") into team-oriented or third-person pronouns (like "We", "our", "us", "Prof. Nguyen", or "WSSL Lab").
+      2. Since this news is for the official lab website (not the advisor's personal website), convert any first-person pronouns (like "I", "my", "me") into:
+         - "Prof. Nguyen" (or "Prof. Phuc Nguyen") if the news refers specifically to the advisor's individual achievements/actions (e.g., serving as a chair, receiving a personal award, giving a talk).
+         - "We", "our", or "us" if the news refers to the lab team as a whole or joint team achievements.
     - "highlights": (optional) list of objects containing:
         - "content": exact phrase to highlight (must match a substring of 'content')
         - "url": (optional) URL associated with that highlight from the href attribute
