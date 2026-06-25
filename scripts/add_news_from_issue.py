@@ -55,7 +55,7 @@ def convert_to_news_json(raw_text):
     You are an assistant formatting news items.
     Convert the following news text into a single JSON object containing:
     - "date": formatted as "MM/YYYY" (e.g. 03/2026 or 12/2025)
-    - "content": the text description
+    - "content": the text description. CRITICAL: Remove any leading date prefixes (like "03 - 2026:" or "02 - 2026:") from this text so it starts directly with the news description.
     - "highlights": (optional) list of objects containing 'content' (link text) and 'url' (hyperlink) if there are links/highlights mentioned.
     
     Return ONLY valid JSON.

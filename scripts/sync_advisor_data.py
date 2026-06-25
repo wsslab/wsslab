@@ -110,7 +110,7 @@ def parse_news(html_content):
     Extract the news updates and return them in a JSON object with a single key "news" containing a list of items.
     Each item must have:
     - "date": formatted as "MM/YYYY" (e.g. 03/2026 or 12/2025)
-    - "content": the description text (without HTML tags, but include clean text)
+    - "content": the description text (without HTML tags, but include clean text). CRITICAL: Remove any leading date prefixes (like "03 - 2026:" or "02 - 2026:") from this text so it starts directly with the news description.
     - "highlights": (optional) list of objects containing:
         - "content": exact phrase to highlight (must match a substring of 'content')
         - "url": (optional) URL associated with that highlight from the href attribute
