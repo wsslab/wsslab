@@ -96,9 +96,24 @@ def merge_news(new_item, news_file_path):
     # Prepend new item
     existing_news.insert(0, new_item)
     
+    # Sort news reverse-chronologically
+    def get_date_key(item):
+        date_str = str(item.get("date", ""))
+        match = re.match(r'(\d{1,2})/(\d{4})', date_str)
+        if match:
+            return (int(match.group(2)), int(match.group(1)))
+        match_other = re.match(r'(\d{1,2})/(\d{1,2})/(\d{2,4})', date_str)
+        if match_other:
+            year_val = match_other.group(3)
+            year = int(year_val) + (2000 if len(year_val) == 2 else 0)
+            return (year, int(match_other.group(2)), int(match_other.group(1)))
+        return (0, 0)
+
+    existing_news.sort(key=get_date_key, reverse=True)
+
     with open(news_file_path, 'w', encoding='utf-8') as f:
         yaml.dump(existing_news, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
-    print(f"✅ Successfully prepended new news: {new_item.get('content')[:60]}...")
+    print(f"✅ Successfully added and sorted new news: {new_item.get('content')[:60]}...")
     return True
 
 def main():

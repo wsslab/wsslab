@@ -1,5 +1,91 @@
 [
   {
+    "id": "#radmehr2026vyre",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Radmehr",
+        "given": "Amirmohammad"
+      },
+      {
+        "family": "Seethakantha",
+        "given": "Shamanth Kuthpadi"
+      },
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Tran",
+        "given": "Quang Trung"
+      },
+      {
+        "family": "Nair",
+        "given": "Aryan"
+      },
+      {
+        "family": "Saulnier",
+        "given": "William"
+      },
+      {
+        "family": "Ganesan",
+        "given": "Deepak"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      }
+    ],
+    "title": "VYRE: Low-Burden and Robust Oscillometric Ring-Based System for Frequent Blood Pressure Monitoring",
+    "container-title": "ACM SenSys 2026",
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "#lei2026wisp",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Lei",
+        "given": "Zhenyu"
+      },
+      {
+        "family": "Liu",
+        "given": "Xiaomeng"
+      },
+      {
+        "family": "Zhang",
+        "given": "Quan"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Yao",
+        "given": "Jun"
+      },
+      {
+        "family": "Ganesan",
+        "given": "Deepak"
+      }
+    ],
+    "title": "WISP: Printable Graphene-Based Wearables for Force-Based Micro-Gesture Recognition",
+    "container-title": "ACM SenSys 2026",
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
     "id": "https://dl.acm.org/doi/10.1145/3711875.3729135",
     "type": "paper-conference",
     "title": "MobiChem: A Low-Cost Smartphones-based Toolkit for Practical Fruit Monitoring",
@@ -129,6 +215,104 @@
     "url": "https://www.nature.com/articles/s41598-025-90729-2"
   },
   {
+    "id": "https://dl.acm.org/doi/10.1145/3703164",
+    "type": "article-journal",
+    "title": "An Unobtrusive and Lightweight Ear-worn System for Continuous Epileptic Seizure Detection",
+    "author": [
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Pham",
+        "given": "Nhat"
+      },
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Reynolds",
+        "given": "Cody"
+      },
+      {
+        "family": "Lehnen",
+        "given": "Jaime"
+      },
+      {
+        "family": "Venkatesh",
+        "given": "Pooja"
+      },
+      {
+        "family": "Yao",
+        "given": "Zhuoran"
+      },
+      {
+        "family": "Harvey",
+        "given": "Jay"
+      },
+      {
+        "family": "Vu",
+        "given": "Tam"
+      },
+      {
+        "family": "Ding",
+        "given": "Kan"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc V. P."
+      }
+    ],
+    "container-title": "ACM Transactions on Computing for Healthcare",
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    },
+    "volume": "6",
+    "number": "1",
+    "DOI": "10.1145/3703164",
+    "url": "https://dl.acm.org/doi/10.1145/3703164"
+  },
+  {
+    "id": "#liller2025development",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Liller",
+        "given": "Jackson"
+      },
+      {
+        "family": "Goel",
+        "given": "Rishabh"
+      },
+      {
+        "family": "Aziz",
+        "given": "Abdul"
+      },
+      {
+        "family": "Hester",
+        "given": "Josiah"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      }
+    ],
+    "title": "Development of a Battery Free, Solar Powered, and Energy Aware Fixed Wing Unmanned Aerial Vehicle",
+    "container-title": "Nature Scientific Reports",
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    }
+  },
+  {
     "id": "https://www.nature.com/articles/s41598-024-72584-9",
     "type": "article-journal",
     "title": "An Open-Source Data Storage and Visualization Platform for Collaborative Qubit Control",
@@ -250,67 +434,114 @@
     "url": "https://arxiv.org/abs/2406.18807"
   },
   {
-    "id": "https://dl.acm.org/doi/10.1145/3703164",
+    "id": "#hu2024ioteeth",
     "type": "article-journal",
-    "title": "An Unobtrusive and Lightweight Ear-worn System for Continuous Epileptic Seizure Detection",
+    "title": "IOTeeth: Intra-Oral Teeth Sensing System for Dental Occlusal Diseases Recognition",
     "author": [
       {
-        "family": "Aziz",
-        "given": "Abdul"
+        "family": "Hu",
+        "given": "Zhizhang"
       },
       {
-        "family": "Pham",
-        "given": "Nhat"
+        "family": "Redmehr",
+        "given": "Amirmohammad"
       },
       {
-        "family": "Vora",
-        "given": "Neel"
+        "family": "Zhang",
+        "given": "Yue"
       },
       {
-        "family": "Reynolds",
-        "given": "Cody"
-      },
-      {
-        "family": "Lehnen",
-        "given": "Jaime"
-      },
-      {
-        "family": "Venkatesh",
-        "given": "Pooja"
-      },
-      {
-        "family": "Yao",
-        "given": "Zhuoran"
-      },
-      {
-        "family": "Harvey",
-        "given": "Jay"
-      },
-      {
-        "family": "Vu",
-        "given": "Tam"
-      },
-      {
-        "family": "Ding",
-        "given": "Kan"
+        "family": "Pan",
+        "given": "Shijia"
       },
       {
         "family": "Nguyen",
         "given": "Phuc V. P."
       }
     ],
-    "container-title": "ACM Transactions on Computing for Healthcare",
+    "container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
     "issued": {
       "date-parts": [
         [
-          "2025"
+          "2024"
         ]
       ]
     },
-    "volume": "6",
-    "number": "1",
-    "DOI": "10.1145/3703164",
-    "url": "https://dl.acm.org/doi/10.1145/3703164"
+    "note": "*equal contribution"
+  },
+  {
+    "id": "#srivastava2024unvoiced",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Srivastava",
+        "given": "Tanmay"
+      },
+      {
+        "family": "Khanna",
+        "given": "Prerna"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Jain",
+        "given": "Shubham"
+      }
+    ],
+    "title": "Unvoiced: Designing an LLM-assisted Unvoiced User Interface using Earables",
+    "container-title": "ACM SenSys 2024",
+    "issued": {
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "#wu20243d",
+    "type": "article-journal",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Yi"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xiande"
+      },
+      {
+        "family": "Wu",
+        "given": "Tianhao"
+      },
+      {
+        "family": "Zhou",
+        "given": "Bing"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Liu",
+        "given": "Jian"
+      }
+    ],
+    "title": "3D Facial Tracking and User Authentication through Lightweight Single-ear Biosensors",
+    "container-title": "IEEE Transactions on Mobile Computing",
+    "issued": {
+      "date-parts": [
+        [
+          "2024"
+        ]
+      ]
+    }
   },
   {
     "id": "https://arxiv.org/pdf/2312.12587.pdf",
@@ -403,42 +634,6 @@
       ]
     },
     "url": "https://arxiv.org/pdf/2312.12587.pdf"
-  },
-  {
-    "id": "#hu2024ioteeth",
-    "type": "article-journal",
-    "title": "IOTeeth: Intra-Oral Teeth Sensing System for Dental Occlusal Diseases Recognition",
-    "author": [
-      {
-        "family": "Hu",
-        "given": "Zhizhang"
-      },
-      {
-        "family": "Redmehr",
-        "given": "Amirmohammad"
-      },
-      {
-        "family": "Zhang",
-        "given": "Yue"
-      },
-      {
-        "family": "Pan",
-        "given": "Shijia"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc V. P."
-      }
-    ],
-    "container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)",
-    "issued": {
-      "date-parts": [
-        [
-          "2024"
-        ]
-      ]
-    },
-    "note": "*equal contribution"
   },
   {
     "id": "#aziz2023earables",
@@ -732,6 +927,72 @@
       }
     ],
     "container-title": "2023 Society of Behavioral Medicine Annual Meeting, Phoenix, AZ",
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "#srivastava2023jawtenticate",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Srivastava",
+        "given": "Tanmay"
+      },
+      {
+        "family": "Pan",
+        "given": "Shijia"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Jain",
+        "given": "Shubham"
+      }
+    ],
+    "title": "Jawthenticate: Microphone-free Speech-based Authentication using Jaw Motion and Facial Vibrations",
+    "container-title": "ACM SenSys 2023",
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "#sen2023enabling",
+    "type": "paper-conference",
+    "author": [
+      {
+        "family": "Gupta",
+        "given": "Pranjol Sen"
+      },
+      {
+        "family": "Talukder",
+        "given": "Zahidur"
+      },
+      {
+        "family": "Abir",
+        "given": "Tasnim Azad"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Islam",
+        "given": "Mohammad A."
+      }
+    ],
+    "title": "Enabling Low-Cost Server-Level Power Monitoring in Data Centers Using Conducted EMI",
+    "container-title": "ACM SenSys 2023",
     "issued": {
       "date-parts": [
         [
@@ -2151,266 +2412,5 @@
       ]
     },
     "url": "http://conferences.computer.org/chase/"
-  },
-  {
-    "id": "#radmehr2026vyre",
-    "type": "paper-conference",
-    "author": [
-      {
-        "family": "Radmehr",
-        "given": "Amirmohammad"
-      },
-      {
-        "family": "Seethakantha",
-        "given": "Shamanth Kuthpadi"
-      },
-      {
-        "family": "Aziz",
-        "given": "Abdul"
-      },
-      {
-        "family": "Tran",
-        "given": "Quang Trung"
-      },
-      {
-        "family": "Nair",
-        "given": "Aryan"
-      },
-      {
-        "family": "Saulnier",
-        "given": "William"
-      },
-      {
-        "family": "Ganesan",
-        "given": "Deepak"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc VP"
-      }
-    ],
-    "title": "VYRE: Low-Burden and Robust Oscillometric Ring-Based System for Frequent Blood Pressure Monitoring",
-    "container-title": "ACM SenSys 2026",
-    "issued": {
-      "date-parts": [
-        [
-          "2026"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "#lei2026wisp",
-    "type": "paper-conference",
-    "author": [
-      {
-        "family": "Lei",
-        "given": "Zhenyu"
-      },
-      {
-        "family": "Liu",
-        "given": "Xiaomeng"
-      },
-      {
-        "family": "Zhang",
-        "given": "Quan"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc VP"
-      },
-      {
-        "family": "Yao",
-        "given": "Jun"
-      },
-      {
-        "family": "Ganesan",
-        "given": "Deepak"
-      }
-    ],
-    "title": "WISP: Printable Graphene-Based Wearables for Force-Based Micro-Gesture Recognition",
-    "container-title": "ACM SenSys 2026",
-    "issued": {
-      "date-parts": [
-        [
-          "2026"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "#liller2025development",
-    "type": "article-journal",
-    "author": [
-      {
-        "family": "Liller",
-        "given": "Jackson"
-      },
-      {
-        "family": "Goel",
-        "given": "Rishabh"
-      },
-      {
-        "family": "Aziz",
-        "given": "Abdul"
-      },
-      {
-        "family": "Hester",
-        "given": "Josiah"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc VP"
-      }
-    ],
-    "title": "Development of a Battery Free, Solar Powered, and Energy Aware Fixed Wing Unmanned Aerial Vehicle",
-    "container-title": "Nature Scientific Reports",
-    "issued": {
-      "date-parts": [
-        [
-          "2025"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "#srivastava2024unvoiced",
-    "type": "paper-conference",
-    "author": [
-      {
-        "family": "Srivastava",
-        "given": "Tanmay"
-      },
-      {
-        "family": "Khanna",
-        "given": "Prerna"
-      },
-      {
-        "family": "Pan",
-        "given": "Shijia"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc VP"
-      },
-      {
-        "family": "Jain",
-        "given": "Shubham"
-      }
-    ],
-    "title": "Unvoiced: Designing an LLM-assisted Unvoiced User Interface using Earables",
-    "container-title": "ACM SenSys 2024",
-    "issued": {
-      "date-parts": [
-        [
-          "2024"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "#wu20243d",
-    "type": "article-journal",
-    "author": [
-      {
-        "family": "Wu",
-        "given": "Yi"
-      },
-      {
-        "family": "Zhang",
-        "given": "Xiande"
-      },
-      {
-        "family": "Wu",
-        "given": "Tianhao"
-      },
-      {
-        "family": "Zhou",
-        "given": "Bing"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc VP"
-      },
-      {
-        "family": "Liu",
-        "given": "Jian"
-      }
-    ],
-    "title": "3D Facial Tracking and User Authentication through Lightweight Single-ear Biosensors",
-    "container-title": "IEEE Transactions on Mobile Computing",
-    "issued": {
-      "date-parts": [
-        [
-          "2024"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "#srivastava2023jawtenticate",
-    "type": "paper-conference",
-    "author": [
-      {
-        "family": "Srivastava",
-        "given": "Tanmay"
-      },
-      {
-        "family": "Pan",
-        "given": "Shijia"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc VP"
-      },
-      {
-        "family": "Jain",
-        "given": "Shubham"
-      }
-    ],
-    "title": "Jawthenticate: Microphone-free Speech-based Authentication using Jaw Motion and Facial Vibrations",
-    "container-title": "ACM SenSys 2023",
-    "issued": {
-      "date-parts": [
-        [
-          "2023"
-        ]
-      ]
-    }
-  },
-  {
-    "id": "#sen2023enabling",
-    "type": "paper-conference",
-    "author": [
-      {
-        "family": "Gupta",
-        "given": "Pranjol Sen"
-      },
-      {
-        "family": "Talukder",
-        "given": "Zahidur"
-      },
-      {
-        "family": "Abir",
-        "given": "Tasnim Azad"
-      },
-      {
-        "family": "Nguyen",
-        "given": "Phuc VP"
-      },
-      {
-        "family": "Islam",
-        "given": "Mohammad A."
-      }
-    ],
-    "title": "Enabling Low-Cost Server-Level Power Monitoring in Data Centers Using Conducted EMI",
-    "container-title": "ACM SenSys 2023",
-    "issued": {
-      "date-parts": [
-        [
-          "2023"
-        ]
-      ]
-    }
   }
 ]

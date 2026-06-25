@@ -152,6 +152,22 @@ def convert_bib_to_json(bib_file, json_file):
         if parsed:
             publications.append(parsed)
 
+    # Sort publications reverse-chronologically (newest first)
+    def get_sort_key(pub):
+        date_parts = pub.get('issued', {}).get('date-parts', [[0]])[0]
+        # Year is the first element
+        year = int(date_parts[0]) if date_parts and str(date_parts[0]).isdigit() else 0
+        # Month is the second element (optional)
+        month = 0
+        if len(date_parts) > 1:
+            try:
+                month = int(date_parts[1])
+            except ValueError:
+                month = 0
+        return (year, month)
+
+    publications.sort(key=get_sort_key, reverse=True)
+
     # Write JSON
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(publications, f, indent=2, ensure_ascii=False)
