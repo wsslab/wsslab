@@ -86,6 +86,65 @@
     }
   },
   {
+    "id": "#vora2026ml",
+    "type": "paper-conference",
+    "title": "ML--Enabled FPGA Framework for Fast Quantum State Discrimination in Mid-Circuit Measurement Regimes",
+    "author": [
+      {
+        "family": "Vora",
+        "given": "Neel"
+      },
+      {
+        "family": "Xu",
+        "given": "Yilun"
+      },
+      {
+        "family": "Hashim",
+        "given": "Akel"
+      },
+      {
+        "family": "Fruitwala",
+        "given": "Neelay"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Nam"
+      },
+      {
+        "family": "Goss",
+        "given": "Noah"
+      },
+      {
+        "family": "Balewski",
+        "given": "Jan"
+      },
+      {
+        "family": "Whaley",
+        "given": "Birgitta"
+      },
+      {
+        "family": "Siddiqi",
+        "given": "Irfan"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Vp"
+      },
+      {
+        "family": "others",
+        "given": ""
+      }
+    ],
+    "container-title": "Proceedings of the Great Lakes Symposium on VLSI 2026",
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
     "id": "https://dl.acm.org/doi/10.1145/3711875.3729135",
     "type": "paper-conference",
     "title": "MobiChem: A Low-Cost Smartphones-based Toolkit for Practical Fruit Monitoring",
