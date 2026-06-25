@@ -6,7 +6,7 @@ import urllib.error
 import json
 from pathlib import Path
 
-MODEL_NAME = "nvidia/nemotron-3-nano-30b-a3b:free"
+MODEL_NAME = "nvidia/nemotron-3-super-120b-a12b:free"
 
 def call_openrouter(prompt):
     """Call OpenRouter API with the free Nemotron model"""

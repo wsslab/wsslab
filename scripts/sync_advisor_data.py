@@ -9,7 +9,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 ADVISOR_URL = "https://people.cs.umass.edu/~phuc/"
-MODEL_NAME = "nvidia/nemotron-3-nano-30b-a3b:free"
+MODEL_NAME = "nvidia/nemotron-3-super-120b-a12b:free"
 
 def fetch_html(url):
     """Fetch HTML content from the given URL"""
