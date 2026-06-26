@@ -145,6 +145,37 @@
     }
   },
   {
+    "id": "#Gomasta_2026_ErgoAssist",
+    "type": "paper-conference",
+    "title": "ErgoAssist: Cognition-Aware Posture Feedback in Wearable Ergonomic Systems",
+    "author": [
+      {
+        "family": "Gomasta",
+        "given": "Sarmistha Sarna"
+      },
+      {
+        "family": "Chhaglani",
+        "given": "Bhawana"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Shenoy",
+        "given": "Prashant"
+      }
+    ],
+    "container-title": "Proceedings of the ACM International Conference on Mobile Human-Computer Interaction (MobileHCI '26)",
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
     "id": "https://dl.acm.org/doi/10.1145/3711875.3729135",
     "type": "paper-conference",
     "title": "MobiChem: A Low-Cost Smartphones-based Toolkit for Practical Fruit Monitoring",
