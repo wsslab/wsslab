@@ -634,6 +634,37 @@
     "url": "https://www.nature.com/articles/s41598-024-72584-9"
   },
   {
+    "id": "#Goel2023Exploring",
+    "type": "paper-conference",
+    "title": "Exploring Batteryless Batteryless UAVs by Mimicking Bird Flight",
+    "author": [
+      {
+        "family": "Goel",
+        "given": "Rishabh"
+      },
+      {
+        "family": "Pham",
+        "given": "Tien"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc VP"
+      },
+      {
+        "family": "Hester",
+        "given": "Josiah"
+      }
+    ],
+    "container-title": "MobiSys-DroNet IX 2023",
+    "issued": {
+      "date-parts": [
+        [
+          "2023"
+        ]
+      ]
+    }
+  },
+  {
     "id": "#sen2023enabling",
     "type": "paper-conference",
     "author": [
