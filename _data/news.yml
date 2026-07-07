@@ -2,20 +2,25 @@
   content: 'Our paper on a Self-Maintaining Electrode-Skin Interface for Motion-Robust
     Biosignal Monitoring has been accepted to Advanced Healthcare Materials 2026 (Impact
     Factor: 10.8). Congratulations, team!'
-  highlights: []
+  highlights:
+  - content: Self-Maintaining Electrode-Skin Interface for Motion-Robust Biosignal Monitoring
+    url: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adhm.202505850
+  
 - date: 06/2026
   content: Our collaborative team from Columbia University, Dartmouth College, our
-    lab at UMass Amherst, and industry partners has been awarded a ARPA-H MOCS project.
+    lab at UMass Amherst, and industry partners has been awarded an ARPA-H MOCS project.
     The project includes $5M in first-year funding. Congratulations, team!
-  highlights: []
-- date: 06/2026
-  content: Our team (Columbia University, Dartmouth College, our WSSLab at UMass,
-    and industrial partners won Phase 1 $5M/year ARPA-H project
+  highlights:
+  - content: ARPA-H MOCS project
+    url: https://arpa-h.gov/news-and-events/arpa-h-selects-pioneering-teams-make-america-safest-place-world-have-baby
+  
 - date: 03/2026
-  content: Prof. Nguyen will serve as General Co-Chair for ACM MobiSys 2027 in Ho
+  content: We will serve as General Co-Chair for ACM MobiSys 2027 in Ho
     Chi Minh City with Jun Han and Anh Nguyen. Looking forward to welcoming everyone
     to Vietnam next Summer!
-  highlights: []
+  highlights:
+  - content: ACM MobiSys 2027
+    url:https://dl.acm.org/conference/mobisys
 - date: 03/2026
   content: Prof. Nguyen will serve as General Co-Chair for ACM MobiSys 2027 in Ho
     Chi Minh City with Jun Han and Anh Nguyen. We look forward to welcoming everyone
