@@ -1,5 +1,44 @@
 [
   {
+    "id": "#trung2026selfmaintaining",
+    "type": "article-journal",
+    "title": "Self-Maintaining Electrode--Skin Interface for Motion-Robust Biosignal Monitoring",
+    "author": [
+      {
+        "family": "Trung",
+        "given": "Tran Quang"
+      },
+      {
+        "family": "Seethakantha",
+        "given": "Shamanth Kuthpadi"
+      },
+      {
+        "family": "Lei",
+        "given": "Zhenyu"
+      },
+      {
+        "family": "Radmehr",
+        "given": "Amirmohammad"
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phuc"
+      },
+      {
+        "family": "Ganesan",
+        "given": "Deepak"
+      }
+    ],
+    "container-title": "Advanced Healthcare Materials",
+    "issued": {
+      "date-parts": [
+        [
+          "2026"
+        ]
+      ]
+    }
+  },
+  {
     "id": "#Gomasta_2026_ErgoAssist",
     "type": "paper-conference",
     "title": "ErgoAssist: Cognition-Aware Posture Feedback in Wearable Ergonomic Systems",
